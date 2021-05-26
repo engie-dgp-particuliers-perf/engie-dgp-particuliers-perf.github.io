@@ -2,6 +2,28 @@
 Tables
 ==================================================
 
+.. jinja:: pipeline_docs
+
+    {% for table, content in tables.items() %}
+
+    {{ table }}_
+    ----------------------------------------------------------
+
+    {% set d,t = table.split(".") %}
+
+    .. _{{ table }}: https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&d={{d}}&p=engie-b2c-cloud&t={{t}}&page=table
+
+    **Sources**:
+
+    {% for type, name in content["sources"] %}
+    - {{name}} ({{type}})
+    {% endfor %}
+
+    **Job**:
+
+    - {{content["job"]}}
+    {% endfor %}
+
 .. module:: pipelines
 
 
