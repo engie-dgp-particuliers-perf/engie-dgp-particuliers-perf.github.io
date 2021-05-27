@@ -1,0 +1,21 @@
+# ignorer les paramétrages Visual Studio code
+.vscode
+.DS_Store
+.devcontainer
+
+# ignorer les pyc
+__pycache__
+
+# Docs
+_build/
+docs_pipelines_src/diagrams/*.png
+docs_pipelines_src/diagrams/*.svg
+
+# Environments
+.venv
+
+#ignorer fichiers temp
+dump
+old/
+.idea/
+.wip/
