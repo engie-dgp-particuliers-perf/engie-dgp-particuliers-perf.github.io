@@ -6,6 +6,8 @@ Tables
 
     {% for table, content in tables.items() %}
 
+    .. _tables__{{ table }}:
+
     {{ table }}_
     ----------------------------------------------------------
 
@@ -16,7 +18,11 @@ Tables
     **Sources**:
 
     {% for type, name in content["sources"] %}
+    {% if type =="BigQuery" %}
+    - :ref:`tables__{{name}}` ({{type}})
+    {% else %}
     - {{name}} ({{type}})
+    {% endif %}
     {% endfor %}
 
     **Job**:
