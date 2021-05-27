@@ -1,0 +1,65 @@
+
+Developer interface
+==================================================
+
+.. module:: customIO
+
+Bigquery
+--------------------------------------------------
+
+.. autoclass:: BigqueryConnector
+
+.. autoclass:: customIO.database.bigquery.Bigquery
+    :members:
+
+Storage
+--------------------------------------------------
+
+.. autoclass:: GcsConnector
+
+.. autoclass:: customIO.storage.gcs.Gcs
+    :members:
+
+Google Analytics (Hit Measurement Protocol)
+--------------------------------------------------
+
+.. autoclass:: GaConnnector
+    :members:
+
+Google Analytics (Import Data)
+--------------------------------------------------
+
+.. autoclass:: GaImport
+    :members:
+
+Search Console
+--------------------------------------------------
+
+.. autoclass:: SearchConsoleConnector
+
+.. autoclass:: customIO.apis.searchconsoleConn.SearchConsoleConn
+    :members:
+
+OnCrawl
+--------------------------------------------------
+
+
+.. autoclass:: customIO.apis.oncrawl.OncrawlConnector
+    :members:
+
+Search Metrics
+--------------------------------------------------
+
+.. autoclass:: SearchConsoleConnector
+
+.. autoclass:: customIO.apis.searchconsoleConn.SearchConsoleConn
+    :members:
+
+Dareboost
+--------------------------------------------------
+
+.. autoclass:: DareboostConnector
+
+.. autoclass:: customIO.apis.dareboostConn.DareboostConn
+    :members:
+

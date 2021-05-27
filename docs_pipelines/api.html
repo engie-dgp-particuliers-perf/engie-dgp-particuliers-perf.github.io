@@ -1,0 +1,610 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Developer interface &mdash; ENGIE BtoC pipelines  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Pipelines" href="pipelines.html" />
+    <link rel="prev" title="Bienvenue sur la documentation de nos pipelines !" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ENGIE BtoC pipelines
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Developer interface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#bigquery">Bigquery</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#storage">Storage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#google-analytics-hit-measurement-protocol">Google Analytics (Hit Measurement Protocol)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#google-analytics-import-data">Google Analytics (Import Data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#search-console">Search Console</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#oncrawl">OnCrawl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#search-metrics">Search Metrics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dareboost">Dareboost</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pipelines.html">Pipelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tables.html">Tables</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ENGIE BtoC pipelines</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Developer interface</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            
+              <a href="https://github.com/engie-b2c-perf/dgp-particuliers-data-pipelines/blob/master/docs/api.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-customIO">
+<span id="developer-interface"></span><h1>Developer interface<a class="headerlink" href="#module-customIO" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="bigquery">
+<h2>Bigquery<a class="headerlink" href="#bigquery" title="Permalink to this headline">¶</a></h2>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="customIO.BigqueryConnector">
+<span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">BigqueryConnector</span></span><a class="headerlink" href="#customIO.BigqueryConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#customIO.database.bigquery.Bigquery" title="customIO.database.bigquery.Bigquery"><code class="xref py py-class docutils literal notranslate"><span class="pre">customIO.database.bigquery.Bigquery</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.database.bigquery.</span></span><span class="sig-name descname"><span class="pre">Bigquery</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">location</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'eu'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.create_dataset_if_not_exist">
+<span class="sig-name descname"><span class="pre">create_dataset_if_not_exist</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.create_dataset_if_not_exist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creer un dataset s’il n’existe pas encore</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.query_table">
+<span class="sig-name descname"><span class="pre">query_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pipeline</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report_config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_date</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.query_table" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exécute une requête SQL sur BQ puis mets un label
+- pipeline : nom de la pipeline faisant la query (utilisé pour mettre un label sur la table target)
+- report : nom du report (idem)
+- query : requête SQL paramétrisée
+- report_config : dictionnaire de configuration du rapport
+- start_date &amp; end_date : paramètres de date récupérés du jenkinsfile. Dans la plupart des cas l’utilisation de report_config decalage_debut et decalage_fin prévaut. Ces paramètres sont utilisés pour les tables wildcard ou dans les rapports mensuels où on ne peut prévoir un décalage de jours dans le fichier de config
+TODO : passer la gestion des wildcard dans le fichier de config (pour chaque table source, créer un sous dictionnaire avec un paramètre wildcard)
+Le fichier de configuration est normalisé avec des paramètres classés dans les sous dictionnaires suivants
+- job : decalage_debut:STRING, decalage_fin:STRING, legacy:BOOL
+- source : datasets {parametre1:valeur1:STRING, …}, tables {parametre1:valeur1:STRING, …}, wildcard:BOOL, limitation:STRING
+- target : dataset:STRING, table:STRING, wildcard:BOOL, write_disposition:STRING, partitioning_field:STRING</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.delete_table">
+<span class="sig-name descname"><span class="pre">delete_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.delete_table" title="Permalink to this definition">¶</a></dt>
+<dd><p>Supprime une table</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.export_table">
+<span class="sig-name descname"><span class="pre">export_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">report_config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.export_table" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extrait une table vers un bucket GCS
+PARAMETRES
+- report_config : la configuration du rapport
+- date : la date de la partition à exporter, si mentionnée dans le jenkinsfile (sinon récupérée du fichier de config)
+NOMENCLATURE FICHIER CONFIG
+- source : {dataset: STRING, table: STRING}
+- target : {bucket: STRING, dossier: STRING, objet:STRING, extension:STRING, compression:STRING, sharded:BOOL}</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Sharded permet de créer plusieurs table si l’on suspecte que le fichier final dépassera 1 Go (limite de Bigquery). Le nombre de partitions est alors géré par BQ</p></li>
+<li><p>extensions supportées : csv, avro, nldjson</p></li>
+<li><p>compressions supportées : gzip, snappy, deflate</p></li>
+</ul>
+</div></blockquote>
+<p>TODO rendre les destinations uris plus generiques</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.insert_rows_in_table">
+<span class="sig-name descname"><span class="pre">insert_rows_in_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rows_to_insert</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.insert_rows_in_table" title="Permalink to this definition">¶</a></dt>
+<dd><p>Insere des lignes dans une table</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.create_table">
+<span class="sig-name descname"><span class="pre">create_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">schema</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.create_table" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cree une table</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.load_from_gcs">
+<span class="sig-name descname"><span class="pre">load_from_gcs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">dict</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.load_from_gcs" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Generate LoadJobConfig &amp; run it out of the pipeline config</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>config</strong> (<em>dict</em>) – Pipeline config</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.load_from_dataframe">
+<span class="sig-name descname"><span class="pre">load_from_dataframe</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df_data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Type</span><span class="p"><span class="pre">[</span></span><span class="pre">pandas.core.frame.DataFrame</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">dict</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.load_from_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Construit un job bq à partir de la config et l’exécute</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df_data</strong> (<em>Type</em><em>[</em><em>pd.DataFrame</em><em>]</em>) – DataFrame à charger</p></li>
+<li><p><strong>config</strong> (<em>dict</em>) – Pipeline config</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.get_total_rows">
+<span class="sig-name descname"><span class="pre">get_total_rows</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">destination_table</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.get_total_rows" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retourne le nombre de ligne d’une table</p>
+<p>Keyword arguments:
+destination_table – type: TableReference</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.label_dataset">
+<span class="sig-name descname"><span class="pre">label_dataset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labels</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.label_dataset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Ajoute un label a un dataset BigQuery</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.label_table">
+<span class="sig-name descname"><span class="pre">label_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labels</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.label_table" title="Permalink to this definition">¶</a></dt>
+<dd><p>Ajoute un label a une table BigQuery</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.run_test">
+<span class="sig-name descname"><span class="pre">run_test</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pipeline_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report_config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_date</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.run_test" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recupere le resultat d’une requete avec un champ ‘_value’ et le test avec une limite inferieure et une limite
+superieure.</p>
+<p>Leve une alerte si le resultat sort des bornes.</p>
+<p>ATTENTION : nécessite une fichier de configuration compatible avec query</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="storage">
+<h2>Storage<a class="headerlink" href="#storage" title="Permalink to this headline">¶</a></h2>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="customIO.GcsConnector">
+<span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">GcsConnector</span></span><a class="headerlink" href="#customIO.GcsConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#customIO.storage.gcs.Gcs" title="customIO.storage.gcs.Gcs"><code class="xref py py-class docutils literal notranslate"><span class="pre">customIO.storage.gcs.Gcs</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="customIO.storage.gcs.Gcs">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.storage.gcs.</span></span><span class="sig-name descname"><span class="pre">Gcs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">location</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'eu'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.storage.gcs.Gcs" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="customIO.storage.gcs.Gcs.create_bucket">
+<span class="sig-name descname"><span class="pre">create_bucket</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.storage.gcs.Gcs.create_bucket" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cree un bucket dans la localisation specifiee</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.storage.gcs.Gcs.create_bucket_if_not_exist">
+<span class="sig-name descname"><span class="pre">create_bucket_if_not_exist</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bucket</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.storage.gcs.Gcs.create_bucket_if_not_exist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cree un bucket s’il n’existe pas</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.storage.gcs.Gcs.get_blob">
+<span class="sig-name descname"><span class="pre">get_blob</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bucket</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.storage.gcs.Gcs.get_blob" title="Permalink to this definition">¶</a></dt>
+<dd><p>Telecharge un fichier depuis le storage</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.storage.gcs.Gcs.get_blob_from_string">
+<span class="sig-name descname"><span class="pre">get_blob_from_string</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">uri</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.storage.gcs.Gcs.get_blob_from_string" title="Permalink to this definition">¶</a></dt>
+<dd><p>Telecharge un fichier depuis le storage</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.storage.gcs.Gcs.upload_from_file">
+<span class="sig-name descname"><span class="pre">upload_from_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pipeline</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report_config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date_string</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'WRITE_EMPTY'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.storage.gcs.Gcs.upload_from_file" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Upload an object to GCS from a local file</dt><dd><dl>
+<dt>Input :</dt><dd><p>pipeline : nom de la pipeline faisant la query (utilisé pour mettre un label sur la table target)
+report : nom du report (idem)
+report_config : la configuration du rapport</p>
+<blockquote>
+<div><p>To create or target a folder, use a name of form ‘folder1/folder2/object’</p>
+</div></blockquote>
+<p>source_file : file-like object
+mode :</p>
+<blockquote>
+<div><p>‘WRITE_EMPTY’ &gt; do not overwrite if object already exists
+‘WRITE_TRUNCATE’ &gt; overwrite if already existing</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>NOMENCLATURE FICHIER CONFIG
+- target : {bucket: STRING, object:STRING, extension:STRING}</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.storage.gcs.Gcs.upload_from_filename">
+<span class="sig-name descname"><span class="pre">upload_from_filename</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bucket</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'WRITE_EMPTY'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.storage.gcs.Gcs.upload_from_filename" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Upload an object to GCS from a local file</dt><dd><dl>
+<dt>Input :</dt><dd><p>bucket : Name of the bucket to which the upload should be made
+source_file : path to the file to upload
+object : Name the written object will be given. To create or target a folder,</p>
+<blockquote>
+<div><p>use a name of form ‘folder1/folder2/object’</p>
+</div></blockquote>
+<dl class="simple">
+<dt>mode :</dt><dd><p>‘WRITE_EMPTY’ &gt; do not overwrite if object already exists
+‘WRITE_TRUNCATE’ &gt; overwrite if already existing</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.storage.gcs.Gcs.label_bucket">
+<span class="sig-name descname"><span class="pre">label_bucket</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bucket</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labels</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.storage.gcs.Gcs.label_bucket" title="Permalink to this definition">¶</a></dt>
+<dd><p>ajoute un label a un bucket Storage</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="google-analytics-hit-measurement-protocol">
+<h2>Google Analytics (Hit Measurement Protocol)<a class="headerlink" href="#google-analytics-hit-measurement-protocol" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="customIO.GaConnnector">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">GaConnnector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ga_property</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">payload_template</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">env</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'noprod'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.GaConnnector" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="customIO.GaConnnector.create_payload">
+<span class="sig-name descname"><span class="pre">create_payload</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hit</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Type</span><span class="p"><span class="pre">[</span></span><span class="pre">pandas.core.series.Series</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.GaConnnector.create_payload" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Construit le payload d’un hit à partir de la config du pipeline
+et d’une Serie pandas</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>hit</strong> (<em>Type</em><em>[</em><em>pd.Series</em><em>]</em>) – hit à envoyer</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Hit payload</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.GaConnnector.send_hits">
+<span class="sig-name descname"><span class="pre">send_hits</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df_data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Type</span><span class="p"><span class="pre">[</span></span><span class="pre">pandas.core.series.Series</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.GaConnnector.send_hits" title="Permalink to this definition">¶</a></dt>
+<dd><p>Envoie des hits a GA. Prend un DataFrame de hit en entrée et retourne un DataFrame de hits envoyés</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="google-analytics-import-data">
+<h2>Google Analytics (Import Data)<a class="headerlink" href="#google-analytics-import-data" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="customIO.GaImport">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">GaImport</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">job_config</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.GaImport" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="customIO.GaImport.upload">
+<span class="sig-name descname"><span class="pre">upload</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">media</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.GaImport.upload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send a media to google analytics. Expects to get a MediaFileUpload-like object in argument</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="search-console">
+<h2>Search Console<a class="headerlink" href="#search-console" title="Permalink to this headline">¶</a></h2>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="customIO.SearchConsoleConnector">
+<span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">SearchConsoleConnector</span></span><a class="headerlink" href="#customIO.SearchConsoleConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#id1" title="customIO.apis.searchconsoleConn.SearchConsoleConn"><code class="xref py py-class docutils literal notranslate"><span class="pre">customIO.apis.searchconsoleConn.SearchConsoleConn</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="customIO.apis.searchconsoleConn.SearchConsoleConn">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.apis.searchconsoleConn.</span></span><span class="sig-name descname"><span class="pre">SearchConsoleConn</span></span><a class="headerlink" href="#customIO.apis.searchconsoleConn.SearchConsoleConn" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="customIO.apis.searchconsoleConn.SearchConsoleConn.send_request">
+<span class="sig-name descname"><span class="pre">send_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_retries</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait_interval</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">retry_errors</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">(503,</span> <span class="pre">500)</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.apis.searchconsoleConn.SearchConsoleConn.send_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retourne un json pour un url résultante et un ensemble de kpi</p>
+<p>Keywords arguments:
+start_date – string avec le format “%Y-%m-%d”
+end_date – string avec le format “%Y-%m-%d”
+url – l’url de la propriete cible (le compte de service doit y avoir acces)
+dimensions – KPI a retourner
+max_retries – nombre de tentative
+wait_interval – temps entre deux tentatives
+retry_errors – erreurs qui declenchent une nouvelle tentative</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="oncrawl">
+<h2>OnCrawl<a class="headerlink" href="#oncrawl" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="customIO.apis.oncrawl.OncrawlConnector">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.apis.oncrawl.</span></span><span class="sig-name descname"><span class="pre">OncrawlConnector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">host</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">endpoints</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.apis.oncrawl.OncrawlConnector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="search-metrics">
+<h2>Search Metrics<a class="headerlink" href="#search-metrics" title="Permalink to this headline">¶</a></h2>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="id0">
+<span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">SearchConsoleConnector</span></span><a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#id1" title="customIO.apis.searchconsoleConn.SearchConsoleConn"><code class="xref py py-class docutils literal notranslate"><span class="pre">customIO.apis.searchconsoleConn.SearchConsoleConn</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="id1">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.apis.searchconsoleConn.</span></span><span class="sig-name descname"><span class="pre">SearchConsoleConn</span></span><a class="headerlink" href="#id1" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="id2">
+<span class="sig-name descname"><span class="pre">send_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_retries</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait_interval</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">retry_errors</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">(503,</span> <span class="pre">500)</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#id2" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retourne un json pour un url résultante et un ensemble de kpi</p>
+<p>Keywords arguments:
+start_date – string avec le format “%Y-%m-%d”
+end_date – string avec le format “%Y-%m-%d”
+url – l’url de la propriete cible (le compte de service doit y avoir acces)
+dimensions – KPI a retourner
+max_retries – nombre de tentative
+wait_interval – temps entre deux tentatives
+retry_errors – erreurs qui declenchent une nouvelle tentative</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="dareboost">
+<h2>Dareboost<a class="headerlink" href="#dareboost" title="Permalink to this headline">¶</a></h2>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="customIO.DareboostConnector">
+<span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">DareboostConnector</span></span><a class="headerlink" href="#customIO.DareboostConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#customIO.apis.dareboostConn.DareboostConn" title="customIO.apis.dareboostConn.DareboostConn"><code class="xref py py-class docutils literal notranslate"><span class="pre">customIO.apis.dareboostConn.DareboostConn</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="customIO.apis.dareboostConn.DareboostConn">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.apis.dareboostConn.</span></span><span class="sig-name descname"><span class="pre">DareboostConn</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">host</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">token</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">endpoints</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.apis.dareboostConn.DareboostConn" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="customIO.apis.dareboostConn.DareboostConn.make_post">
+<span class="sig-name descname"><span class="pre">make_post</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">params</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">{}</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.apis.dareboostConn.DareboostConn.make_post" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a post call to the url and return a JSON</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.apis.dareboostConn.DareboostConn.monitoring_list">
+<span class="sig-name descname"><span class="pre">monitoring_list</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#customIO.apis.dareboostConn.DareboostConn.monitoring_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of pages to monitor</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.apis.dareboostConn.DareboostConn.get_monitoring_data">
+<span class="sig-name descname"><span class="pre">get_monitoring_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date_debut</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date_fin</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">monitoring_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.apis.dareboostConn.DareboostConn.get_monitoring_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the monitoring data for a specific page</p>
+<p>Keyword arguments:
+date_debut – type: str, expected format is “%Y-%m-%dT00:00:00.000+0200”
+date_fin – type: str, expected format is “%Y-%m-%dT23:59:59.000+0200”
+monitoring_id – type: int</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="customIO.apis.dareboostConn.DareboostConn.get_scenario_data">
+<span class="sig-name descname"><span class="pre">get_scenario_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date_debut</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date_fin</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scenario_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.apis.dareboostConn.DareboostConn.get_scenario_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the data for a specific scenario</p>
+<p>Keyword arguments:
+date_debut – type: str, expected format is “%Y-%m-%dT00:00:00.000+0200”
+date_fin – type: str, expected format is “%Y-%m-%dT23:59:59.000+0200”
+scenario_id – type: int</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="pipelines.html" class="btn btn-neutral float-right" title="Pipelines" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Bienvenue sur la documentation de nos pipelines !" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ENGIE.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
