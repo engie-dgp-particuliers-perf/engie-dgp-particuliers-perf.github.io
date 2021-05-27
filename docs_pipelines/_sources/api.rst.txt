@@ -2,10 +2,13 @@
 Developer interface
 ==================================================
 
+custom I/O
+--------------------------------------------------
+
 .. module:: customIO
 
-Bigquery
---------------------------------------------------
+BigQuery
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. autoclass:: BigqueryConnector
 
@@ -13,7 +16,7 @@ Bigquery
     :members:
 
 Storage
---------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. autoclass:: GcsConnector
 
@@ -21,19 +24,19 @@ Storage
     :members:
 
 Google Analytics (Hit Measurement Protocol)
---------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. autoclass:: GaConnnector
     :members:
 
 Google Analytics (Import Data)
---------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. autoclass:: GaImport
     :members:
 
 Search Console
---------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. autoclass:: SearchConsoleConnector
 
@@ -41,14 +44,14 @@ Search Console
     :members:
 
 OnCrawl
---------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 .. autoclass:: customIO.apis.oncrawl.OncrawlConnector
     :members:
 
 Search Metrics
---------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. autoclass:: SearchConsoleConnector
 
@@ -56,10 +59,18 @@ Search Metrics
     :members:
 
 Dareboost
---------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. autoclass:: DareboostConnector
 
 .. autoclass:: customIO.apis.dareboostConn.DareboostConn
     :members:
 
+Helpers
+--------------------------------------------------
+
+.. automodule:: pipelines._commons.helpers
+    :members:
+
+.. automodule:: pipelines._commons.retry
+    :members:

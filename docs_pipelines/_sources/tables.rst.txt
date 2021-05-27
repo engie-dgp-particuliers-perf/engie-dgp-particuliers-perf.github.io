@@ -29,8 +29,3 @@ Tables
 
     - {{content["job"]}}
     {% endfor %}
-
-.. module:: pipelines
-
-
-.. automodule:: pipelines.amadeus.runner

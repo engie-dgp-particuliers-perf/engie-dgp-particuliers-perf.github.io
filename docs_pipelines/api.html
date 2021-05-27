@@ -93,14 +93,18 @@
             
               <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Developer interface</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#bigquery">Bigquery</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#storage">Storage</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#google-analytics-hit-measurement-protocol">Google Analytics (Hit Measurement Protocol)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#google-analytics-import-data">Google Analytics (Import Data)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#search-console">Search Console</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#oncrawl">OnCrawl</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#search-metrics">Search Metrics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#dareboost">Dareboost</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-customIO">custom I/O</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#bigquery">BigQuery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#storage">Storage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#google-analytics-hit-measurement-protocol">Google Analytics (Hit Measurement Protocol)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#google-analytics-import-data">Google Analytics (Import Data)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#search-console">Search Console</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#oncrawl">OnCrawl</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#search-metrics">Search Metrics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#dareboost">Dareboost</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-pipelines._commons.helpers">Helpers</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="pipelines.html">Pipelines</a></li>
@@ -174,10 +178,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="module-customIO">
-<span id="developer-interface"></span><h1>Developer interface<a class="headerlink" href="#module-customIO" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="developer-interface">
+<h1>Developer interface<a class="headerlink" href="#developer-interface" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-customIO">
+<span id="custom-i-o"></span><h2>custom I/O<a class="headerlink" href="#module-customIO" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="bigquery">
-<h2>Bigquery<a class="headerlink" href="#bigquery" title="Permalink to this headline">¶</a></h2>
+<h3>BigQuery<a class="headerlink" href="#bigquery" title="Permalink to this headline">¶</a></h3>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="customIO.BigqueryConnector">
 <span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">BigqueryConnector</span></span><a class="headerlink" href="#customIO.BigqueryConnector" title="Permalink to this definition">¶</a></dt>
@@ -189,24 +195,90 @@
 <em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.database.bigquery.</span></span><span class="sig-name descname"><span class="pre">Bigquery</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">location</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'eu'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
 <dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.create_dataset_if_not_exist">
-<span class="sig-name descname"><span class="pre">create_dataset_if_not_exist</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.create_dataset_if_not_exist" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">create_dataset_if_not_exist</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.create_dataset_if_not_exist" title="Permalink to this definition">¶</a></dt>
 <dd><p>Creer un dataset s’il n’existe pas encore</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.query_table">
-<span class="sig-name descname"><span class="pre">query_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pipeline</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report_config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_date</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.query_table" title="Permalink to this definition">¶</a></dt>
-<dd><p>Exécute une requête SQL sur BQ puis mets un label
-- pipeline : nom de la pipeline faisant la query (utilisé pour mettre un label sur la table target)
-- report : nom du report (idem)
-- query : requête SQL paramétrisée
-- report_config : dictionnaire de configuration du rapport
-- start_date &amp; end_date : paramètres de date récupérés du jenkinsfile. Dans la plupart des cas l’utilisation de report_config decalage_debut et decalage_fin prévaut. Ces paramètres sont utilisés pour les tables wildcard ou dans les rapports mensuels où on ne peut prévoir un décalage de jours dans le fichier de config
-TODO : passer la gestion des wildcard dans le fichier de config (pour chaque table source, créer un sous dictionnaire avec un paramètre wildcard)
-Le fichier de configuration est normalisé avec des paramètres classés dans les sous dictionnaires suivants
-- job : decalage_debut:STRING, decalage_fin:STRING, legacy:BOOL
-- source : datasets {parametre1:valeur1:STRING, …}, tables {parametre1:valeur1:STRING, …}, wildcard:BOOL, limitation:STRING
-- target : dataset:STRING, table:STRING, wildcard:BOOL, write_disposition:STRING, partitioning_field:STRING</p>
+<span class="sig-name descname"><span class="pre">query_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pipeline</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">query</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report_config</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_date</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_date</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">Type</span><span class="p"><span class="pre">[</span></span><span class="pre">google.cloud.bigquery.table.RowIterator</span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.query_table" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exécute une requête SQL sur BQ puis mets un label</p>
+<p>Le paramètre <code class="docutils literal notranslate"><span class="pre">config</span></code> doit être sous ce format:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;t_appels_ga&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="s2">&quot;job&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;decalage_debut&quot;</span><span class="p">:</span> <span class="mi">1</span>  <span class="c1"># nb de jours ou null</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;decalage_fin&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">:</span>  <span class="c1"># nb de jours ou null, optionnel</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;legacy&quot;</span> <span class="p">:</span> <span class="n">false</span><span class="p">,</span>   <span class="c1"># optionnel</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;non_date_query&quot;</span> <span class="p">:</span> <span class="n">false</span><span class="p">,</span>   <span class="c1"># optionnel</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;schema&quot;</span><span class="p">:</span>  <span class="s2">&quot;ID_formulaire:STRING,objet:STRING&quot;</span>  <span class="c1"># schéma cible, optionnel</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="p">},</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="s2">&quot;source&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;datasets&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="gp">&gt;&gt;&gt; </span>            <span class="s2">&quot;[param SQL]&quot;</span><span class="p">:</span> <span class="s2">&quot;ga_DEV&quot;</span><span class="p">,</span>
+<span class="gp">&gt;&gt;&gt; </span>            <span class="o">...</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="p">},</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;tables&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="gp">&gt;&gt;&gt; </span>            <span class="s2">&quot;[param SQL]&quot;</span><span class="p">:</span> <span class="s2">&quot;t_ga_sessions&quot;</span><span class="p">,</span>
+<span class="gp">&gt;&gt;&gt; </span>            <span class="o">...</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="p">},</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;wildcard&quot;</span><span class="p">:</span> <span class="n">false</span>  <span class="c1"># optionnel</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="p">},</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="s2">&quot;target&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;dataset&quot;</span><span class="p">:</span> <span class="s2">&quot;amadeus_DEV&quot;</span><span class="p">,</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;table&quot;</span><span class="p">:</span> <span class="s2">&quot;t_ama_appels_ga&quot;</span><span class="p">,</span>
+<span class="gp">&gt;&gt;&gt; </span>         <span class="s2">&quot;write_disposition&quot;</span><span class="p">:</span> <span class="s2">&quot;WRITE_TRUNCATE&quot;</span> <span class="n">ou</span> <span class="s2">&quot;WRITE_APPEND&quot;</span><span class="p">,</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;partitioning_field&quot;</span><span class="p">:</span> <span class="s2">&quot;date&quot;</span>  <span class="c1"># optionnel</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">}</span>
+</pre></div>
+</div>
+<p class="rubric">Examples</p>
+<p>Utilisation avec la fonction <code class="xref py py-func docutils literal notranslate"><span class="pre">get_report_config_w_query()</span></code>:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">query</span><span class="p">,</span> <span class="n">report_config</span> <span class="o">=</span> <span class="n">helpers</span><span class="o">.</span><span class="n">get_report_config_w_query</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">pipeline_name</span><span class="p">,</span> <span class="n">report_name</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">job</span> <span class="o">=</span> <span class="n">bq</span><span class="o">.</span><span class="n">query_table</span><span class="p">(</span><span class="n">pipeline_name</span><span class="p">,</span> <span class="n">report_name</span><span class="p">,</span> <span class="n">query</span><span class="p">,</span> <span class="n">report_config</span><span class="p">,</span> <span class="n">start_date</span><span class="p">,</span> <span class="n">end_date</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pipeline</strong> (<em>str</em>) – nom de la pipeline faisant la query (utilisé pour mettre un label sur la table target)</p></li>
+<li><p><strong>report</strong> (<em>str</em>) – nom du report (idem)</p></li>
+<li><p><strong>query</strong> (<em>str</em>) – requête SQL paramétrisée</p></li>
+<li><p><strong>report_config</strong> (<em>dict</em>) – dictionnaire de configuration du rapport (cf. description plus haut)</p></li>
+<li><p><strong>start_date</strong> (<em>str</em>) – <p>paramètres de date récupérés du jenkinsfile. Dans la plupart
+des cas l’utilisation de report_config <code class="docutils literal notranslate"><span class="pre">decalage_debut</span></code> et <code class="docutils literal notranslate"><span class="pre">decalage_fin</span></code>
+prévaut. Ces paramètres sont utilisés pour les tables wildcard ou dans les
+rapports mensuels où on ne peut prévoir un décalage de jours dans le fichier
+de config.</p>
+<p>La date doit être au format <code class="docutils literal notranslate"><span class="pre">YYYYMMDD</span></code>, exemple: <code class="docutils literal notranslate"><span class="pre">20210401</span></code>.</p>
+<p>TODO : passer la gestion des wildcard dans le fichier de config (pour
+chaque table source, créer un sous dictionnaire avec un paramètre wildcard)</p>
+</p></li>
+<li><p><strong>end_date</strong> (<em>str</em>) – idem</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>BadRequest</strong> – [description]</p></li>
+<li><p><strong>Exception</strong> – [description]</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>résultats de la requête</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>Type[bigquery.table.RowIterator]</p>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<p>Ceci est une note</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://googleapis.dev/python/bigquery/latest/generated/google.cloud.bigquery.table.RowIterator.html">bigquery.table.RowIterator</a>.</p></li>
+<li><p><a class="reference internal" href="#customIO.database.bigquery.Bigquery.export_table" title="customIO.database.bigquery.Bigquery.export_table"><code class="xref py py-meth docutils literal notranslate"><span class="pre">export_table()</span></code></a></p></li>
+</ul>
+</div>
 </dd></dl>
 
 <dl class="py method">
@@ -309,7 +381,7 @@ superieure.</p>
 
 </div>
 <div class="section" id="storage">
-<h2>Storage<a class="headerlink" href="#storage" title="Permalink to this headline">¶</a></h2>
+<h3>Storage<a class="headerlink" href="#storage" title="Permalink to this headline">¶</a></h3>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="customIO.GcsConnector">
 <span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">GcsConnector</span></span><a class="headerlink" href="#customIO.GcsConnector" title="Permalink to this definition">¶</a></dt>
@@ -400,7 +472,7 @@ object : Name the written object will be given. To create or target a folder,</p
 
 </div>
 <div class="section" id="google-analytics-hit-measurement-protocol">
-<h2>Google Analytics (Hit Measurement Protocol)<a class="headerlink" href="#google-analytics-hit-measurement-protocol" title="Permalink to this headline">¶</a></h2>
+<h3>Google Analytics (Hit Measurement Protocol)<a class="headerlink" href="#google-analytics-hit-measurement-protocol" title="Permalink to this headline">¶</a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="customIO.GaConnnector">
 <em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">GaConnnector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ga_property</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">payload_template</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">env</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'noprod'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.GaConnnector" title="Permalink to this definition">¶</a></dt>
@@ -434,7 +506,7 @@ et d’une Serie pandas</p>
 
 </div>
 <div class="section" id="google-analytics-import-data">
-<h2>Google Analytics (Import Data)<a class="headerlink" href="#google-analytics-import-data" title="Permalink to this headline">¶</a></h2>
+<h3>Google Analytics (Import Data)<a class="headerlink" href="#google-analytics-import-data" title="Permalink to this headline">¶</a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="customIO.GaImport">
 <em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">GaImport</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">job_config</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.GaImport" title="Permalink to this definition">¶</a></dt>
@@ -448,7 +520,7 @@ et d’une Serie pandas</p>
 
 </div>
 <div class="section" id="search-console">
-<h2>Search Console<a class="headerlink" href="#search-console" title="Permalink to this headline">¶</a></h2>
+<h3>Search Console<a class="headerlink" href="#search-console" title="Permalink to this headline">¶</a></h3>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="customIO.SearchConsoleConnector">
 <span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">SearchConsoleConnector</span></span><a class="headerlink" href="#customIO.SearchConsoleConnector" title="Permalink to this definition">¶</a></dt>
@@ -476,7 +548,7 @@ retry_errors – erreurs qui declenchent une nouvelle tentative</p>
 
 </div>
 <div class="section" id="oncrawl">
-<h2>OnCrawl<a class="headerlink" href="#oncrawl" title="Permalink to this headline">¶</a></h2>
+<h3>OnCrawl<a class="headerlink" href="#oncrawl" title="Permalink to this headline">¶</a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="customIO.apis.oncrawl.OncrawlConnector">
 <em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.apis.oncrawl.</span></span><span class="sig-name descname"><span class="pre">OncrawlConnector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">host</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">endpoints</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.apis.oncrawl.OncrawlConnector" title="Permalink to this definition">¶</a></dt>
@@ -484,7 +556,7 @@ retry_errors – erreurs qui declenchent une nouvelle tentative</p>
 
 </div>
 <div class="section" id="search-metrics">
-<h2>Search Metrics<a class="headerlink" href="#search-metrics" title="Permalink to this headline">¶</a></h2>
+<h3>Search Metrics<a class="headerlink" href="#search-metrics" title="Permalink to this headline">¶</a></h3>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="id0">
 <span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">SearchConsoleConnector</span></span><a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
@@ -512,7 +584,7 @@ retry_errors – erreurs qui declenchent une nouvelle tentative</p>
 
 </div>
 <div class="section" id="dareboost">
-<h2>Dareboost<a class="headerlink" href="#dareboost" title="Permalink to this headline">¶</a></h2>
+<h3>Dareboost<a class="headerlink" href="#dareboost" title="Permalink to this headline">¶</a></h3>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="customIO.DareboostConnector">
 <span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">DareboostConnector</span></span><a class="headerlink" href="#customIO.DareboostConnector" title="Permalink to this definition">¶</a></dt>
@@ -554,6 +626,82 @@ date_fin – type: str, expected format is “%Y-%m-%dT23:59:59.000+0200”
 scenario_id – type: int</p>
 </dd></dl>
 
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="module-pipelines._commons.helpers">
+<span id="helpers"></span><h2>Helpers<a class="headerlink" href="#module-pipelines._commons.helpers" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="pipelines._commons.helpers.get_shift_from_dates">
+<span class="sig-prename descclassname"><span class="pre">pipelines._commons.helpers.</span></span><span class="sig-name descname"><span class="pre">get_shift_from_dates</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_date</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pipelines._commons.helpers.get_shift_from_dates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retourne le nombre de jours entre maintenant des dates de debut et fin</p>
+<p>Keyword arguments:
+start_date – type: datetime
+end_date – type: datetime</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pipelines._commons.helpers.get_report_config_w_query">
+<span class="sig-prename descclassname"><span class="pre">pipelines._commons.helpers.</span></span><span class="sig-name descname"><span class="pre">get_report_config_w_query</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pipeline_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pipelines._commons.helpers.get_report_config_w_query" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retourne la configuration d’un rapport avec une requete sous forme de dictionnaire</p>
+<p>Keyword arguments:
+config – type: dict, le fichier de configuration globale du projet
+pipeline_name – type: str, le nom du pipeline
+report_name – le nom du rapport</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pipelines._commons.helpers.get_report_config">
+<span class="sig-prename descclassname"><span class="pre">pipelines._commons.helpers.</span></span><span class="sig-name descname"><span class="pre">get_report_config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pipeline_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pipelines._commons.helpers.get_report_config" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retourne la configuration d’un rapport sous forme de dictionnaire</p>
+<p>Keyword arguments:
+config – type: dict, le fichier de configuration globale du projet
+pipeline_name – type: str, le nom du pipeline
+report_name – le nom du rapport</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pipelines._commons.helpers.get_bucket_object">
+<span class="sig-prename descclassname"><span class="pre">pipelines._commons.helpers.</span></span><span class="sig-name descname"><span class="pre">get_bucket_object</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pipeline_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config_bucket</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bucket'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config_object</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'object'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date_string</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pipelines._commons.helpers.get_bucket_object" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retourne le nom du bucket et creer le nom de l’objet</p>
+<p>Keyword arguments:
+config – type: dict, le fichier de configuration global
+pipeline_name – type: str, le nom du pipeline
+report_name – type: str, le nom du job
+config_bucket – type: str, le nom du bucket (“bucket” par défaut)
+config_object – type: str, le nom de l’objet (“object” par défaut)
+date_string – type: str, une date a ajouter a la fin de l’objet (“None” par défaut)</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pipelines._commons.helpers.run_job_w_n_rows">
+<span class="sig-prename descclassname"><span class="pre">pipelines._commons.helpers.</span></span><span class="sig-name descname"><span class="pre">run_job_w_n_rows</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">job</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bq_client</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_logger</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pipelines._commons.helpers.run_job_w_n_rows" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fait tourner un job d’insertion Bigquery et log le nombre de lignes insérées
+job – type: QueryJob, un job Bigquery
+bq_client – type: Bigquery client
+_logger – le logger du pipeline</p>
+</dd></dl>
+
+<span class="target" id="module-pipelines._commons.retry"></span><dl class="py function">
+<dt class="sig sig-object py" id="pipelines._commons.retry.retry">
+<span class="sig-prename descclassname"><span class="pre">pipelines._commons.retry.</span></span><span class="sig-name descname"><span class="pre">retry</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ExceptionToCheck</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tries</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delay</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">backoff</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pipelines._commons.retry.retry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retry calling the decorated function using an exponential backoff.</p>
+<p><a class="reference external" href="http://www.saltycrane.com/blog/2009/11/trying-out-retry-decorator-python/">http://www.saltycrane.com/blog/2009/11/trying-out-retry-decorator-python/</a>
+original from: <a class="reference external" href="http://wiki.python.org/moin/PythonDecoratorLibrary#Retry">http://wiki.python.org/moin/PythonDecoratorLibrary#Retry</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ExceptionToCheck</strong> (<em>Exception</em><em> or </em><em>tuple</em>) – the exception to check. may be a tuple of
+exceptions to check</p></li>
+<li><p><strong>tries</strong> (<em>int</em>) – number of times to try (not retry) before giving up</p></li>
+<li><p><strong>delay</strong> (<em>int</em>) – initial delay between retries in seconds</p></li>
+<li><p><strong>backoff</strong> (<em>int</em>) – backoff multiplier e.g. value of 2 will double the delay
+each retry</p></li>
+<li><p><strong>logger</strong> (<em>logging.Logger instance</em>) – logger to use. If None, print</p></li>
+</ul>
+</dd>
+</dl>
 </dd></dl>
 
 </div>
