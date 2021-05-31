@@ -25,7 +25,7 @@ Tables
     {% endif %}
     {% endfor %}
 
-    **Job**:
+    **Pipeline** - :ref:`pipelines__{{ content["pipeline" ]}}`
 
-    - {{content["job"]}}
+    **Job** - {{content["job"]}}
     {% endfor %}

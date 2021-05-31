@@ -3,75 +3,15 @@ Pipelines
 ==================================================
 
 
-amadeus
----------------------------------------
+.. jinja:: pipeline_docs
 
-.. image:: magic_docs/amadeus.png
-    :target: _images/amadeus.svg
+    {% for pipeline in pipelines_list %}
+    .. _pipelines__{{ pipeline }}:
 
+    {{ pipeline }}
+    ---------------------------------------
 
-comper
----------------------------------------
+    .. image:: magic_docs/{{ pipeline }}.png
+        :target: _images/{{ pipeline }}.svg
 
-.. image:: magic_docs/comper.png
-    :target: _images/comper.svg
-
-dareboost
----------------------------------------
-
-
-dashboard_seo
----------------------------------------
-
-dcm
----------------------------------------
-
-
-depenses
----------------------------------------
-
-ga_historique_et_formulaires
----------------------------------------
-
-.. image:: magic_docs/ga_historique_et_formulaires.png
-    :target: _images/ga_historique_et_formulaires.svg
-
-ga_traitements
----------------------------------------
-
-.. image:: magic_docs/ga_traitements.png
-    :target: _images/ga_traitements.svg
-
-hit_measurement_protocol
----------------------------------------
-
-import_data
----------------------------------------
-
-kibana
----------------------------------------
-
-kwanko
----------------------------------------
-
-my_power
----------------------------------------
-
-predictive_engagement
----------------------------------------
-
-previsions_R
----------------------------------------
-
-sea_ga_gads
----------------------------------------
-
-search_console
----------------------------------------
-
-usabilla
----------------------------------------
-
-wizaly
----------------------------------------
-
+    {% endfor %}
