@@ -132,6 +132,9 @@
 <li class="toctree-l2"><a class="reference internal" href="#comper-t-datastudio-depenses-traitement">comper.t_datastudio_depenses_traitement</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comper-l-datastudio-contrats-offres-energie">comper.l_datastudio_contrats_offres_energie</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comper-l-v-digi-to-ds-comper-ventes-digitales">comper.l_v_digi_to_ds_comper_ventes_digitales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ga-l-ga-to-ama-ga-historique-stor">ga.l_ga_to_ama_ga_historique_stor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ga-l-ga-to-ama-ga-formulaires-stor">ga.l_ga_to_ama_ga_formulaires_stor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#comper-l-ga-to-ds-comper-e-gsheet-cee-souscriptions">comper.l_ga_to_ds_comper_e_gsheet_cee_souscriptions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-sessions">ga.t_ga_sessions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-sessions-historic">ga.t_ga_sessions_historic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-sessions-sample">ga.t_ga_sessions_sample</a></li>
@@ -258,7 +261,7 @@
 <span id="tables-amadeus-e-ama-formulaires-stor"></span><h2><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_formulaires_stor&amp;page=table">amadeus.e_ama_formulaires_stor</a><a class="headerlink" href="#amadeus-e-ama-formulaires-stor" title="Permalink to this headline">¶</a></h2>
 <p><strong>Sources</strong>:</p>
 <ul class="simple">
-<li><p>amadeus_bi.formulaires/<a href="#id88"><span class="problematic" id="id89">GA_VENT_DIGT_</span></a> (GCS)</p></li>
+<li><p>amadeus_bi.formulaires/<a href="#id91"><span class="problematic" id="id92">GA_VENT_DIGT_</span></a> (GCS)</p></li>
 </ul>
 <p><strong>Job</strong>:</p>
 <ul class="simple">
@@ -269,7 +272,7 @@
 <span id="tables-amadeus-e-ama-appels"></span><h2><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_appels&amp;page=table">amadeus.e_ama_appels</a><a class="headerlink" href="#amadeus-e-ama-appels" title="Permalink to this headline">¶</a></h2>
 <p><strong>Sources</strong>:</p>
 <ul class="simple">
-<li><p>amadeus_bi.appels/<a href="#id90"><span class="problematic" id="id91">GA_SVI_</span></a> (GCS)</p></li>
+<li><p>amadeus_bi.appels/<a href="#id93"><span class="problematic" id="id94">GA_SVI_</span></a> (GCS)</p></li>
 </ul>
 <p><strong>Job</strong>:</p>
 <ul class="simple">
@@ -576,7 +579,7 @@
 <span id="tables-comper-e-v-digi-import-cube-valeur"></span><h2><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_v_digi_import_cube_valeur&amp;page=table">comper.e_v_digi_import_cube_valeur</a><a class="headerlink" href="#comper-e-v-digi-import-cube-valeur" title="Permalink to this headline">¶</a></h2>
 <p><strong>Sources</strong>:</p>
 <ul class="simple">
-<li><p>amadeus_bi.contrats/<a href="#id92"><span class="problematic" id="id93">ama_contrats_digitaux_stor_</span></a> (GCS)</p></li>
+<li><p>amadeus_bi.contrats/<a href="#id95"><span class="problematic" id="id96">ama_contrats_digitaux_stor_</span></a> (GCS)</p></li>
 </ul>
 <p><strong>Job</strong>:</p>
 <ul class="simple">
@@ -704,6 +707,39 @@
 <p><strong>Job</strong>:</p>
 <ul class="simple">
 <li><p>l_to_ds_comper_ventes_digitales</p></li>
+</ul>
+</div>
+<div class="section" id="ga-l-ga-to-ama-ga-historique-stor">
+<span id="tables-ga-l-ga-to-ama-ga-historique-stor"></span><h2><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_ga_historique_stor&amp;page=table">ga.l_ga_to_ama_ga_historique_stor</a><a class="headerlink" href="#ga-l-ga-to-ama-ga-historique-stor" title="Permalink to this headline">¶</a></h2>
+<p><strong>Sources</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#tables-ga-t-ga-sessions"><span class="std std-ref">ga.t_ga_sessions</span></a> (BigQuery)</p></li>
+</ul>
+<p><strong>Job</strong>:</p>
+<ul class="simple">
+<li><p>l_to_ama_ga_historique_bq</p></li>
+</ul>
+</div>
+<div class="section" id="ga-l-ga-to-ama-ga-formulaires-stor">
+<span id="tables-ga-l-ga-to-ama-ga-formulaires-stor"></span><h2><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_ga_formulaires_stor&amp;page=table">ga.l_ga_to_ama_ga_formulaires_stor</a><a class="headerlink" href="#ga-l-ga-to-ama-ga-formulaires-stor" title="Permalink to this headline">¶</a></h2>
+<p><strong>Sources</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#tables-ga-t-ga-sessions"><span class="std std-ref">ga.t_ga_sessions</span></a> (BigQuery)</p></li>
+</ul>
+<p><strong>Job</strong>:</p>
+<ul class="simple">
+<li><p>l_to_ama_ga_formulaires_bq</p></li>
+</ul>
+</div>
+<div class="section" id="comper-l-ga-to-ds-comper-e-gsheet-cee-souscriptions">
+<span id="tables-comper-l-ga-to-ds-comper-e-gsheet-cee-souscriptions"></span><h2><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_comper_e_gsheet_cee_souscriptions&amp;page=table">comper.l_ga_to_ds_comper_e_gsheet_cee_souscriptions</a><a class="headerlink" href="#comper-l-ga-to-ds-comper-e-gsheet-cee-souscriptions" title="Permalink to this headline">¶</a></h2>
+<p><strong>Sources</strong>:</p>
+<ul class="simple">
+<li><p><span class="xref std std-ref">tables__ga.e_gsheet_cee_souscriptions</span> (BigQuery)</p></li>
+</ul>
+<p><strong>Job</strong>:</p>
+<ul class="simple">
+<li><p>l_to_ds_comper_e_gsheet_cee_souscriptions</p></li>
 </ul>
 </div>
 <div class="section" id="ga-t-ga-sessions">

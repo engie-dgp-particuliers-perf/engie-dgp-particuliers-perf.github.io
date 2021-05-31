@@ -33,6 +33,9 @@ depenses
 ga_historique_et_formulaires
 ---------------------------------------
 
+.. image:: magic_docs/ga_historique_et_formulaires.png
+    :target: _images/ga_historique_et_formulaires.svg
+
 ga_traitements
 ---------------------------------------
 
