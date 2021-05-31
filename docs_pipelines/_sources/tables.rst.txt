@@ -10,7 +10,6 @@ Tables
 
     {{ table }}_
     -------------------------------------------------------------------------------
-    ds_engagement.l_to_ds_engagement_avg_sessions_per_client_last3month_
 
     {% set d,t = table.split(".") %}
 
