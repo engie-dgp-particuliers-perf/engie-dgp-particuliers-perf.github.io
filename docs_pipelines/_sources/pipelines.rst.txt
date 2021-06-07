@@ -5,6 +5,8 @@ Pipelines
 
 .. jinja:: pipeline_docs
 
+    **{{ pipelines_nb }}** pipelines détectées
+
     {% for pipeline in pipelines_list %}
     .. _pipelines__{{ pipeline }}:
 

@@ -4,6 +4,8 @@ Tables
 
 .. jinja:: pipeline_docs
 
+    **{{ tables_nb }}** tables détectées
+
     {% for table, content in tables.items() %}
 
     .. _tables__{{ table }}:
