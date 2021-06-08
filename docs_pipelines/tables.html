@@ -567,7 +567,7 @@
 <p><strong>Sources</strong>:</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#tables-amadeus-t-ama-contrats-appels-leviers"><span class="std std-ref">amadeus.t_ama_contrats_appels_leviers</span></a> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].t_ama_contrats_formulaires</span> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-amadeus-t-ama-contrats-formulaires"><span class="std std-ref">amadeus.t_ama_contrats_formulaires</span></a> (BigQuery)</p></li>
 </ul>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_ventes_digitales</p>
@@ -577,8 +577,8 @@
 <p><strong>Sources</strong>:</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#tables-amadeus-t-ama-leads-appels"><span class="std std-ref">amadeus.t_ama_leads_appels</span></a> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].t_ama_leads_formulaires</span> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].t_ama_ventes_digitales</span> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-amadeus-t-ama-leads-formulaires"><span class="std std-ref">amadeus.t_ama_leads_formulaires</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-amadeus-t-ama-ventes-digitales"><span class="std std-ref">amadeus.t_ama_ventes_digitales</span></a> (BigQuery)</p></li>
 </ul>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_realise</p>
@@ -597,7 +597,7 @@
 <p><strong>Sources</strong>:</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#tables-comper-t-ama-realise"><span class="std std-ref">comper.t_ama_realise</span></a> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].e_ds_comper_saisonnalite</span> (BigQuery)</p></li>
+<li><p><span class="xref std std-ref">tables__comper.e_ds_comper_saisonnalite</span> (BigQuery)</p></li>
 </ul>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_point_de_sortie</p>
@@ -607,11 +607,11 @@
 <p><strong>Sources</strong>:</p>
 <ul class="simple">
 <li><p><span class="xref std std-ref">tables__comper.e_datastudio_contrats_offres_energie_2018</span> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].t_ama_realise</span> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].e_ds_comper_objectifs_2018_seulement</span> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].e_ds_comper_objectifs_2019_seulement</span> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].t_datastudio_point_de_sortie</span> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].e_ds_comper_objectifs</span> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-comper-t-ama-realise"><span class="std std-ref">comper.t_ama_realise</span></a> (BigQuery)</p></li>
+<li><p><span class="xref std std-ref">tables__comper.e_ds_comper_objectifs_2018_seulement</span> (BigQuery)</p></li>
+<li><p><span class="xref std std-ref">tables__comper.e_ds_comper_objectifs_2019_seulement</span> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-comper-t-datastudio-point-de-sortie"><span class="std std-ref">comper.t_datastudio_point_de_sortie</span></a> (BigQuery)</p></li>
+<li><p><span class="xref std std-ref">tables__comper.e_ds_comper_objectifs</span> (BigQuery)</p></li>
 </ul>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_contrats_offres_energie_hors_depenses</p>
@@ -641,9 +641,9 @@
 <p><strong>Sources</strong>:</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#tables-comper-l-datastudio-contrats-offres-energie-hors-depenses"><span class="std std-ref">comper.l_datastudio_contrats_offres_energie_hors_depenses</span></a> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].t_datastudio_depenses_acquisition</span> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].t_datastudio_depenses_traitement</span> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].l_datastudio_contrats_offres_energie_avant_2021</span> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-comper-t-datastudio-depenses-acquisition"><span class="std std-ref">comper.t_datastudio_depenses_acquisition</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-comper-t-datastudio-depenses-traitement"><span class="std std-ref">comper.t_datastudio_depenses_traitement</span></a> (BigQuery)</p></li>
+<li><p><span class="xref std std-ref">tables__comper.l_datastudio_contrats_offres_energie_avant_2021</span> (BigQuery)</p></li>
 </ul>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_contrats_offres_energie</p>
@@ -663,7 +663,6 @@
 <li><p><a class="reference internal" href="#tables-comper-l-ama-to-ds-comper-prelevement-mensualisation"><span class="std std-ref">comper.l_ama_to_ds_comper_prelevement_mensualisation</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-comper-l-ama-to-ds-comper-activation-energie"><span class="std std-ref">comper.l_ama_to_ds_comper_activation_energie</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-comper-l-ga-to-ds-comper-sessions"><span class="std std-ref">comper.l_ga_to_ds_comper_sessions</span></a> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__comper.[?config?]</span> (BigQuery)</p></li>
 </ul>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_ventes_digitales</p>
@@ -892,7 +891,7 @@
 <p><strong>Sources</strong>:</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#tables-ga-t-ga-optimizely-events"><span class="std std-ref">ga.t_ga_optimizely_events</span></a> (BigQuery)</p></li>
-<li><p><span class="xref std std-ref">tables__[?config?].t_ga_objectives_events</span> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-ga-t-ga-objectives-events"><span class="std std-ref">ga.t_ga_objectives_events</span></a> (BigQuery)</p></li>
 </ul>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
 <p><strong>Job</strong> - t_optimizely_vs_objectives</p>
