@@ -14,54 +14,54 @@
 <path fill="#e5f5fd" stroke="#aeb6be" d="M20,-33C20,-33 677,-33 677,-33 683,-33 689,-39 689,-45 689,-45 689,-376 689,-376 689,-382 683,-388 677,-388 677,-388 20,-388 20,-388 14,-388 8,-382 8,-376 8,-376 8,-45 8,-45 8,-39 14,-33 20,-33"/>
 <text text-anchor="middle" x="42.5" y="-374.4" font-family="Sans-Serif" font-size="12.00" fill="#2d3436">dareboost</text>
 </g>
-<!-- af046e7df2a54af1a9b1737cd3624a0e -->
+<!-- 2f30eb470f704cf4b769cf19ebfac77d -->
 <g id="node1" class="node">
-<title>af046e7df2a54af1a9b1737cd3624a0e</title>
+<title>2f30eb470f704cf4b769cf19ebfac77d</title>
 <image xlink:href="icons/dareboost.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="16" y="-191.5"/>
 <text text-anchor="middle" x="66.5" y="-76.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Dareboost API</text>
 </g>
-<!-- 030f73ed0c514218a893e75e11eabc6e -->
+<!-- f1d97de10ba34c479293c9062def38e7 -->
 <g id="node2" class="node">
-<title>030f73ed0c514218a893e75e11eabc6e</title>
+<title>f1d97de10ba34c479293c9062def38e7</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="244" y="-160.5"/>
 <text text-anchor="middle" x="294.5" y="-45.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">dareboost.e_dbst_monitoring_api</text>
 </g>
-<!-- af046e7df2a54af1a9b1737cd3624a0e&#45;&gt;030f73ed0c514218a893e75e11eabc6e -->
+<!-- 2f30eb470f704cf4b769cf19ebfac77d&#45;&gt;f1d97de10ba34c479293c9062def38e7 -->
 <g id="edge1" class="edge">
-<title>af046e7df2a54af1a9b1737cd3624a0e&#45;&gt;030f73ed0c514218a893e75e11eabc6e</title>
+<title>2f30eb470f704cf4b769cf19ebfac77d&#45;&gt;f1d97de10ba34c479293c9062def38e7</title>
 <path fill="none" stroke="#7b8894" d="M117.1,-125.5C117.1,-125.5 233.65,-125.5 233.65,-125.5"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="233.65,-129 243.65,-125.5 233.65,-122 233.65,-129"/>
 <text text-anchor="middle" x="180.5" y="-128.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">e_monitoring</text>
 </g>
-<!-- 88f5788d7d9b416d9ff5f5efcbf4c417 -->
+<!-- 3a0f9df273ae4ed9b9d1f2f8d805e7a9 -->
 <g id="node3" class="node">
-<title>88f5788d7d9b416d9ff5f5efcbf4c417</title>
+<title>3a0f9df273ae4ed9b9d1f2f8d805e7a9</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="244" y="-340.5"/>
 <text text-anchor="middle" x="294.5" y="-225.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">dareboost.e_dbst_scenarios_api</text>
 </g>
-<!-- af046e7df2a54af1a9b1737cd3624a0e&#45;&gt;88f5788d7d9b416d9ff5f5efcbf4c417 -->
+<!-- 2f30eb470f704cf4b769cf19ebfac77d&#45;&gt;3a0f9df273ae4ed9b9d1f2f8d805e7a9 -->
 <g id="edge2" class="edge">
-<title>af046e7df2a54af1a9b1737cd3624a0e&#45;&gt;88f5788d7d9b416d9ff5f5efcbf4c417</title>
+<title>2f30eb470f704cf4b769cf19ebfac77d&#45;&gt;3a0f9df273ae4ed9b9d1f2f8d805e7a9</title>
 <path fill="none" stroke="#7b8894" d="M117.21,-194C184.53,-194 295,-194 295,-194 295,-194 295,-211.25 295,-211.25"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="291.5,-211.25 295,-221.25 298.5,-211.25 291.5,-211.25"/>
 <text text-anchor="middle" x="180.5" y="-249.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">e_scenarios</text>
 </g>
-<!-- e5d4d1a92619435e82c828cfc1399f07 -->
+<!-- 834c6248085a45beb03e6b48c5a02d8d -->
 <g id="node4" class="node">
-<title>e5d4d1a92619435e82c828cfc1399f07</title>
+<title>834c6248085a45beb03e6b48c5a02d8d</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="580" y="-220.5"/>
 <text text-anchor="middle" x="630.5" y="-105.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">dareboost.l_dbst_to_datastudio_mesures_jours</text>
 </g>
-<!-- 030f73ed0c514218a893e75e11eabc6e&#45;&gt;e5d4d1a92619435e82c828cfc1399f07 -->
+<!-- f1d97de10ba34c479293c9062def38e7&#45;&gt;834c6248085a45beb03e6b48c5a02d8d -->
 <g id="edge3" class="edge">
-<title>030f73ed0c514218a893e75e11eabc6e&#45;&gt;e5d4d1a92619435e82c828cfc1399f07</title>
+<title>f1d97de10ba34c479293c9062def38e7&#45;&gt;834c6248085a45beb03e6b48c5a02d8d</title>
 <path fill="none" stroke="#7b8894" d="M345.17,-140C345.17,-140 569.97,-140 569.97,-140"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="569.97,-143.5 579.97,-140 569.97,-136.5 569.97,-143.5"/>
 <text text-anchor="middle" x="462.5" y="-142.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_datastudio_monitoring_jour</text>
 </g>
-<!-- 88f5788d7d9b416d9ff5f5efcbf4c417&#45;&gt;e5d4d1a92619435e82c828cfc1399f07 -->
+<!-- 3a0f9df273ae4ed9b9d1f2f8d805e7a9&#45;&gt;834c6248085a45beb03e6b48c5a02d8d -->
 <g id="edge4" class="edge">
-<title>88f5788d7d9b416d9ff5f5efcbf4c417&#45;&gt;e5d4d1a92619435e82c828cfc1399f07</title>
+<title>3a0f9df273ae4ed9b9d1f2f8d805e7a9&#45;&gt;834c6248085a45beb03e6b48c5a02d8d</title>
 <path fill="none" stroke="#7b8894" d="M345.17,-230C345.17,-230 569.97,-230 569.97,-230"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="569.97,-233.5 579.97,-230 569.97,-226.5 569.97,-233.5"/>
 <text text-anchor="middle" x="462.5" y="-263.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_datastudio_scenarios_jour</text>

@@ -43,7 +43,7 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Developer interface" href="api.html" /> 
+    <link rel="next" title="Pipelines" href="pipelines.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -93,9 +93,9 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="api.html">Developer interface</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pipelines.html">Pipelines</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tables.html">Tables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">Interface de développement</a></li>
 </ul>
 
             
@@ -172,11 +172,6 @@
 <h2>Reference &amp; documentation<a class="headerlink" href="#reference-documentation" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="api.html">Developer interface</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="api.html#module-customIO">custom I/O</a></li>
-<li class="toctree-l2"><a class="reference internal" href="api.html#module-pipelines._commons.helpers">Helpers</a></li>
-</ul>
-</li>
 <li class="toctree-l1"><a class="reference internal" href="pipelines.html">Pipelines</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="pipelines.html#amadeus">amadeus</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pipelines.html#comper">comper</a></li>
@@ -237,17 +232,7 @@
 <li class="toctree-l2"><a class="reference internal" href="tables.html#dareboost-l-dbst-to-datastudio-mesures-jours">dareboost.l_dbst_to_datastudio_mesures_jours</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-traffic-usine">ds_seo.l_ga_to_ds_seo_traffic_usine</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-leads-usine">ds_seo.l_ga_to_ds_seo_leads_usine</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-traffic-hors-hp-login">ds_seo.l_ga_to_ds_seo_traffic_hors_hp_login</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-leads-hors-hp-login">ds_seo.l_ga_to_ds_seo_leads_hors_hp_login</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-traffic-quotidien">ds_seo.l_ga_to_ds_seo_traffic_quotidien</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-leads">ds_seo.l_ga_to_ds_seo_leads</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-session-categories">ds_seo.l_ga_to_ds_seo_session_categories</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-leads-categories">ds_seo.l_ga_to_ds_seo_leads_categories</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-traffic-quotidien-hebd">ds_seo.l_ga_to_ds_seo_traffic_quotidien_hebd</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-contrats">ds_seo.l_ga_to_ds_seo_contrats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-variation">ds_seo.l_ga_to_ds_seo_variation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-bq-to-ds-seo-last-modified">ds_seo.l_bq_to_ds_seo_last_modified</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-contrats-hors-hp-login">ds_seo.l_ga_to_ds_seo_contrats_hors_hp_login</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ds-seo-l-ga-to-ds-seo-contrats-usine">ds_seo.l_ga_to_ds_seo_contrats_usine</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-l-ga-to-ama-ga-historique-stor">ga.l_ga_to_ama_ga_historique_stor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-l-ga-to-ama-ga-formulaires-stor">ga.l_ga_to_ama_ga_formulaires_stor</a></li>
@@ -268,7 +253,6 @@
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-recurrence-visites-ec-sessions">ga.t_ga_recurrence_visites_ec_sessions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-blog-vs-objectifs">ga.t_ga_blog_vs_objectifs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-ec-connexions">ga.t_ga_ec_connexions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-ec-connexions-mfa">ga.t_ga_ec_connexions_mfa</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-consentements-parcours">ga.t_ga_consentements_parcours</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-visites-ec-recurrence-bp">ga.t_ga_visites_ec_recurrence_bp</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-recurrence1-moyenne-session-ec-bp-support-device-profil-mois">ga.t_ga_recurrence1_moyenne_session_ec_bp_support_device_profil_mois</a></li>
@@ -276,7 +260,6 @@
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-recurrence2-groupe-nb-session-ec-bp-support-mois">ga.t_ga_recurrence2_groupe_nb_session_ec_bp_support_mois</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-recurrence2-groupe-nb-session-ec-bp-profil-mois">ga.t_ga_recurrence2_groupe_nb_session_ec_bp_profil_mois</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-recurrence3-usage-crossdevice-detail-ec-nb-idbp-mois">ga.t_ga_recurrence3_usage_crossdevice_detail_ec_nb_idbp_mois</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-recurrence3-usage-crossdevice-detail-ec-nb-idbp-year">ga.t_ga_recurrence3_usage_crossdevice_detail_ec_nb_idbp_year</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ga-t-ga-prog-eng-consultation-et-usage">ga.t_ga_prog_eng_consultation_et_usage</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#comite-drc-e-ds-comite-drc-infosmensuelles">comite_drc.e_ds_comite_drc_infosmensuelles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tables.html#ds-engagement-l-ga-to-ds-engagement-services">ds_engagement.l_ga_to_ds_engagement_services</a></li>
@@ -326,6 +309,12 @@
 <li class="toctree-l2"><a class="reference internal" href="tables.html#amadeus-t-ama-import-wizaly-pc-transformees">amadeus.t_ama_import_wizaly_pc_transformees</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">Interface de développement</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api.html#module-customIO">Custom I/O</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#module-pipelines._commons.helpers">Helpers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#module-docs.magic_docs.magic_docs">Magic Docs</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -337,7 +326,7 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="api.html" class="btn btn-neutral float-right" title="Developer interface" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="pipelines.html" class="btn btn-neutral float-right" title="Pipelines" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

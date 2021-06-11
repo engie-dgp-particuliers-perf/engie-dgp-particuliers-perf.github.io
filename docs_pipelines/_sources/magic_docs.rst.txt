@@ -1,0 +1,5 @@
+Magic Docs
+==================================================
+
+.. automodule:: docs.magic_docs.magic_docs
+    :members:

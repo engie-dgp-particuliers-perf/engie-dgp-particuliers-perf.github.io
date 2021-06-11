@@ -1,8 +1,8 @@
 
-Developer interface
+Interface de développement
 ==================================================
 
-custom I/O
+Custom I/O
 --------------------------------------------------
 
 .. module:: customIO
@@ -73,4 +73,10 @@ Helpers
     :members:
 
 .. automodule:: pipelines._commons.retry
+    :members:
+
+Magic Docs
+--------------------------------------------------
+
+.. automodule:: docs.magic_docs.magic_docs
     :members:

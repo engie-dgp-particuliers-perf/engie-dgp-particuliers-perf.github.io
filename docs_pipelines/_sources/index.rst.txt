@@ -12,6 +12,6 @@ Reference & documentation
 .. toctree::
    :maxdepth: 2
    
-   api
    pipelines
    tables
+   api

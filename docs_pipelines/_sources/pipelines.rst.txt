@@ -2,12 +2,9 @@
 Pipelines
 ==================================================
 
-
 .. jinja:: pipeline_docs
 
-    **{{ pipelines_nb }}** pipelines détectées
-
-    *Cliquez sur les images pour agrandir*
+    **{{ pipelines_nb }}** pipelines détectées. *Cliquez sur les images pour agrandir*
 
     {% for pipeline in pipelines_list %}
     .. _pipelines__{{ pipeline }}:
