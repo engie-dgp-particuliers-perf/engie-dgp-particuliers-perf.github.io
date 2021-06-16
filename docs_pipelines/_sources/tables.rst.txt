@@ -18,16 +18,16 @@ Tables
 
 
     {% if content["sources"]  %}
-
     **Sources**:
     {% for type, name in content["sources"] %}
-    {% if type =="BigQuery" %}
-    - :ref:`tables__{{name}}` ({{type}})
-    {% else %}
-    - {{name}} ({{type}})
-    {% endif %}
+
+        {% if type =="BigQuery" %}
+        - :ref:`tables__{{name}}` ({{type}})
+        {% else %}
+        - {{name}} ({{type}})
+        {% endif %}
+
     {% endfor %}
-    
     {% endif %}
 
     **Pipeline** - :ref:`pipelines__{{ content["pipeline" ]}}`
