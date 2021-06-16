@@ -10,15 +10,16 @@ Tables
 
     .. _tables__{{ table }}:
 
-    {{ table }}_
+    {{ table }}
     -------------------------------------------------------------------------------
 
     {% set d,t = table.split(".") %}
+    `ouvrir dans BQ <https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&d={{d}}&p=engie-b2c-cloud&t={{t}}&page=table>`__
 
-    .. _{{ table }}: https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&d={{d}}&p=engie-b2c-cloud&t={{t}}&page=table
+
+    {% if content["sources"]  %}
 
     **Sources**:
-
     {% for type, name in content["sources"] %}
     {% if type =="BigQuery" %}
     - :ref:`tables__{{name}}` ({{type}})
@@ -26,8 +27,11 @@ Tables
     - {{name}} ({{type}})
     {% endif %}
     {% endfor %}
+    
+    {% endif %}
 
     **Pipeline** - :ref:`pipelines__{{ content["pipeline" ]}}`
 
     **Job** - {{content["job"]}}
+
     {% endfor %}

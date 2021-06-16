@@ -14,438 +14,438 @@
 <path fill="#e5f5fd" stroke="#aeb6be" d="M20,-33C20,-33 2369,-33 2369,-33 2375,-33 2381,-39 2381,-45 2381,-45 2381,-1996 2381,-1996 2381,-2002 2375,-2008 2369,-2008 2369,-2008 20,-2008 20,-2008 14,-2008 8,-2002 8,-1996 8,-1996 8,-45 8,-45 8,-39 14,-33 20,-33"/>
 <text text-anchor="middle" x="36" y="-1994.4" font-family="Sans-Serif" font-size="12.00" fill="#2d3436">comper</text>
 </g>
-<!-- 7111ba9d8ff3431d9a390fe04f70d15f -->
+<!-- d5100218b47f485eac4266b7c0128dfa -->
 <g id="node1" class="node">
-<title>7111ba9d8ff3431d9a390fe04f70d15f</title>
+<title>d5100218b47f485eac4266b7c0128dfa</title>
 <image xlink:href="icons/storage.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="16" y="-1960.5"/>
 <text text-anchor="middle" x="66.5" y="-1845.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">amadeus_bi.contrats/ama_contrats_digitaux_stor_</text>
 </g>
-<!-- df54c03d5e754bb4b9ccb60ec9d24348 -->
+<!-- 094ac559777d42b39b4de86721cc598f -->
 <g id="node2" class="node">
-<title>df54c03d5e754bb4b9ccb60ec9d24348</title>
+<title>094ac559777d42b39b4de86721cc598f</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="295" y="-1960.5"/>
 <text text-anchor="middle" x="345.5" y="-1845.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.e_v_digi_import_cube_valeur</text>
 </g>
-<!-- 7111ba9d8ff3431d9a390fe04f70d15f&#45;&gt;df54c03d5e754bb4b9ccb60ec9d24348 -->
+<!-- d5100218b47f485eac4266b7c0128dfa&#45;&gt;094ac559777d42b39b4de86721cc598f -->
 <g id="edge1" class="edge">
-<title>7111ba9d8ff3431d9a390fe04f70d15f&#45;&gt;df54c03d5e754bb4b9ccb60ec9d24348</title>
+<title>d5100218b47f485eac4266b7c0128dfa&#45;&gt;094ac559777d42b39b4de86721cc598f</title>
 <path fill="none" stroke="#7b8894" d="M117.02,-1910C117.02,-1910 284.88,-1910 284.88,-1910"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="284.88,-1913.5 294.88,-1910 284.88,-1906.5 284.88,-1913.5"/>
 <text text-anchor="middle" x="206" y="-1913.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">e_import_cube_valeur</text>
 </g>
-<!-- e89aad40c86f444796390fd4453bb898 -->
+<!-- 6c6f7fcc4566494f8bff3851bd93277d -->
 <g id="node9" class="node">
-<title>e89aad40c86f444796390fd4453bb898</title>
+<title>6c6f7fcc4566494f8bff3851bd93277d</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="529" y="-1960.5"/>
 <text text-anchor="middle" x="579.5" y="-1845.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.t_v_digi_cube_valeur</text>
 </g>
-<!-- df54c03d5e754bb4b9ccb60ec9d24348&#45;&gt;e89aad40c86f444796390fd4453bb898 -->
+<!-- 094ac559777d42b39b4de86721cc598f&#45;&gt;6c6f7fcc4566494f8bff3851bd93277d -->
 <g id="edge7" class="edge">
-<title>df54c03d5e754bb4b9ccb60ec9d24348&#45;&gt;e89aad40c86f444796390fd4453bb898</title>
+<title>094ac559777d42b39b4de86721cc598f&#45;&gt;6c6f7fcc4566494f8bff3851bd93277d</title>
 <path fill="none" stroke="#7b8894" d="M396.27,-1910C396.27,-1910 518.82,-1910 518.82,-1910"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="518.82,-1913.5 528.82,-1910 518.82,-1906.5 518.82,-1913.5"/>
 <text text-anchor="middle" x="462.5" y="-1913.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_cube_valeur</text>
 </g>
-<!-- a004d34506444196b9c434010a8488b8 -->
+<!-- 90918e5c0b194452a97b2bb5b6cdea4a -->
 <g id="node3" class="node">
-<title>a004d34506444196b9c434010a8488b8</title>
+<title>90918e5c0b194452a97b2bb5b6cdea4a</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="16" y="-1525.5"/>
 <text text-anchor="middle" x="66.5" y="-1410.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">amadeus.t_ama_contrats_appels_leviers</text>
 </g>
-<!-- f04d3e1dcd354b888c91d0131660edc1 -->
+<!-- 7a9e7ab64c8a4fdca18c1b8fa5468830 -->
 <g id="node4" class="node">
-<title>f04d3e1dcd354b888c91d0131660edc1</title>
+<title>7a9e7ab64c8a4fdca18c1b8fa5468830</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="295" y="-1600.5"/>
 <text text-anchor="middle" x="345.5" y="-1485.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">amadeus.t_ama_ventes_digitales</text>
 </g>
-<!-- a004d34506444196b9c434010a8488b8&#45;&gt;f04d3e1dcd354b888c91d0131660edc1 -->
+<!-- 90918e5c0b194452a97b2bb5b6cdea4a&#45;&gt;7a9e7ab64c8a4fdca18c1b8fa5468830 -->
 <g id="edge2" class="edge">
-<title>a004d34506444196b9c434010a8488b8&#45;&gt;f04d3e1dcd354b888c91d0131660edc1</title>
+<title>90918e5c0b194452a97b2bb5b6cdea4a&#45;&gt;7a9e7ab64c8a4fdca18c1b8fa5468830</title>
 <path fill="none" stroke="#7b8894" d="M117.02,-1512.5C117.02,-1512.5 284.88,-1512.5 284.88,-1512.5"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="284.88,-1516 294.88,-1512.5 284.88,-1509 284.88,-1516"/>
 <text text-anchor="middle" x="206" y="-1507.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_ventes_digitales</text>
 </g>
-<!-- c4491b4d178940159e828ae42d917891 -->
+<!-- e530972dd19248fd81a617a31aaea0f8 -->
 <g id="node7" class="node">
-<title>c4491b4d178940159e828ae42d917891</title>
+<title>e530972dd19248fd81a617a31aaea0f8</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="529" y="-1780.5"/>
 <text text-anchor="middle" x="579.5" y="-1665.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.t_ama_realise</text>
 </g>
-<!-- f04d3e1dcd354b888c91d0131660edc1&#45;&gt;c4491b4d178940159e828ae42d917891 -->
+<!-- 7a9e7ab64c8a4fdca18c1b8fa5468830&#45;&gt;e530972dd19248fd81a617a31aaea0f8 -->
 <g id="edge6" class="edge">
-<title>f04d3e1dcd354b888c91d0131660edc1&#45;&gt;c4491b4d178940159e828ae42d917891</title>
+<title>7a9e7ab64c8a4fdca18c1b8fa5468830&#45;&gt;e530972dd19248fd81a617a31aaea0f8</title>
 <path fill="none" stroke="#7b8894" d="M346,-1618.64C346,-1637.51 346,-1652.9 346,-1652.9 346,-1652.9 555,-1652.9 555,-1652.9 555,-1652.9 555,-1653.75 555,-1653.75"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="551.5,-1651.45 555,-1661.45 558.5,-1651.45 551.5,-1651.45"/>
 <text text-anchor="middle" x="462.5" y="-1612.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_realise</text>
 </g>
-<!-- f3de4caf6b3e4449ab914db82bf879a3 -->
+<!-- 8bd346f1f2a3496cb8a34e13131c118e -->
 <g id="node5" class="node">
-<title>f3de4caf6b3e4449ab914db82bf879a3</title>
+<title>8bd346f1f2a3496cb8a34e13131c118e</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="16" y="-1705.5"/>
 <text text-anchor="middle" x="66.5" y="-1590.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">amadeus.t_ama_contrats_formulaires</text>
 </g>
-<!-- f3de4caf6b3e4449ab914db82bf879a3&#45;&gt;f04d3e1dcd354b888c91d0131660edc1 -->
+<!-- 8bd346f1f2a3496cb8a34e13131c118e&#45;&gt;7a9e7ab64c8a4fdca18c1b8fa5468830 -->
 <g id="edge3" class="edge">
-<title>f3de4caf6b3e4449ab914db82bf879a3&#45;&gt;f04d3e1dcd354b888c91d0131660edc1</title>
+<title>8bd346f1f2a3496cb8a34e13131c118e&#45;&gt;7a9e7ab64c8a4fdca18c1b8fa5468830</title>
 <path fill="none" stroke="#7b8894" d="M117.02,-1602.5C117.02,-1602.5 284.88,-1602.5 284.88,-1602.5"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="284.88,-1606 294.88,-1602.5 284.88,-1599 284.88,-1606"/>
 <text text-anchor="middle" x="206" y="-1599.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_ventes_digitales</text>
 </g>
-<!-- 6fd8625f1a654242be46fbfcc9290400 -->
+<!-- fa0ca8e033d14b18905da5732c5e5892 -->
 <g id="node6" class="node">
-<title>6fd8625f1a654242be46fbfcc9290400</title>
+<title>fa0ca8e033d14b18905da5732c5e5892</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="295" y="-1420.5"/>
 <text text-anchor="middle" x="345.5" y="-1305.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">amadeus.t_ama_leads_appels</text>
 </g>
-<!-- 6fd8625f1a654242be46fbfcc9290400&#45;&gt;c4491b4d178940159e828ae42d917891 -->
+<!-- fa0ca8e033d14b18905da5732c5e5892&#45;&gt;e530972dd19248fd81a617a31aaea0f8 -->
 <g id="edge4" class="edge">
-<title>6fd8625f1a654242be46fbfcc9290400&#45;&gt;c4491b4d178940159e828ae42d917891</title>
+<title>fa0ca8e033d14b18905da5732c5e5892&#45;&gt;e530972dd19248fd81a617a31aaea0f8</title>
 <path fill="none" stroke="#7b8894" d="M396.01,-1370C427.86,-1370 463,-1370 463,-1370 463,-1370 463,-1707.17 463,-1707.17 463,-1707.17 518.74,-1707.17 518.74,-1707.17"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="518.74,-1710.67 528.74,-1707.17 518.74,-1703.67 518.74,-1710.67"/>
 <text text-anchor="middle" x="462.5" y="-1461.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_realise</text>
 </g>
-<!-- d63cabc5828b4d0995f26ff243923ce4 -->
+<!-- 41f9fdafd9a7432784916c96474246c6 -->
 <g id="node10" class="node">
-<title>d63cabc5828b4d0995f26ff243923ce4</title>
+<title>41f9fdafd9a7432784916c96474246c6</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="848.5" y="-1780.5"/>
 <text text-anchor="middle" x="899" y="-1665.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.t_datastudio_point_de_sortie</text>
 </g>
-<!-- c4491b4d178940159e828ae42d917891&#45;&gt;d63cabc5828b4d0995f26ff243923ce4 -->
+<!-- e530972dd19248fd81a617a31aaea0f8&#45;&gt;41f9fdafd9a7432784916c96474246c6 -->
 <g id="edge8" class="edge">
-<title>c4491b4d178940159e828ae42d917891&#45;&gt;d63cabc5828b4d0995f26ff243923ce4</title>
+<title>e530972dd19248fd81a617a31aaea0f8&#45;&gt;41f9fdafd9a7432784916c96474246c6</title>
 <path fill="none" stroke="#7b8894" d="M630.13,-1730C630.13,-1730 838.35,-1730 838.35,-1730"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="838.35,-1733.5 848.35,-1730 838.35,-1726.5 838.35,-1733.5"/>
 <text text-anchor="middle" x="706" y="-1733.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_point_de_sortie</text>
 </g>
-<!-- caf45dc7b3b043d795ae5fadc3ea8a49 -->
+<!-- c61c5ecd1b0b4e7d82b6b6592626db06 -->
 <g id="node13" class="node">
-<title>caf45dc7b3b043d795ae5fadc3ea8a49</title>
+<title>c61c5ecd1b0b4e7d82b6b6592626db06</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1304" y="-1730.5"/>
 <text text-anchor="middle" x="1354.5" y="-1615.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_datastudio_contrats_offres_energie_hors_depenses</text>
 </g>
-<!-- c4491b4d178940159e828ae42d917891&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49 -->
+<!-- e530972dd19248fd81a617a31aaea0f8&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06 -->
 <g id="edge11" class="edge">
-<title>c4491b4d178940159e828ae42d917891&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49</title>
+<title>e530972dd19248fd81a617a31aaea0f8&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06</title>
 <path fill="none" stroke="#7b8894" d="M605,-1661.47C605,-1646.84 605,-1635.7 605,-1635.7 605,-1635.7 1293.87,-1635.7 1293.87,-1635.7"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1293.87,-1639.2 1303.87,-1635.7 1293.87,-1632.2 1293.87,-1639.2"/>
 <text text-anchor="middle" x="899" y="-1888.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_contrats_offres_energie_hors_depenses</text>
 </g>
-<!-- e7832bdf70294f53b285a30ca3f8ae3f -->
+<!-- 4705250cb15249128fc0acf1ee066b1d -->
 <g id="node8" class="node">
-<title>e7832bdf70294f53b285a30ca3f8ae3f</title>
+<title>4705250cb15249128fc0acf1ee066b1d</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="295" y="-1780.5"/>
 <text text-anchor="middle" x="345.5" y="-1665.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">amadeus.t_ama_leads_formulaires</text>
 </g>
-<!-- e7832bdf70294f53b285a30ca3f8ae3f&#45;&gt;c4491b4d178940159e828ae42d917891 -->
+<!-- 4705250cb15249128fc0acf1ee066b1d&#45;&gt;e530972dd19248fd81a617a31aaea0f8 -->
 <g id="edge5" class="edge">
-<title>e7832bdf70294f53b285a30ca3f8ae3f&#45;&gt;c4491b4d178940159e828ae42d917891</title>
+<title>4705250cb15249128fc0acf1ee066b1d&#45;&gt;e530972dd19248fd81a617a31aaea0f8</title>
 <path fill="none" stroke="#7b8894" d="M396.27,-1752.83C396.27,-1752.83 518.82,-1752.83 518.82,-1752.83"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="518.82,-1756.33 528.82,-1752.83 518.82,-1749.33 518.82,-1756.33"/>
 <text text-anchor="middle" x="462.5" y="-1733.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_realise</text>
 </g>
-<!-- d63cabc5828b4d0995f26ff243923ce4&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49 -->
+<!-- 41f9fdafd9a7432784916c96474246c6&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06 -->
 <g id="edge14" class="edge">
-<title>d63cabc5828b4d0995f26ff243923ce4&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49</title>
+<title>41f9fdafd9a7432784916c96474246c6&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06</title>
 <path fill="none" stroke="#7b8894" d="M949.93,-1705C949.93,-1705 1293.9,-1705 1293.9,-1705"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1293.9,-1708.5 1303.9,-1705 1293.9,-1701.5 1293.9,-1708.5"/>
 <text text-anchor="middle" x="1160" y="-1708.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_contrats_offres_energie_hors_depenses</text>
 </g>
-<!-- b4b3ee081ce14af0a8dff873d80c31ef -->
+<!-- e81caed7519c43cfa1df02b6d63e9a24 -->
 <g id="node11" class="node">
-<title>b4b3ee081ce14af0a8dff873d80c31ef</title>
+<title>e81caed7519c43cfa1df02b6d63e9a24</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="529" y="-1600.5"/>
 <text text-anchor="middle" x="579.5" y="-1485.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.e_ds_comper_saisonnalite</text>
 </g>
-<!-- b4b3ee081ce14af0a8dff873d80c31ef&#45;&gt;d63cabc5828b4d0995f26ff243923ce4 -->
+<!-- e81caed7519c43cfa1df02b6d63e9a24&#45;&gt;41f9fdafd9a7432784916c96474246c6 -->
 <g id="edge9" class="edge">
-<title>b4b3ee081ce14af0a8dff873d80c31ef&#45;&gt;d63cabc5828b4d0995f26ff243923ce4</title>
+<title>e81caed7519c43cfa1df02b6d63e9a24&#45;&gt;41f9fdafd9a7432784916c96474246c6</title>
 <path fill="none" stroke="#7b8894" d="M580,-1618.53C580,-1633.16 580,-1644.3 580,-1644.3 580,-1644.3 899,-1644.3 899,-1644.3 899,-1644.3 899,-1651.23 899,-1651.23"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="895.5,-1651.23 899,-1661.23 902.5,-1651.23 895.5,-1651.23"/>
 <text text-anchor="middle" x="706" y="-1612.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_point_de_sortie</text>
 </g>
-<!-- 9767c90c60bb4548899403ddb898d348 -->
+<!-- ce72b13b1a724e36a2ee87405f7ddb1c -->
 <g id="node12" class="node">
-<title>9767c90c60bb4548899403ddb898d348</title>
+<title>ce72b13b1a724e36a2ee87405f7ddb1c</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="848.5" y="-1600.5"/>
 <text text-anchor="middle" x="899" y="-1485.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.e_datastudio_contrats_offres_energie_2018</text>
 </g>
-<!-- 9767c90c60bb4548899403ddb898d348&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49 -->
+<!-- ce72b13b1a724e36a2ee87405f7ddb1c&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06 -->
 <g id="edge10" class="edge">
-<title>9767c90c60bb4548899403ddb898d348&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49</title>
+<title>ce72b13b1a724e36a2ee87405f7ddb1c&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06</title>
 <path fill="none" stroke="#7b8894" d="M949.93,-1616.75C949.93,-1616.75 1293.9,-1616.75 1293.9,-1616.75"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1293.9,-1620.25 1303.9,-1616.75 1293.9,-1613.25 1293.9,-1620.25"/>
 <text text-anchor="middle" x="1160" y="-1587.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_contrats_offres_energie_hors_depenses</text>
 </g>
-<!-- 6f341b8035e949de9373d16031b8a942 -->
+<!-- 96b93517d230414d936392095e56de26 -->
 <g id="node17" class="node">
-<title>6f341b8035e949de9373d16031b8a942</title>
+<title>96b93517d230414d936392095e56de26</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1610.5" y="-1679.5"/>
 <text text-anchor="middle" x="1661" y="-1564.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.t_datastudio_depenses_acquisition</text>
 </g>
-<!-- caf45dc7b3b043d795ae5fadc3ea8a49&#45;&gt;6f341b8035e949de9373d16031b8a942 -->
+<!-- c61c5ecd1b0b4e7d82b6b6592626db06&#45;&gt;96b93517d230414d936392095e56de26 -->
 <g id="edge16" class="edge">
-<title>caf45dc7b3b043d795ae5fadc3ea8a49&#45;&gt;6f341b8035e949de9373d16031b8a942</title>
+<title>c61c5ecd1b0b4e7d82b6b6592626db06&#45;&gt;96b93517d230414d936392095e56de26</title>
 <path fill="none" stroke="#7b8894" d="M1405.11,-1654.5C1405.11,-1654.5 1600.31,-1654.5 1600.31,-1654.5"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1600.31,-1658 1610.31,-1654.5 1600.31,-1651 1600.31,-1658"/>
 <text text-anchor="middle" x="1497" y="-1658.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_depenses_acquisition</text>
 </g>
-<!-- a5f263ce49bf406485b36f446ac5afa8 -->
+<!-- f8185509571148d7a172e0dd0ad77f96 -->
 <g id="node19" class="node">
-<title>a5f263ce49bf406485b36f446ac5afa8</title>
+<title>f8185509571148d7a172e0dd0ad77f96</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1610.5" y="-1960.5"/>
 <text text-anchor="middle" x="1661" y="-1845.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.t_datastudio_depenses_traitement</text>
 </g>
-<!-- caf45dc7b3b043d795ae5fadc3ea8a49&#45;&gt;a5f263ce49bf406485b36f446ac5afa8 -->
+<!-- c61c5ecd1b0b4e7d82b6b6592626db06&#45;&gt;f8185509571148d7a172e0dd0ad77f96 -->
 <g id="edge18" class="edge">
-<title>caf45dc7b3b043d795ae5fadc3ea8a49&#45;&gt;a5f263ce49bf406485b36f446ac5afa8</title>
+<title>c61c5ecd1b0b4e7d82b6b6592626db06&#45;&gt;f8185509571148d7a172e0dd0ad77f96</title>
 <path fill="none" stroke="#7b8894" d="M1405.11,-1731.5C1492.17,-1731.5 1661,-1731.5 1661,-1731.5 1661,-1731.5 1661,-1831.5 1661,-1831.5"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1657.5,-1831.5 1661,-1841.5 1664.5,-1831.5 1657.5,-1831.5"/>
 <text text-anchor="middle" x="1497" y="-1844.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_depenses_traitement</text>
 </g>
-<!-- 00e3676398d748f5bd79da939e78e38d -->
+<!-- 8a70d720802d4d9aaa8411a4d9310275 -->
 <g id="node21" class="node">
-<title>00e3676398d748f5bd79da939e78e38d</title>
+<title>8a70d720802d4d9aaa8411a4d9310275</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-1960.5"/>
 <text text-anchor="middle" x="1981.5" y="-1845.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_datastudio_contrats_offres_energie</text>
 </g>
-<!-- caf45dc7b3b043d795ae5fadc3ea8a49&#45;&gt;00e3676398d748f5bd79da939e78e38d -->
+<!-- c61c5ecd1b0b4e7d82b6b6592626db06&#45;&gt;8a70d720802d4d9aaa8411a4d9310275 -->
 <g id="edge20" class="edge">
-<title>caf45dc7b3b043d795ae5fadc3ea8a49&#45;&gt;00e3676398d748f5bd79da939e78e38d</title>
+<title>c61c5ecd1b0b4e7d82b6b6592626db06&#45;&gt;8a70d720802d4d9aaa8411a4d9310275</title>
 <path fill="none" stroke="#7b8894" d="M1405.08,-1714.5C1515.23,-1714.5 1767,-1714.5 1767,-1714.5 1767,-1714.5 1767,-1923.7 1767,-1923.7 1767,-1923.7 1920.94,-1923.7 1920.94,-1923.7"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1920.94,-1927.2 1930.94,-1923.7 1920.94,-1920.2 1920.94,-1927.2"/>
 <text text-anchor="middle" x="1661" y="-1787.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_contrats_offres_energie</text>
 </g>
-<!-- 432b349f676844c394e30757b86e7519 -->
+<!-- 868241bfabba40458d95b166a44a43c0 -->
 <g id="node14" class="node">
-<title>432b349f676844c394e30757b86e7519</title>
+<title>868241bfabba40458d95b166a44a43c0</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="848.5" y="-1420.5"/>
 <text text-anchor="middle" x="899" y="-1305.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.e_ds_comper_objectifs_2018_seulement</text>
 </g>
-<!-- 432b349f676844c394e30757b86e7519&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49 -->
+<!-- 868241bfabba40458d95b166a44a43c0&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06 -->
 <g id="edge12" class="edge">
-<title>432b349f676844c394e30757b86e7519&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49</title>
+<title>868241bfabba40458d95b166a44a43c0&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06</title>
 <path fill="none" stroke="#7b8894" d="M949.6,-1435C1016.77,-1435 1127,-1435 1127,-1435 1127,-1435 1127,-1615 1127,-1615 1127,-1615 1293.73,-1615 1293.73,-1615"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1293.73,-1618.5 1303.73,-1615 1293.73,-1611.5 1293.73,-1618.5"/>
 <text text-anchor="middle" x="1160" y="-1449.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_contrats_offres_energie_hors_depenses</text>
 </g>
-<!-- e1df3e0a434043fa85ece9bca2547ae8 -->
+<!-- 24c2c3c188574888aa57b46bb5194d51 -->
 <g id="node15" class="node">
-<title>e1df3e0a434043fa85ece9bca2547ae8</title>
+<title>24c2c3c188574888aa57b46bb5194d51</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="848.5" y="-1240.5"/>
 <text text-anchor="middle" x="899" y="-1125.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.e_ds_comper_objectifs_2019_seulement</text>
 </g>
-<!-- e1df3e0a434043fa85ece9bca2547ae8&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49 -->
+<!-- 24c2c3c188574888aa57b46bb5194d51&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06 -->
 <g id="edge13" class="edge">
-<title>e1df3e0a434043fa85ece9bca2547ae8&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49</title>
+<title>24c2c3c188574888aa57b46bb5194d51&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06</title>
 <path fill="none" stroke="#7b8894" d="M949.58,-1190C1039.08,-1190 1216,-1190 1216,-1190 1216,-1190 1216,-1613.25 1216,-1613.25 1216,-1613.25 1293.71,-1613.25 1293.71,-1613.25"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1293.71,-1616.75 1303.71,-1613.25 1293.71,-1609.75 1293.71,-1616.75"/>
 <text text-anchor="middle" x="1160" y="-1290.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_contrats_offres_energie_hors_depenses</text>
 </g>
-<!-- 6402d8f3bc75431591ba53b2e68c80fc -->
+<!-- 856906b669ba4fe49d92dd4754d600f8 -->
 <g id="node16" class="node">
-<title>6402d8f3bc75431591ba53b2e68c80fc</title>
+<title>856906b669ba4fe49d92dd4754d600f8</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="848.5" y="-1060.5"/>
 <text text-anchor="middle" x="899" y="-945.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.e_ds_comper_objectifs</text>
 </g>
-<!-- 6402d8f3bc75431591ba53b2e68c80fc&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49 -->
+<!-- 856906b669ba4fe49d92dd4754d600f8&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06 -->
 <g id="edge15" class="edge">
-<title>6402d8f3bc75431591ba53b2e68c80fc&#45;&gt;caf45dc7b3b043d795ae5fadc3ea8a49</title>
+<title>856906b669ba4fe49d92dd4754d600f8&#45;&gt;c61c5ecd1b0b4e7d82b6b6592626db06</title>
 <path fill="none" stroke="#7b8894" d="M949.54,-1010C989.64,-1010 1039,-1010 1039,-1010 1039,-1010 1039,-1627.1 1039,-1627.1 1039,-1627.1 1293.81,-1627.1 1293.81,-1627.1"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1293.81,-1630.6 1303.81,-1627.1 1293.81,-1623.6 1293.81,-1630.6"/>
 <text text-anchor="middle" x="1160" y="-1120.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_contrats_offres_energie_hors_depenses</text>
 </g>
-<!-- 6f341b8035e949de9373d16031b8a942&#45;&gt;00e3676398d748f5bd79da939e78e38d -->
+<!-- 96b93517d230414d936392095e56de26&#45;&gt;8a70d720802d4d9aaa8411a4d9310275 -->
 <g id="edge21" class="edge">
-<title>6f341b8035e949de9373d16031b8a942&#45;&gt;00e3676398d748f5bd79da939e78e38d</title>
+<title>96b93517d230414d936392095e56de26&#45;&gt;8a70d720802d4d9aaa8411a4d9310275</title>
 <path fill="none" stroke="#7b8894" d="M1711.94,-1679.5C1759.11,-1679.5 1822,-1679.5 1822,-1679.5 1822,-1679.5 1822,-1896.3 1822,-1896.3 1822,-1896.3 1920.59,-1896.3 1920.59,-1896.3"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1920.59,-1899.8 1930.59,-1896.3 1920.59,-1892.8 1920.59,-1899.8"/>
 <text text-anchor="middle" x="1832" y="-1699.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_contrats_offres_energie</text>
 </g>
-<!-- f94d8646c3c7485f8ee6ddd25015b5d9 -->
+<!-- 8e4e165b084246c5a7de8c3126200a28 -->
 <g id="node18" class="node">
-<title>f94d8646c3c7485f8ee6ddd25015b5d9</title>
+<title>8e4e165b084246c5a7de8c3126200a28</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1304" y="-1550.5"/>
 <text text-anchor="middle" x="1354.5" y="-1435.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">depenses.e_gsheet_depenses_acquisition</text>
 </g>
-<!-- f94d8646c3c7485f8ee6ddd25015b5d9&#45;&gt;6f341b8035e949de9373d16031b8a942 -->
+<!-- 8e4e165b084246c5a7de8c3126200a28&#45;&gt;96b93517d230414d936392095e56de26 -->
 <g id="edge17" class="edge">
-<title>f94d8646c3c7485f8ee6ddd25015b5d9&#45;&gt;6f341b8035e949de9373d16031b8a942</title>
+<title>8e4e165b084246c5a7de8c3126200a28&#45;&gt;96b93517d230414d936392095e56de26</title>
 <path fill="none" stroke="#7b8894" d="M1405.11,-1564.5C1405.11,-1564.5 1600.31,-1564.5 1600.31,-1564.5"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1600.31,-1568 1610.31,-1564.5 1600.31,-1561 1600.31,-1568"/>
 <text text-anchor="middle" x="1497" y="-1549.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_depenses_acquisition</text>
 </g>
-<!-- a5f263ce49bf406485b36f446ac5afa8&#45;&gt;00e3676398d748f5bd79da939e78e38d -->
+<!-- f8185509571148d7a172e0dd0ad77f96&#45;&gt;8a70d720802d4d9aaa8411a4d9310275 -->
 <g id="edge22" class="edge">
-<title>a5f263ce49bf406485b36f446ac5afa8&#45;&gt;00e3676398d748f5bd79da939e78e38d</title>
+<title>f8185509571148d7a172e0dd0ad77f96&#45;&gt;8a70d720802d4d9aaa8411a4d9310275</title>
 <path fill="none" stroke="#7b8894" d="M1711.78,-1951.1C1711.78,-1951.1 1920.95,-1951.1 1920.95,-1951.1"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1920.95,-1954.6 1930.95,-1951.1 1920.95,-1947.6 1920.95,-1954.6"/>
 <text text-anchor="middle" x="1832" y="-1913.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_contrats_offres_energie</text>
 </g>
-<!-- 4818734b576f4d19b152cbdcd601a372 -->
+<!-- cf14e81a1f6149a0bc70d9ef702d716a -->
 <g id="node20" class="node">
-<title>4818734b576f4d19b152cbdcd601a372</title>
+<title>cf14e81a1f6149a0bc70d9ef702d716a</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1304" y="-1960.5"/>
 <text text-anchor="middle" x="1354.5" y="-1845.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">depenses.e_gsheet_depenses_traitement</text>
 </g>
-<!-- 4818734b576f4d19b152cbdcd601a372&#45;&gt;a5f263ce49bf406485b36f446ac5afa8 -->
+<!-- cf14e81a1f6149a0bc70d9ef702d716a&#45;&gt;f8185509571148d7a172e0dd0ad77f96 -->
 <g id="edge19" class="edge">
-<title>4818734b576f4d19b152cbdcd601a372&#45;&gt;a5f263ce49bf406485b36f446ac5afa8</title>
+<title>cf14e81a1f6149a0bc70d9ef702d716a&#45;&gt;f8185509571148d7a172e0dd0ad77f96</title>
 <path fill="none" stroke="#7b8894" d="M1405.11,-1910C1405.11,-1910 1600.31,-1910 1600.31,-1910"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1600.31,-1913.5 1610.31,-1910 1600.31,-1906.5 1600.31,-1913.5"/>
 <text text-anchor="middle" x="1497" y="-1913.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_depenses_traitement</text>
 </g>
-<!-- b579db7d5dac4a97a59401decca8bf7f -->
+<!-- 20917783272c4296b957c998fd5b60ee -->
 <g id="node23" class="node">
-<title>b579db7d5dac4a97a59401decca8bf7f</title>
+<title>20917783272c4296b957c998fd5b60ee</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="2272" y="-1060.5"/>
 <text text-anchor="middle" x="2322.5" y="-945.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_v_digi_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- 00e3676398d748f5bd79da939e78e38d&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- 8a70d720802d4d9aaa8411a4d9310275&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge24" class="edge">
-<title>00e3676398d748f5bd79da939e78e38d&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>8a70d720802d4d9aaa8411a4d9310275&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.14,-1910C2134.64,-1910 2357,-1910 2357,-1910 2357,-1910 2357,-1088.76 2357,-1088.76"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2360.5,-1088.76 2357,-1078.76 2353.5,-1088.76 2360.5,-1088.76"/>
 <text text-anchor="middle" x="2152" y="-1798.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- 373158f73da9461096fd1dca178ce8b7 -->
+<!-- d1d1cf3115f04dbf960b23c96a60dc58 -->
 <g id="node22" class="node">
-<title>373158f73da9461096fd1dca178ce8b7</title>
+<title>d1d1cf3115f04dbf960b23c96a60dc58</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1610.5" y="-1499.5"/>
 <text text-anchor="middle" x="1661" y="-1384.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_datastudio_contrats_offres_energie_avant_2021</text>
 </g>
-<!-- 373158f73da9461096fd1dca178ce8b7&#45;&gt;00e3676398d748f5bd79da939e78e38d -->
+<!-- d1d1cf3115f04dbf960b23c96a60dc58&#45;&gt;8a70d720802d4d9aaa8411a4d9310275 -->
 <g id="edge23" class="edge">
-<title>373158f73da9461096fd1dca178ce8b7&#45;&gt;00e3676398d748f5bd79da939e78e38d</title>
+<title>d1d1cf3115f04dbf960b23c96a60dc58&#45;&gt;8a70d720802d4d9aaa8411a4d9310275</title>
 <path fill="none" stroke="#7b8894" d="M1711.64,-1499.5C1775.49,-1499.5 1877,-1499.5 1877,-1499.5 1877,-1499.5 1877,-1868.9 1877,-1868.9 1877,-1868.9 1920.78,-1868.9 1920.78,-1868.9"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1920.78,-1872.4 1930.78,-1868.9 1920.78,-1865.4 1920.78,-1872.4"/>
 <text text-anchor="middle" x="1832" y="-1544.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_contrats_offres_energie</text>
 </g>
-<!-- ab144b2cab8248d0b33802aae86e389e -->
+<!-- 32e6ac1a9ed7454f801b20dcfc84ae12 -->
 <g id="node24" class="node">
-<title>ab144b2cab8248d0b33802aae86e389e</title>
+<title>32e6ac1a9ed7454f801b20dcfc84ae12</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-1780.5"/>
 <text text-anchor="middle" x="1981.5" y="-1665.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_ama_to_ds_comper_contrats_services</text>
 </g>
-<!-- ab144b2cab8248d0b33802aae86e389e&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- 32e6ac1a9ed7454f801b20dcfc84ae12&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge25" class="edge">
-<title>ab144b2cab8248d0b33802aae86e389e&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>32e6ac1a9ed7454f801b20dcfc84ae12&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.1,-1730C2130.92,-1730 2340,-1730 2340,-1730 2340,-1730 2340,-1088.71 2340,-1088.71"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2343.5,-1088.71 2340,-1078.71 2336.5,-1088.71 2343.5,-1088.71"/>
 <text text-anchor="middle" x="2152" y="-1622.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- 6a35c45ce7e34db59869d3086d7d7896 -->
+<!-- c48d43f22848493cb840e5f8805937a0 -->
 <g id="node25" class="node">
-<title>6a35c45ce7e34db59869d3086d7d7896</title>
+<title>c48d43f22848493cb840e5f8805937a0</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-1600.5"/>
 <text text-anchor="middle" x="1981.5" y="-1485.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_ama_to_ds_comper_options_vertes</text>
 </g>
-<!-- 6a35c45ce7e34db59869d3086d7d7896&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- c48d43f22848493cb840e5f8805937a0&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge26" class="edge">
-<title>6a35c45ce7e34db59869d3086d7d7896&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>c48d43f22848493cb840e5f8805937a0&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.26,-1550C2127.39,-1550 2323,-1550 2323,-1550 2323,-1550 2323,-1088.67 2323,-1088.67"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2326.5,-1088.67 2323,-1078.67 2319.5,-1088.67 2326.5,-1088.67"/>
 <text text-anchor="middle" x="2152" y="-1449.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- d6d8a6babdc54a80b69b74f51648b28e -->
+<!-- b3d72585cb914d58ae517bf6d3ecede4 -->
 <g id="node26" class="node">
-<title>d6d8a6babdc54a80b69b74f51648b28e</title>
+<title>b3d72585cb914d58ae517bf6d3ecede4</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-1420.5"/>
 <text text-anchor="middle" x="1981.5" y="-1305.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_ama_to_ds_comper_t_ama_parrainage</text>
 </g>
-<!-- d6d8a6babdc54a80b69b74f51648b28e&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- b3d72585cb914d58ae517bf6d3ecede4&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge27" class="edge">
-<title>d6d8a6babdc54a80b69b74f51648b28e&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>b3d72585cb914d58ae517bf6d3ecede4&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.2,-1370C2123.47,-1370 2306,-1370 2306,-1370 2306,-1370 2306,-1088.56 2306,-1088.56"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2309.5,-1088.56 2306,-1078.56 2302.5,-1088.56 2309.5,-1088.56"/>
 <text text-anchor="middle" x="2152" y="-1284.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- af876386850c4ab1a982e9272171b601 -->
+<!-- 39ca15fb6ec94fa49dcc58e3d2124cad -->
 <g id="node27" class="node">
-<title>af876386850c4ab1a982e9272171b601</title>
+<title>39ca15fb6ec94fa49dcc58e3d2124cad</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-1240.5"/>
 <text text-anchor="middle" x="1981.5" y="-1125.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_ga_to_ds_comper_e_gsheet_cee_souscriptions</text>
 </g>
-<!-- af876386850c4ab1a982e9272171b601&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- 39ca15fb6ec94fa49dcc58e3d2124cad&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge28" class="edge">
-<title>af876386850c4ab1a982e9272171b601&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>39ca15fb6ec94fa49dcc58e3d2124cad&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.28,-1190C2119.62,-1190 2289,-1190 2289,-1190 2289,-1190 2289,-1088.56 2289,-1088.56"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2292.5,-1088.56 2289,-1078.56 2285.5,-1088.56 2292.5,-1088.56"/>
 <text text-anchor="middle" x="2152" y="-1134.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- 20a26f60d6e448cca7dbac413e12adff -->
+<!-- ce157d1878ab42ceae599e960dcb6502 -->
 <g id="node28" class="node">
-<title>20a26f60d6e448cca7dbac413e12adff</title>
+<title>ce157d1878ab42ceae599e960dcb6502</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-1060.5"/>
 <text text-anchor="middle" x="1981.5" y="-945.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_ama_to_ds_comper_bout_en_bout_equipements</text>
 </g>
-<!-- 20a26f60d6e448cca7dbac413e12adff&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- ce157d1878ab42ceae599e960dcb6502&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge29" class="edge">
-<title>20a26f60d6e448cca7dbac413e12adff&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>ce157d1878ab42ceae599e960dcb6502&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.18,-1010C2032.18,-1010 2261.82,-1010 2261.82,-1010"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2261.82,-1013.5 2271.82,-1010 2261.82,-1006.5 2261.82,-1013.5"/>
 <text text-anchor="middle" x="2152" y="-1013.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- 80d6882499fb4e198edb18182b13e9b0 -->
+<!-- 9856756bb60742e39dff5a3629a5d3f3 -->
 <g id="node29" class="node">
-<title>80d6882499fb4e198edb18182b13e9b0</title>
+<title>9856756bb60742e39dff5a3629a5d3f3</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-880.5"/>
 <text text-anchor="middle" x="1981.5" y="-765.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.e_ds_comper_objectifs_hors_energie</text>
 </g>
-<!-- 80d6882499fb4e198edb18182b13e9b0&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- 9856756bb60742e39dff5a3629a5d3f3&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge30" class="edge">
-<title>80d6882499fb4e198edb18182b13e9b0&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>9856756bb60742e39dff5a3629a5d3f3&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.28,-830C2119.62,-830 2289,-830 2289,-830 2289,-830 2289,-931.44 2289,-931.44"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2285.5,-931.44 2289,-941.44 2292.5,-931.44 2285.5,-931.44"/>
 <text text-anchor="middle" x="2152" y="-892.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- ec01d209fc4345e49b38122781b1b421 -->
+<!-- 8c1e9fda11f34e699fd140ba7be6f9b6 -->
 <g id="node30" class="node">
-<title>ec01d209fc4345e49b38122781b1b421</title>
+<title>8c1e9fda11f34e699fd140ba7be6f9b6</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-700.5"/>
 <text text-anchor="middle" x="1981.5" y="-585.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_mypower_to_ds_comper_mypower</text>
 </g>
-<!-- ec01d209fc4345e49b38122781b1b421&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- 8c1e9fda11f34e699fd140ba7be6f9b6&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge31" class="edge">
-<title>ec01d209fc4345e49b38122781b1b421&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>8c1e9fda11f34e699fd140ba7be6f9b6&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.2,-650C2123.47,-650 2306,-650 2306,-650 2306,-650 2306,-931.44 2306,-931.44"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2302.5,-931.44 2306,-941.44 2309.5,-931.44 2302.5,-931.44"/>
 <text text-anchor="middle" x="2152" y="-741.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- 1d16ffdbd08a42a59bf1845935a2a725 -->
+<!-- 906b2af2f85c49a2b2f71a8af765d827 -->
 <g id="node31" class="node">
-<title>1d16ffdbd08a42a59bf1845935a2a725</title>
+<title>906b2af2f85c49a2b2f71a8af765d827</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-520.5"/>
 <text text-anchor="middle" x="1981.5" y="-405.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_ama_to_ds_comper_prelevement_mensualisation</text>
 </g>
-<!-- 1d16ffdbd08a42a59bf1845935a2a725&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- 906b2af2f85c49a2b2f71a8af765d827&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge32" class="edge">
-<title>1d16ffdbd08a42a59bf1845935a2a725&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>906b2af2f85c49a2b2f71a8af765d827&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.26,-470C2127.39,-470 2323,-470 2323,-470 2323,-470 2323,-931.33 2323,-931.33"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2319.5,-931.33 2323,-941.33 2326.5,-931.33 2319.5,-931.33"/>
 <text text-anchor="middle" x="2152" y="-576.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- 9a11e3ee947b43d888a04fb8a13d8bed -->
+<!-- 6dcbe76fcf6d4c10bae7607fe4e7e134 -->
 <g id="node32" class="node">
-<title>9a11e3ee947b43d888a04fb8a13d8bed</title>
+<title>6dcbe76fcf6d4c10bae7607fe4e7e134</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-340.5"/>
 <text text-anchor="middle" x="1981.5" y="-225.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_ama_to_ds_comper_activation_energie</text>
 </g>
-<!-- 9a11e3ee947b43d888a04fb8a13d8bed&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- 6dcbe76fcf6d4c10bae7607fe4e7e134&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge33" class="edge">
-<title>9a11e3ee947b43d888a04fb8a13d8bed&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>6dcbe76fcf6d4c10bae7607fe4e7e134&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.1,-290C2130.92,-290 2340,-290 2340,-290 2340,-290 2340,-931.29 2340,-931.29"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2336.5,-931.29 2340,-941.29 2343.5,-931.29 2336.5,-931.29"/>
 <text text-anchor="middle" x="2152" y="-403.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
 </g>
-<!-- 16327cc19b4e44f5b9c241d40c2645be -->
+<!-- 8a003bbed0c948579a2de16347cb411a -->
 <g id="node33" class="node">
-<title>16327cc19b4e44f5b9c241d40c2645be</title>
+<title>8a003bbed0c948579a2de16347cb411a</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1931" y="-160.5"/>
 <text text-anchor="middle" x="1981.5" y="-45.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">comper.l_ga_to_ds_comper_sessions</text>
 </g>
-<!-- 16327cc19b4e44f5b9c241d40c2645be&#45;&gt;b579db7d5dac4a97a59401decca8bf7f -->
+<!-- 8a003bbed0c948579a2de16347cb411a&#45;&gt;20917783272c4296b957c998fd5b60ee -->
 <g id="edge34" class="edge">
-<title>16327cc19b4e44f5b9c241d40c2645be&#45;&gt;b579db7d5dac4a97a59401decca8bf7f</title>
+<title>8a003bbed0c948579a2de16347cb411a&#45;&gt;20917783272c4296b957c998fd5b60ee</title>
 <path fill="none" stroke="#7b8894" d="M2032.14,-110C2134.64,-110 2357,-110 2357,-110 2357,-110 2357,-931.24 2357,-931.24"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="2353.5,-931.24 2357,-941.24 2360.5,-931.24 2353.5,-931.24"/>
 <text text-anchor="middle" x="2152" y="-227.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_comper_ventes_digitales</text>
