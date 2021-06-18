@@ -14,333 +14,333 @@
 <path fill="#e5f5fd" stroke="#aeb6be" d="M20,-33C20,-33 666,-33 666,-33 672,-33 678,-39 678,-45 678,-45 678,-3616 678,-3616 678,-3622 672,-3628 666,-3628 666,-3628 20,-3628 20,-3628 14,-3628 8,-3622 8,-3616 8,-3616 8,-45 8,-45 8,-39 14,-33 20,-33"/>
 <text text-anchor="middle" x="50.5" y="-3614.4" font-family="Sans-Serif" font-size="12.00" fill="#2d3436">sea_ga_gads</text>
 </g>
-<!-- b7b94a49b590401b874631fd02d6f32c -->
+<!-- a70520f49be24ca08bc8025508cd5626 -->
 <g id="node1" class="node">
-<title>b7b94a49b590401b874631fd02d6f32c</title>
+<title>a70520f49be24ca08bc8025508cd5626</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-3580.5"/>
 <text text-anchor="middle" x="343.5" y="-3465.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_WCB_Bing_2019</text>
 </g>
-<!-- 352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="node2" class="node">
-<title>352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>e6b28f397d4e45c9809e5926d291f1f4</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="569" y="-1869.5"/>
 <text text-anchor="middle" x="619.5" y="-1754.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.l_ga_gads_to_ds_sea_ga_gads</text>
 </g>
-<!-- b7b94a49b590401b874631fd02d6f32c&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- a70520f49be24ca08bc8025508cd5626&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge1" class="edge">
-<title>b7b94a49b590401b874631fd02d6f32c&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>a70520f49be24ca08bc8025508cd5626&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394,-3530C483.36,-3530 660,-3530 660,-3530 660,-3530 660,-1897.66 660,-1897.66"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="663.5,-1897.66 660,-1887.66 656.5,-1897.66 663.5,-1897.66"/>
 <text text-anchor="middle" x="481.5" y="-3444.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- caa709f5a8f94d05b719329fa8ff874b -->
+<!-- 7fd1c4d77e3e40b4b273f678b5574b58 -->
 <g id="node3" class="node">
-<title>caa709f5a8f94d05b719329fa8ff874b</title>
+<title>7fd1c4d77e3e40b4b273f678b5574b58</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-3400.5"/>
 <text text-anchor="middle" x="343.5" y="-3285.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_WCB_Bing_2020</text>
 </g>
-<!-- caa709f5a8f94d05b719329fa8ff874b&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- 7fd1c4d77e3e40b4b273f678b5574b58&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge2" class="edge">
-<title>caa709f5a8f94d05b719329fa8ff874b&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>7fd1c4d77e3e40b4b273f678b5574b58&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.11,-3350C481.17,-3350 650,-3350 650,-3350 650,-3350 650,-1897.76 650,-1897.76"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="653.5,-1897.76 650,-1887.76 646.5,-1897.76 653.5,-1897.76"/>
 <text text-anchor="middle" x="481.5" y="-3264.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- 66e4c8dbc25d4aafb67acf39f813f7e6 -->
+<!-- fd1b93643f1f4ea68166b59af566b8ad -->
 <g id="node4" class="node">
-<title>66e4c8dbc25d4aafb67acf39f813f7e6</title>
+<title>fd1b93643f1f4ea68166b59af566b8ad</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-3220.5"/>
 <text text-anchor="middle" x="343.5" y="-3105.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_WCB_Bing_2021</text>
 </g>
-<!-- 66e4c8dbc25d4aafb67acf39f813f7e6&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- fd1b93643f1f4ea68166b59af566b8ad&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge3" class="edge">
-<title>66e4c8dbc25d4aafb67acf39f813f7e6&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>fd1b93643f1f4ea68166b59af566b8ad&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.13,-3170C478.82,-3170 640,-3170 640,-3170 640,-3170 640,-1897.85 640,-1897.85"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="643.5,-1897.85 640,-1887.85 636.5,-1897.85 643.5,-1897.85"/>
 <text text-anchor="middle" x="481.5" y="-3084.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- 99618050e29c415cbdc686338275fbe8 -->
+<!-- 2771442ce12f409ca799fe301cbd0070 -->
 <g id="node5" class="node">
-<title>99618050e29c415cbdc686338275fbe8</title>
+<title>2771442ce12f409ca799fe301cbd0070</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-340.5"/>
 <text text-anchor="middle" x="343.5" y="-225.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.t_ga_WCB_bing</text>
 </g>
-<!-- 99618050e29c415cbdc686338275fbe8&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- 2771442ce12f409ca799fe301cbd0070&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge4" class="edge">
-<title>99618050e29c415cbdc686338275fbe8&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>2771442ce12f409ca799fe301cbd0070&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.11,-290C481.17,-290 650,-290 650,-290 650,-290 650,-1740.33 650,-1740.33"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="646.5,-1740.33 650,-1750.33 653.5,-1740.33 646.5,-1740.33"/>
 <text text-anchor="middle" x="481.5" y="-410.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- de4d8b4022ae45b8aa161fc7097f0bf3 -->
+<!-- 7b6e64719b0a46ae83070d0d7e6b19d7 -->
 <g id="node6" class="node">
-<title>de4d8b4022ae45b8aa161fc7097f0bf3</title>
+<title>7b6e64719b0a46ae83070d0d7e6b19d7</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-3040.5"/>
 <text text-anchor="middle" x="343.5" y="-2925.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_WCB_Google_2019</text>
 </g>
-<!-- de4d8b4022ae45b8aa161fc7097f0bf3&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- 7b6e64719b0a46ae83070d0d7e6b19d7&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge5" class="edge">
-<title>de4d8b4022ae45b8aa161fc7097f0bf3&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>7b6e64719b0a46ae83070d0d7e6b19d7&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.06,-2990C476.31,-2990 630,-2990 630,-2990 630,-2990 630,-1897.88 630,-1897.88"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="633.5,-1897.88 630,-1887.88 626.5,-1897.88 633.5,-1897.88"/>
 <text text-anchor="middle" x="481.5" y="-2904.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- 7939df08e4354ef298e5cca86820d07a -->
+<!-- ffcec29921d54d2789f2e91e8ab56a7a -->
 <g id="node7" class="node">
-<title>7939df08e4354ef298e5cca86820d07a</title>
+<title>ffcec29921d54d2789f2e91e8ab56a7a</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-2860.5"/>
 <text text-anchor="middle" x="343.5" y="-2745.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_WCB_Google_2020</text>
 </g>
-<!-- 7939df08e4354ef298e5cca86820d07a&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- ffcec29921d54d2789f2e91e8ab56a7a&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge6" class="edge">
-<title>7939df08e4354ef298e5cca86820d07a&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>ffcec29921d54d2789f2e91e8ab56a7a&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.21,-2810C474.04,-2810 620,-2810 620,-2810 620,-2810 620,-1897.51 620,-1897.51"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="623.5,-1897.51 620,-1887.51 616.5,-1897.51 623.5,-1897.51"/>
 <text text-anchor="middle" x="481.5" y="-2725.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- dcf83a0dd48a462f93ab017df18adb23 -->
+<!-- ddd1228fa2d04d77aaea17bac4d2d89f -->
 <g id="node8" class="node">
-<title>dcf83a0dd48a462f93ab017df18adb23</title>
+<title>ddd1228fa2d04d77aaea17bac4d2d89f</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-2680.5"/>
 <text text-anchor="middle" x="343.5" y="-2565.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_WCB_Google_2021</text>
 </g>
-<!-- dcf83a0dd48a462f93ab017df18adb23&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- ddd1228fa2d04d77aaea17bac4d2d89f&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge7" class="edge">
-<title>dcf83a0dd48a462f93ab017df18adb23&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>ddd1228fa2d04d77aaea17bac4d2d89f&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.25,-2630C471.58,-2630 610,-2630 610,-2630 610,-2630 610,-1897.8 610,-1897.8"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="613.5,-1897.8 610,-1887.8 606.5,-1897.8 613.5,-1897.8"/>
 <text text-anchor="middle" x="481.5" y="-2547.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- d97b49b661bb48cb83e2135e46c563aa -->
+<!-- e7c24a40533d48dd8a591ad8a3fd50e8 -->
 <g id="node9" class="node">
-<title>d97b49b661bb48cb83e2135e46c563aa</title>
+<title>e7c24a40533d48dd8a591ad8a3fd50e8</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-160.5"/>
 <text text-anchor="middle" x="343.5" y="-45.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.t_ga_WCB_google</text>
 </g>
-<!-- d97b49b661bb48cb83e2135e46c563aa&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- e7c24a40533d48dd8a591ad8a3fd50e8&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge8" class="edge">
-<title>d97b49b661bb48cb83e2135e46c563aa&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>e7c24a40533d48dd8a591ad8a3fd50e8&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394,-110C483.36,-110 660,-110 660,-110 660,-110 660,-1740.42 660,-1740.42"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="656.5,-1740.42 660,-1750.42 663.5,-1740.42 656.5,-1740.42"/>
 <text text-anchor="middle" x="481.5" y="-230.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- c0e1a8d3a7c3438492d865c9bc7cd348 -->
+<!-- a67b6ea78b024e03b59d71a28c1e3536 -->
 <g id="node10" class="node">
-<title>c0e1a8d3a7c3438492d865c9bc7cd348</title>
+<title>a67b6ea78b024e03b59d71a28c1e3536</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-2500.5"/>
 <text text-anchor="middle" x="343.5" y="-2385.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_click_to_call_Google_campagne</text>
 </g>
-<!-- c0e1a8d3a7c3438492d865c9bc7cd348&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- a67b6ea78b024e03b59d71a28c1e3536&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge9" class="edge">
-<title>c0e1a8d3a7c3438492d865c9bc7cd348&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>a67b6ea78b024e03b59d71a28c1e3536&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.18,-2450C468.93,-2450 600,-2450 600,-2450 600,-2450 600,-1897.73 600,-1897.73"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="603.5,-1897.73 600,-1887.73 596.5,-1897.73 603.5,-1897.73"/>
 <text text-anchor="middle" x="481.5" y="-2371.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- edb0c046da26407a989fd0810f530211 -->
+<!-- a417ea336dcc4927a2d3d2b8e1ca4ab8 -->
 <g id="node11" class="node">
-<title>edb0c046da26407a989fd0810f530211</title>
+<title>a417ea336dcc4927a2d3d2b8e1ca4ab8</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-2320.5"/>
 <text text-anchor="middle" x="343.5" y="-2205.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_click_to_call_Google_campagne_2021</text>
 </g>
-<!-- edb0c046da26407a989fd0810f530211&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- a417ea336dcc4927a2d3d2b8e1ca4ab8&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge10" class="edge">
-<title>edb0c046da26407a989fd0810f530211&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>a417ea336dcc4927a2d3d2b8e1ca4ab8&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.28,-2270C466.44,-2270 590,-2270 590,-2270 590,-2270 590,-1897.99 590,-1897.99"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="593.5,-1897.99 590,-1887.99 586.5,-1897.99 593.5,-1897.99"/>
 <text text-anchor="middle" x="481.5" y="-2198.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- 7f05fc4282174c9d8c1ed35b38d97407 -->
+<!-- f77fc7d84f564472b6d72f830ebb98a6 -->
 <g id="node12" class="node">
-<title>7f05fc4282174c9d8c1ed35b38d97407</title>
+<title>f77fc7d84f564472b6d72f830ebb98a6</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-880.5"/>
 <text text-anchor="middle" x="343.5" y="-765.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.t_ga_goal1_goal2_bing</text>
 </g>
-<!-- 7f05fc4282174c9d8c1ed35b38d97407&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- f77fc7d84f564472b6d72f830ebb98a6&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge11" class="edge">
-<title>7f05fc4282174c9d8c1ed35b38d97407&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>f77fc7d84f564472b6d72f830ebb98a6&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.21,-830C474.04,-830 620,-830 620,-830 620,-830 620,-1740.24 620,-1740.24"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="616.5,-1740.24 620,-1750.24 623.5,-1740.24 616.5,-1740.24"/>
 <text text-anchor="middle" x="481.5" y="-948.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- e686b4e017464fbbbd53042dafaa9755 -->
+<!-- 4ad3332543e84db08820b5bbc0056b7e -->
 <g id="node13" class="node">
-<title>e686b4e017464fbbbd53042dafaa9755</title>
+<title>4ad3332543e84db08820b5bbc0056b7e</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-2140.5"/>
 <text text-anchor="middle" x="343.5" y="-2025.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_goal1_goal2_bing_campagne_2019</text>
 </g>
-<!-- e686b4e017464fbbbd53042dafaa9755&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- 4ad3332543e84db08820b5bbc0056b7e&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge12" class="edge">
-<title>e686b4e017464fbbbd53042dafaa9755&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>4ad3332543e84db08820b5bbc0056b7e&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.24,-2090C463.73,-2090 580,-2090 580,-2090 580,-2090 580,-1897.74 580,-1897.74"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="583.5,-1897.74 580,-1887.74 576.5,-1897.74 583.5,-1897.74"/>
 <text text-anchor="middle" x="481.5" y="-2033.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- fca71a8171e9491b99472def2da18b98 -->
+<!-- 4febf3d0610949d5a17269ec1e993cee -->
 <g id="node14" class="node">
-<title>fca71a8171e9491b99472def2da18b98</title>
+<title>4febf3d0610949d5a17269ec1e993cee</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-1960.5"/>
 <text text-anchor="middle" x="343.5" y="-1845.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_goal1_goal2_bing_campagne_2020</text>
 </g>
-<!-- fca71a8171e9491b99472def2da18b98&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- 4febf3d0610949d5a17269ec1e993cee&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge13" class="edge">
-<title>fca71a8171e9491b99472def2da18b98&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>4febf3d0610949d5a17269ec1e993cee&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.12,-1864.5C394.12,-1864.5 558.73,-1864.5 558.73,-1864.5"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="558.73,-1868 568.73,-1864.5 558.73,-1861 558.73,-1868"/>
 <text text-anchor="middle" x="481.5" y="-1883.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- 5c019a077e8c4de480d7bcc94f291547 -->
+<!-- 834ca27a85af43829aa8015cb6ccf364 -->
 <g id="node15" class="node">
-<title>5c019a077e8c4de480d7bcc94f291547</title>
+<title>834ca27a85af43829aa8015cb6ccf364</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-1780.5"/>
 <text text-anchor="middle" x="343.5" y="-1665.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_goal1_goal2_Bing_campagne_2021</text>
 </g>
-<!-- 5c019a077e8c4de480d7bcc94f291547&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- 834ca27a85af43829aa8015cb6ccf364&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge14" class="edge">
-<title>5c019a077e8c4de480d7bcc94f291547&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>834ca27a85af43829aa8015cb6ccf364&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.12,-1774.5C394.12,-1774.5 558.73,-1774.5 558.73,-1774.5"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="558.73,-1778 568.73,-1774.5 558.73,-1771 558.73,-1778"/>
 <text text-anchor="middle" x="481.5" y="-1762.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- ec9a110a547f401fa4d9ab2153969000 -->
+<!-- 7b82162e6e464637b860d90b655ee916 -->
 <g id="node16" class="node">
-<title>ec9a110a547f401fa4d9ab2153969000</title>
+<title>7b82162e6e464637b860d90b655ee916</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-520.5"/>
 <text text-anchor="middle" x="343.5" y="-405.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.t_ga_click_to_call</text>
 </g>
-<!-- ec9a110a547f401fa4d9ab2153969000&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- 7b82162e6e464637b860d90b655ee916&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge15" class="edge">
-<title>ec9a110a547f401fa4d9ab2153969000&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>7b82162e6e464637b860d90b655ee916&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.13,-470C478.82,-470 640,-470 640,-470 640,-470 640,-1740.25 640,-1740.25"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="636.5,-1740.25 640,-1750.25 643.5,-1740.25 636.5,-1740.25"/>
 <text text-anchor="middle" x="481.5" y="-590.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- 8d246aebcd854da7957881cd605929e9 -->
+<!-- f7937605b9344313873cc1752ec37593 -->
 <g id="node17" class="node">
-<title>8d246aebcd854da7957881cd605929e9</title>
+<title>f7937605b9344313873cc1752ec37593</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-1600.5"/>
 <text text-anchor="middle" x="343.5" y="-1485.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_goal1_goal2_google_campagne_2019</text>
 </g>
-<!-- 8d246aebcd854da7957881cd605929e9&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- f7937605b9344313873cc1752ec37593&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge16" class="edge">
-<title>8d246aebcd854da7957881cd605929e9&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>f7937605b9344313873cc1752ec37593&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.24,-1550C463.73,-1550 580,-1550 580,-1550 580,-1550 580,-1740.42 580,-1740.42"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="576.5,-1740.42 580,-1750.42 583.5,-1740.42 576.5,-1740.42"/>
 <text text-anchor="middle" x="481.5" y="-1626.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- a551678e19de4fb7bed061f7ff82e28b -->
+<!-- e4ba695b135b4b9780eae75ec7d47b73 -->
 <g id="node18" class="node">
-<title>a551678e19de4fb7bed061f7ff82e28b</title>
+<title>e4ba695b135b4b9780eae75ec7d47b73</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-1420.5"/>
 <text text-anchor="middle" x="343.5" y="-1305.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_goal1_goal2_google_campagne_2020</text>
 </g>
-<!-- a551678e19de4fb7bed061f7ff82e28b&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- e4ba695b135b4b9780eae75ec7d47b73&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge17" class="edge">
-<title>a551678e19de4fb7bed061f7ff82e28b&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>e4ba695b135b4b9780eae75ec7d47b73&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.28,-1370C466.44,-1370 590,-1370 590,-1370 590,-1370 590,-1740.32 590,-1740.32"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="586.5,-1740.32 590,-1750.32 593.5,-1740.32 586.5,-1740.32"/>
 <text text-anchor="middle" x="481.5" y="-1468.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- edb95479c4424230b281cf1510110e73 -->
+<!-- 5624aa4b359b43dfad7e934e30f4ad26 -->
 <g id="node19" class="node">
-<title>edb95479c4424230b281cf1510110e73</title>
+<title>5624aa4b359b43dfad7e934e30f4ad26</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-1240.5"/>
 <text text-anchor="middle" x="343.5" y="-1125.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_goal1_goal2_Google_campagne_2021</text>
 </g>
-<!-- edb95479c4424230b281cf1510110e73&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- 5624aa4b359b43dfad7e934e30f4ad26&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge18" class="edge">
-<title>edb95479c4424230b281cf1510110e73&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>5624aa4b359b43dfad7e934e30f4ad26&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.18,-1190C468.93,-1190 600,-1190 600,-1190 600,-1190 600,-1740.49 600,-1740.49"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="596.5,-1740.49 600,-1750.49 603.5,-1740.49 596.5,-1740.49"/>
 <text text-anchor="middle" x="481.5" y="-1299.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- f4a23e63ce024d6daba71ab54ff3406b -->
+<!-- bf420c13951b436897b71dd74fbefc06 -->
 <g id="node20" class="node">
-<title>f4a23e63ce024d6daba71ab54ff3406b</title>
+<title>bf420c13951b436897b71dd74fbefc06</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-700.5"/>
 <text text-anchor="middle" x="343.5" y="-585.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.t_ga_goal1_goal2_google</text>
 </g>
-<!-- f4a23e63ce024d6daba71ab54ff3406b&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- bf420c13951b436897b71dd74fbefc06&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge19" class="edge">
-<title>f4a23e63ce024d6daba71ab54ff3406b&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>bf420c13951b436897b71dd74fbefc06&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.06,-650C476.31,-650 630,-650 630,-650 630,-650 630,-1740.24 630,-1740.24"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="626.5,-1740.24 630,-1750.24 633.5,-1740.24 626.5,-1740.24"/>
 <text text-anchor="middle" x="481.5" y="-769.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- ea2ccfd9ff0f412d9eaf04f15d21ba51 -->
+<!-- c54c417b5f974538bf49f9f21da10237 -->
 <g id="node21" class="node">
-<title>ea2ccfd9ff0f412d9eaf04f15d21ba51</title>
+<title>c54c417b5f974538bf49f9f21da10237</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="293" y="-1060.5"/>
 <text text-anchor="middle" x="343.5" y="-945.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.[?config?]</text>
 </g>
-<!-- ea2ccfd9ff0f412d9eaf04f15d21ba51&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9 -->
+<!-- c54c417b5f974538bf49f9f21da10237&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4 -->
 <g id="edge20" class="edge">
-<title>ea2ccfd9ff0f412d9eaf04f15d21ba51&#45;&gt;352b756f3fff4d55bea66ab0e86de5d9</title>
+<title>c54c417b5f974538bf49f9f21da10237&#45;&gt;e6b28f397d4e45c9809e5926d291f1f4</title>
 <path fill="none" stroke="#7b8894" d="M394.25,-1010C471.58,-1010 610,-1010 610,-1010 610,-1010 610,-1740.37 610,-1740.37"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="606.5,-1740.37 610,-1750.37 613.5,-1740.37 606.5,-1740.37"/>
 <text text-anchor="middle" x="481.5" y="-1125.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">l_to_ds_sea_ga_gads</text>
 </g>
-<!-- cbe48d9f79994020b27fdd3637f64ee4 -->
+<!-- 7077244a6b534fb8ad746c914a5f7169 -->
 <g id="node22" class="node">
-<title>cbe48d9f79994020b27fdd3637f64ee4</title>
+<title>7077244a6b534fb8ad746c914a5f7169</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="16" y="-880.5"/>
 <text text-anchor="middle" x="66.5" y="-765.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_goal1_goal2_Bing_campagne_yesterday</text>
 </g>
-<!-- cbe48d9f79994020b27fdd3637f64ee4&#45;&gt;7f05fc4282174c9d8c1ed35b38d97407 -->
+<!-- 7077244a6b534fb8ad746c914a5f7169&#45;&gt;f77fc7d84f564472b6d72f830ebb98a6 -->
 <g id="edge21" class="edge">
-<title>cbe48d9f79994020b27fdd3637f64ee4&#45;&gt;7f05fc4282174c9d8c1ed35b38d97407</title>
+<title>7077244a6b534fb8ad746c914a5f7169&#45;&gt;f77fc7d84f564472b6d72f830ebb98a6</title>
 <path fill="none" stroke="#7b8894" d="M117.31,-830C117.31,-830 282.55,-830 282.55,-830"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="282.55,-833.5 292.55,-830 282.55,-826.5 282.55,-833.5"/>
 <text text-anchor="middle" x="205" y="-833.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_goal1_goal2_bing</text>
 </g>
-<!-- 2c4f2bce58884e4a807287cce400a97c -->
+<!-- 1771624f1cf34f248d3a43b8baa3e702 -->
 <g id="node23" class="node">
-<title>2c4f2bce58884e4a807287cce400a97c</title>
+<title>1771624f1cf34f248d3a43b8baa3e702</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="16" y="-700.5"/>
 <text text-anchor="middle" x="66.5" y="-585.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_goal1_goal2_Google_campagne_yesterday</text>
 </g>
-<!-- 2c4f2bce58884e4a807287cce400a97c&#45;&gt;f4a23e63ce024d6daba71ab54ff3406b -->
+<!-- 1771624f1cf34f248d3a43b8baa3e702&#45;&gt;bf420c13951b436897b71dd74fbefc06 -->
 <g id="edge22" class="edge">
-<title>2c4f2bce58884e4a807287cce400a97c&#45;&gt;f4a23e63ce024d6daba71ab54ff3406b</title>
+<title>1771624f1cf34f248d3a43b8baa3e702&#45;&gt;bf420c13951b436897b71dd74fbefc06</title>
 <path fill="none" stroke="#7b8894" d="M117.31,-650C117.31,-650 282.55,-650 282.55,-650"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="282.55,-653.5 292.55,-650 282.55,-646.5 282.55,-653.5"/>
 <text text-anchor="middle" x="205" y="-653.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_goal1_goal2_google</text>
 </g>
-<!-- d16adc7f6bad48d8bddead07f35283d7 -->
+<!-- faf2dac3c179474baa1e8e84ead034ee -->
 <g id="node24" class="node">
-<title>d16adc7f6bad48d8bddead07f35283d7</title>
+<title>faf2dac3c179474baa1e8e84ead034ee</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="16" y="-520.5"/>
 <text text-anchor="middle" x="66.5" y="-405.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_click_to_call_Google_campagne_yesterday</text>
 </g>
-<!-- d16adc7f6bad48d8bddead07f35283d7&#45;&gt;ec9a110a547f401fa4d9ab2153969000 -->
+<!-- faf2dac3c179474baa1e8e84ead034ee&#45;&gt;7b82162e6e464637b860d90b655ee916 -->
 <g id="edge23" class="edge">
-<title>d16adc7f6bad48d8bddead07f35283d7&#45;&gt;ec9a110a547f401fa4d9ab2153969000</title>
+<title>faf2dac3c179474baa1e8e84ead034ee&#45;&gt;7b82162e6e464637b860d90b655ee916</title>
 <path fill="none" stroke="#7b8894" d="M117.31,-470C117.31,-470 282.55,-470 282.55,-470"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="282.55,-473.5 292.55,-470 282.55,-466.5 282.55,-473.5"/>
 <text text-anchor="middle" x="205" y="-473.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_click_to_call</text>
 </g>
-<!-- 3c5858e58a4e4721add3f6f8afb2fafd -->
+<!-- d3a3e0a4ef694ef8b73e5247e7a3d796 -->
 <g id="node25" class="node">
-<title>3c5858e58a4e4721add3f6f8afb2fafd</title>
+<title>d3a3e0a4ef694ef8b73e5247e7a3d796</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="16" y="-340.5"/>
 <text text-anchor="middle" x="66.5" y="-225.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_WCB_Bing_yesterday</text>
 </g>
-<!-- 3c5858e58a4e4721add3f6f8afb2fafd&#45;&gt;99618050e29c415cbdc686338275fbe8 -->
+<!-- d3a3e0a4ef694ef8b73e5247e7a3d796&#45;&gt;2771442ce12f409ca799fe301cbd0070 -->
 <g id="edge24" class="edge">
-<title>3c5858e58a4e4721add3f6f8afb2fafd&#45;&gt;99618050e29c415cbdc686338275fbe8</title>
+<title>d3a3e0a4ef694ef8b73e5247e7a3d796&#45;&gt;2771442ce12f409ca799fe301cbd0070</title>
 <path fill="none" stroke="#7b8894" d="M117.31,-290C117.31,-290 282.55,-290 282.55,-290"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="282.55,-293.5 292.55,-290 282.55,-286.5 282.55,-293.5"/>
 <text text-anchor="middle" x="205" y="-293.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_appel_wcb_bing</text>
 </g>
-<!-- 02c8823cfc56412dbee9d0125901a75b -->
+<!-- 0729a08c852340cdb90c2da29fbc0755 -->
 <g id="node26" class="node">
-<title>02c8823cfc56412dbee9d0125901a75b</title>
+<title>0729a08c852340cdb90c2da29fbc0755</title>
 <image xlink:href="icons/bigquery.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="16" y="-160.5"/>
 <text text-anchor="middle" x="66.5" y="-45.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">sea_ga_gads.e_gsheet_WCB_Google_yesterday</text>
 </g>
-<!-- 02c8823cfc56412dbee9d0125901a75b&#45;&gt;d97b49b661bb48cb83e2135e46c563aa -->
+<!-- 0729a08c852340cdb90c2da29fbc0755&#45;&gt;e7c24a40533d48dd8a591ad8a3fd50e8 -->
 <g id="edge25" class="edge">
-<title>02c8823cfc56412dbee9d0125901a75b&#45;&gt;d97b49b661bb48cb83e2135e46c563aa</title>
+<title>0729a08c852340cdb90c2da29fbc0755&#45;&gt;e7c24a40533d48dd8a591ad8a3fd50e8</title>
 <path fill="none" stroke="#7b8894" d="M117.31,-110C117.31,-110 282.55,-110 282.55,-110"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="282.55,-113.5 292.55,-110 282.55,-106.5 282.55,-113.5"/>
 <text text-anchor="middle" x="205" y="-113.6" font-family="Sans-Serif" font-size="13.00" fill="darkgrey">t_appel_wcb_google</text>
