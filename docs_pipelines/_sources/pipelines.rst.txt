@@ -12,7 +12,10 @@ Pipelines
     {{ pipeline }}
     ---------------------------------------
 
-    .. image:: magic_docs/{{ pipeline }}.png
-        :target: _images/{{ pipeline }}.svg
+    `Agrandir l'image <_images/{{ pipeline }}.svg>`__
+
+    .. raw:: html
+
+        <object data="_images/{{ pipeline }}.svg" type="image/svg+xml" width="700pt"></object>
 
     {% endfor %}

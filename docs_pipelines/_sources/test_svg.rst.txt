@@ -1,0 +1,9 @@
+pouet
+======
+
+.. image:: magic_docs/amadeus.png
+    :target: _images/amadeus.svg
+
+.. raw:: html
+
+    <object data="_images/amadeus.svg" type="image/svg+xml" width="700pt" href="https://google.com"></object>
