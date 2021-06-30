@@ -205,35 +205,33 @@
 <dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.query_table">
 <span class="sig-name descname"><span class="pre">query_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pipeline</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">query</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">report_config</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_date</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_date</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">Type</span><span class="p"><span class="pre">[</span></span><span class="pre">google.cloud.bigquery.table.RowIterator</span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.query_table" title="Permalink to this definition">¶</a></dt>
 <dd><p>Exécute une requête SQL sur BQ puis mets un label</p>
-<p>Le paramètre <code class="docutils literal notranslate"><span class="pre">config</span></code> doit être sous ce format:</p>
-<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;t_appels_ga&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="gp">&gt;&gt;&gt; </span>    <span class="s2">&quot;job&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;decalage_debut&quot;</span><span class="p">:</span> <span class="mi">1</span>  <span class="c1"># nb de jours ou null</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;decalage_fin&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">:</span>  <span class="c1"># nb de jours ou null, optionnel</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;legacy&quot;</span> <span class="p">:</span> <span class="n">false</span><span class="p">,</span>   <span class="c1"># optionnel</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;non_date_query&quot;</span> <span class="p">:</span> <span class="n">false</span><span class="p">,</span>   <span class="c1"># optionnel</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;schema&quot;</span><span class="p">:</span>  <span class="s2">&quot;ID_formulaire:STRING,objet:STRING&quot;</span>  <span class="c1"># schéma cible, optionnel</span>
-<span class="gp">&gt;&gt;&gt; </span>    <span class="p">},</span>
-<span class="gp">&gt;&gt;&gt; </span>    <span class="s2">&quot;source&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;datasets&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="gp">&gt;&gt;&gt; </span>            <span class="s2">&quot;[param SQL]&quot;</span><span class="p">:</span> <span class="s2">&quot;ga_DEV&quot;</span><span class="p">,</span>
-<span class="gp">&gt;&gt;&gt; </span>            <span class="o">...</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="p">},</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;tables&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="gp">&gt;&gt;&gt; </span>            <span class="s2">&quot;[param SQL]&quot;</span><span class="p">:</span> <span class="s2">&quot;t_ga_sessions&quot;</span><span class="p">,</span>
-<span class="gp">&gt;&gt;&gt; </span>            <span class="o">...</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="p">},</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;wildcard&quot;</span><span class="p">:</span> <span class="n">false</span>  <span class="c1"># optionnel</span>
-<span class="gp">&gt;&gt;&gt; </span>    <span class="p">},</span>
-<span class="gp">&gt;&gt;&gt; </span>    <span class="s2">&quot;target&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;dataset&quot;</span><span class="p">:</span> <span class="s2">&quot;amadeus_DEV&quot;</span><span class="p">,</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;table&quot;</span><span class="p">:</span> <span class="s2">&quot;t_ama_appels_ga&quot;</span><span class="p">,</span>
-<span class="gp">&gt;&gt;&gt; </span>         <span class="s2">&quot;write_disposition&quot;</span><span class="p">:</span> <span class="s2">&quot;WRITE_TRUNCATE&quot;</span> <span class="n">ou</span> <span class="s2">&quot;WRITE_APPEND&quot;</span><span class="p">,</span>
-<span class="gp">&gt;&gt;&gt; </span>        <span class="s2">&quot;partitioning_field&quot;</span><span class="p">:</span> <span class="s2">&quot;date&quot;</span>  <span class="c1"># optionnel</span>
-<span class="gp">&gt;&gt;&gt; </span>    <span class="p">}</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="p">}</span>
-</pre></div>
-</div>
+<p>Le paramètre <code class="docutils literal notranslate"><span class="pre">config</span></code> doit être sous ce format:
+&gt;&gt;&gt; “t_appels_ga”: {
+&gt;&gt;&gt;     “job”: {
+&gt;&gt;&gt;         “decalage_debut”: 1  # nb de jours ou null
+&gt;&gt;&gt;         “decalage_fin”: 1:  # nb de jours ou null, optionnel
+&gt;&gt;&gt;         “legacy” : false,   # optionnel
+&gt;&gt;&gt;         “non_date_query” : false,   # optionnel
+&gt;&gt;&gt;         “schema”:  “ID_formulaire:STRING,objet:STRING”  # schéma cible, optionnel
+&gt;&gt;&gt;     },
+&gt;&gt;&gt;     “source”: {
+&gt;&gt;&gt;         “datasets”: {
+&gt;&gt;&gt;             “[param SQL]”: “ga_DEV”,
+&gt;&gt;&gt;             …
+&gt;&gt;&gt;         },
+&gt;&gt;&gt;         “tables”: {
+&gt;&gt;&gt;             “[param SQL]”: “t_ga_sessions”,
+&gt;&gt;&gt;             …
+&gt;&gt;&gt;         },
+&gt;&gt;&gt;         “wildcard”: false  # optionnel
+&gt;&gt;&gt;     },
+&gt;&gt;&gt;     “target”: {
+&gt;&gt;&gt;         “dataset”: “amadeus_DEV”,
+&gt;&gt;&gt;         “table”: “t_ama_appels_ga”,
+&gt;&gt;&gt;          “write_disposition”: “WRITE_TRUNCATE” ou “WRITE_APPEND”,
+&gt;&gt;&gt;         “partitioning_field”: “date”  # optionnel
+&gt;&gt;&gt;     }
+&gt;&gt;&gt; }</p>
 <p class="rubric">Examples</p>
 <p>Utilisation avec la fonction <code class="xref py py-func docutils literal notranslate"><span class="pre">get_report_config_w_query()</span></code>:</p>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">query</span><span class="p">,</span> <span class="n">report_config</span> <span class="o">=</span> <span class="n">helpers</span><span class="o">.</span><span class="n">get_report_config_w_query</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">pipeline_name</span><span class="p">,</span> <span class="n">report_name</span><span class="p">)</span>
@@ -292,8 +290,9 @@ chaque table source, créer un sous dictionnaire avec un paramètre wildcard)</p
 <dl class="py method">
 <dt class="sig sig-object py" id="customIO.database.bigquery.Bigquery.export_table">
 <span class="sig-name descname"><span class="pre">export_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">report_config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#customIO.database.bigquery.Bigquery.export_table" title="Permalink to this definition">¶</a></dt>
-<dd><p>Extrait une table vers un bucket GCS
-PARAMETRES
+<dd><dl>
+<dt>Extrait une table vers un bucket GCS</dt><dd><blockquote>
+<div><p>PARAMETRES
 - report_config : la configuration du rapport
 - date : la date de la partition à exporter, si mentionnée dans le jenkinsfile (sinon récupérée du fichier de config)
 NOMENCLATURE FICHIER CONFIG
@@ -306,7 +305,61 @@ NOMENCLATURE FICHIER CONFIG
 <li><p>compressions supportées : gzip, snappy, deflate</p></li>
 </ul>
 </div></blockquote>
-<p>TODO rendre les destinations uris plus generiques</p>
+<p>TODO rendre les destinations uris plus generiques
+Le paramètre <code class="docutils literal notranslate"><span class="pre">config</span></code> doit être sous ce format:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span>&gt;&gt;&gt; &quot;e_satisfaction&quot;: {
+&gt;&gt;&gt;    &quot;job&quot; : {
+&gt;&gt;&gt;        &quot;campaign_id&quot;: &quot;5a8d71d6b07f24288573dabf&quot;, // depends on job type
+&gt;&gt;&gt;        &quot;write_disposition&quot;: &quot;WRITE_APPEND&quot;, //required
+&gt;&gt;&gt;        &quot;source_format&quot;: &quot;json&quot; //required [json, csv]
+&gt;&gt;&gt;     },
+&gt;&gt;&gt;    &quot;source&quot;: {
+&gt;&gt;&gt;        &quot;bucket&quot;: &quot;usabilla_dev&quot;, // required
+&gt;&gt;&gt;        &quot;object&quot;: &quot;e_usabilla_satisfaction_api&quot; //required
+&gt;&gt;&gt;     },
+&gt;&gt;&gt;    &quot;target&quot;: {
+&gt;&gt;&gt;        &quot;bucket&quot;: &quot;usabilla_dev&quot;, // ??
+&gt;&gt;&gt;        &quot;object&quot;: &quot;e_usabilla_satisfaction_api&quot;, // ??
+&gt;&gt;&gt;        &quot;extension&quot;: &quot;json&quot;, // ??
+&gt;&gt;&gt;        &quot;dataset&quot;: &quot;usabilla_DEV&quot;, //required
+&gt;&gt;&gt;        &quot;table&quot;: &quot;e_usabilla_satisfaction_api&quot; // required
+</pre></div>
+</div>
+</div></blockquote>
+<p>}</p>
+</dd>
+</dl>
+<p>}</p>
+<blockquote>
+<div><dl>
+<dt>Examples:</dt><dd><p>Utilisation avec la fonction <code class="xref py py-func docutils literal notranslate"><span class="pre">get_report_config()</span></code>:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span> <span class="n">report_config</span> <span class="o">=</span> <span class="n">helpers</span><span class="o">.</span><span class="n">get_report_config</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">pipeline_name</span><span class="p">,</span> <span class="n">report_name</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span> <span class="n">job</span> <span class="o">=</span> <span class="n">bq</span><span class="o">.</span><span class="n">export_table</span><span class="p">(</span><span class="n">report_config</span><span class="p">,</span> <span class="n">date</span> <span class="o">=</span> <span class="n">start_date</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd>
+<dt>Args:</dt><dd><p>pipeline (str): nom de la pipeline qui exporte les données de la table vers un bucket sur GCS
+report (str): nom du report (idem)
+report_config (dict): dictionnaire de configuration du rapport (cf. description plus haut)
+start_date (str): paramètres de date récupérés du jenkinsfile. Dans la plupart</p>
+<blockquote>
+<div><p>des cas l’utilisation de report_config <code class="docutils literal notranslate"><span class="pre">decalage_debut</span></code> et <code class="docutils literal notranslate"><span class="pre">decalage_fin</span></code>
+prévaut. Ces paramètres sont utilisés pour les tables wildcard ou dans les
+rapports mensuels où on ne peut prévoir un décalage de jours dans le fichier
+de config.</p>
+<p>La date doit être au format <code class="docutils literal notranslate"><span class="pre">YYYYMMDD</span></code>, exemple: <code class="docutils literal notranslate"><span class="pre">20210401</span></code>.</p>
+</div></blockquote>
+<p>end_date (str): idem</p>
+</dd>
+<dt>Raises:</dt><dd><p>BadRequest: [description]
+Exception: [description]</p>
+</dd>
+<dt>See Also:</dt><dd><ul class="simple">
+<li><p><a class="reference internal" href="#customIO.database.bigquery.Bigquery.load_from_gcs" title="customIO.database.bigquery.Bigquery.load_from_gcs"><code class="xref py py-meth docutils literal notranslate"><span class="pre">load_from_gcs()</span></code></a></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
 </dd></dl>
 
 <dl class="py method">
@@ -327,11 +380,63 @@ NOMENCLATURE FICHIER CONFIG
 <dd><blockquote>
 <div><p>Generate LoadJobConfig &amp; run it out of the pipeline config</p>
 </div></blockquote>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span>&gt;&gt;&gt; &quot;l_to_ama_activity&quot;: {
+&gt;&gt;&gt; Méthode : Bigquery.load_from_gcs()
+&gt;&gt;&gt; &quot;e_satisfaction&quot;: {
+&gt;&gt;&gt;     &quot;job&quot; : {
+&gt;&gt;&gt;         &quot;campaign_id&quot;: &quot;5a8d71d6b07f24288573dabf&quot;, // depends on job type
+&gt;&gt;&gt;         &quot;write_disposition&quot;: &quot;WRITE_APPEND&quot;, //required
+&gt;&gt;&gt;         &quot;source_format&quot;: &quot;json&quot; //required [json, csv]
+&gt;&gt;&gt;      },
+&gt;&gt;&gt;      &quot;source&quot;: {
+&gt;&gt;&gt;         &quot;bucket&quot;: &quot;usabilla_dev&quot;, // required
+&gt;&gt;&gt;         &quot;object&quot;: &quot;e_usabilla_satisfaction_api&quot; //required
+&gt;&gt;&gt;      },
+&gt;&gt;&gt;      &quot;target&quot;: {
+&gt;&gt;&gt;         &quot;bucket&quot;: &quot;usabilla_dev&quot;, // ??
+&gt;&gt;&gt;         &quot;object&quot;: &quot;e_usabilla_satisfaction_api&quot;, // ??
+&gt;&gt;&gt;         &quot;extension&quot;: &quot;json&quot;, // ??
+&gt;&gt;&gt;         &quot;dataset&quot;: &quot;usabilla_DEV&quot;, //required
+&gt;&gt;&gt;         &quot;table&quot;: &quot;e_usabilla_satisfaction_api&quot; // required
+&gt;&gt;&gt;       }
+&gt;&gt;&gt;  }
+&gt;&gt;&gt; ## Local &gt; Storage
+</pre></div>
+</div>
+<p class="rubric">Examples</p>
+<p>Utilisation avec la fonction <code class="xref py py-func docutils literal notranslate"><span class="pre">get_report_config()</span></code>:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span> <span class="n">report_config</span> <span class="o">=</span> <span class="n">helpers</span><span class="o">.</span><span class="n">get_report_config</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">pipeline_name</span><span class="p">,</span> <span class="n">report_name</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span> <span class="n">bq</span><span class="o">.</span><span class="n">load_from_gcs</span><span class="p">(</span><span class="n">report_config</span><span class="p">)</span>
+</pre></div>
+</div>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>config</strong> (<em>dict</em>) – Pipeline config</p>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pipeline</strong> (<em>str</em>) – nom de la pipeline qui charge les données de la table depuis un objet déposé sur GCS</p></li>
+<li><p><strong>report</strong> (<em>str</em>) – nom du report (idem)</p></li>
+<li><p><strong>config</strong> (<em>dict</em>) – Pipeline config</p></li>
+<li><p><strong>report_config</strong> (<em>dict</em>) – dictionnaire de configuration du rapport (cf. description plus haut)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>BadRequest</strong> – [description]</p></li>
+<li><p><strong>Exception</strong> – [description]</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>résultats de la requête</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>Type[bigquery.table.RowIterator]</p>
 </dd>
 </dl>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<ul class="simple">
+<li><p><code class="xref py py-meth docutils literal notranslate"><span class="pre">upload_from_filename()</span></code></p></li>
+</ul>
+</div>
 </dd></dl>
 
 <dl class="py method">
@@ -440,6 +545,69 @@ mode :</p>
 - target : {bucket: STRING, object:STRING, extension:STRING}</p>
 </dd>
 </dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span>&gt;&gt;&gt; ```json
+&gt;&gt;&gt; &quot;l_to_ama_activity&quot;: {
+&gt;&gt;&gt;     &quot;source&quot;: {
+&gt;&gt;&gt;        &quot;dataset&quot;: &quot;dcm_data&quot;, //required
+&gt;&gt;&gt;        &quot;table&quot;: &quot;p_activity_445802&quot;, // required
+&gt;&gt;&gt;        &quot;decalage_date&quot;: 2, // optionnel
+&gt;&gt;&gt;        &quot;wildcard&quot;: true, // optionnel
+&gt;&gt;&gt;        &quot;non_date_table&quot;: false // optionnel
+&gt;&gt;&gt;    },
+&gt;&gt;&gt;    &quot;target&quot;: {
+&gt;&gt;&gt;        &quot;bucket&quot;: &quot;dcm_dev&quot;, // required
+&gt;&gt;&gt;        &quot;dossier&quot;: &quot;activity&quot;, // required
+&gt;&gt;&gt;        &quot;object&quot;: &quot;dcm_activity&quot;, //required
+&gt;&gt;&gt;        &quot;extension&quot;: &quot;.csv&quot;, // required [.csv, .avro, .json]
+&gt;&gt;&gt;        &quot;compression&quot;: &quot;GZIP&quot;, // optionnel [[&#39;DEFLATE&#39;, &#39;SNAPPY&#39;], [&#39;GZIP&#39;], [&#39;GZIP&#39;]
+&gt;&gt;&gt;        &quot;sharded&quot;: false, // optionnel
+&gt;&gt;&gt;        &quot;print_header&quot;: false // optionnel
+&gt;&gt;&gt;     }
+&gt;&gt;&gt;  }
+</pre></div>
+</div>
+<p class="rubric">Examples</p>
+<p>Utilisation avec la fonction <code class="xref py py-func docutils literal notranslate"><span class="pre">get_report_config()</span></code>:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">gcs</span><span class="o">.</span><span class="n">upload_from_file</span><span class="p">(</span><span class="n">pipeline</span><span class="p">,</span> <span class="n">report</span><span class="p">,</span> <span class="n">report_config</span><span class="p">,</span> <span class="n">file_in_memory</span><span class="p">,</span> <span class="n">date_string</span><span class="o">=</span><span class="n">date_string</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;WRITE_TRUNCATE&#39;</span><span class="p">)</span>
+<span class="go">    output.close()</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pipeline</strong> (<em>str</em>) – nom de la pipeline qui importe les données dans un bucket sur GCS</p></li>
+<li><p><strong>report</strong> (<em>str</em>) – nom du report (idem)</p></li>
+<li><p><strong>report_config</strong> (<em>dict</em>) – dictionnaire de configuration du rapport (cf. description plus haut)</p></li>
+<li><p><strong>file_in_memory</strong> (<em>str</em>) – fichier csv contenant les données à importer</p></li>
+<li><p><strong>start_date</strong> (<em>str</em>) – <p>paramètres de date récupérés du jenkinsfile. Dans la plupart
+des cas l’utilisation de report_config <code class="docutils literal notranslate"><span class="pre">decalage_debut</span></code> et <code class="docutils literal notranslate"><span class="pre">decalage_fin</span></code>
+prévaut. Ces paramètres sont utilisés pour les tables wildcard ou dans les
+rapports mensuels où on ne peut prévoir un décalage de jours dans le fichier
+de config.</p>
+<p>La date doit être au format <code class="docutils literal notranslate"><span class="pre">YYYYMMDD</span></code>, exemple: <code class="docutils literal notranslate"><span class="pre">20210401</span></code>.</p>
+</p></li>
+<li><p><strong>end_date</strong> (<em>str</em>) – idem</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>BadRequest</strong> – [description]</p></li>
+<li><p><strong>Exception</strong> – [description]</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>données exportées</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>Type[bigquery.table.RowIterator]</p>
+</dd>
+</dl>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<ul class="simple">
+<li><p><a href="#id1"><span class="problematic" id="id2">`</span></a>bigquery.table.RowIterator &lt;<a class="reference external" href="https://g">https://g</a></p></li>
+</ul>
+</div>
 </dd></dl>
 
 <dl class="py method">
@@ -526,7 +694,7 @@ et d’une Serie pandas</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="customIO.SearchConsoleConnector">
 <span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">SearchConsoleConnector</span></span><a class="headerlink" href="#customIO.SearchConsoleConnector" title="Permalink to this definition">¶</a></dt>
-<dd><p>alias of <a class="reference internal" href="#id1" title="customIO.apis.searchconsoleConn.SearchConsoleConn"><code class="xref py py-class docutils literal notranslate"><span class="pre">customIO.apis.searchconsoleConn.SearchConsoleConn</span></code></a></p>
+<dd><p>alias of <a class="reference internal" href="#id3" title="customIO.apis.searchconsoleConn.SearchConsoleConn"><code class="xref py py-class docutils literal notranslate"><span class="pre">customIO.apis.searchconsoleConn.SearchConsoleConn</span></code></a></p>
 </dd></dl>
 
 <dl class="py class">
@@ -562,15 +730,15 @@ retry_errors – erreurs qui declenchent une nouvelle tentative</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="id0">
 <span class="sig-prename descclassname"><span class="pre">customIO.</span></span><span class="sig-name descname"><span class="pre">SearchConsoleConnector</span></span><a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
-<dd><p>alias of <a class="reference internal" href="#id1" title="customIO.apis.searchconsoleConn.SearchConsoleConn"><code class="xref py py-class docutils literal notranslate"><span class="pre">customIO.apis.searchconsoleConn.SearchConsoleConn</span></code></a></p>
+<dd><p>alias of <a class="reference internal" href="#id3" title="customIO.apis.searchconsoleConn.SearchConsoleConn"><code class="xref py py-class docutils literal notranslate"><span class="pre">customIO.apis.searchconsoleConn.SearchConsoleConn</span></code></a></p>
 </dd></dl>
 
 <dl class="py class">
-<dt class="sig sig-object py" id="id1">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.apis.searchconsoleConn.</span></span><span class="sig-name descname"><span class="pre">SearchConsoleConn</span></span><a class="headerlink" href="#id1" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="id3">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">customIO.apis.searchconsoleConn.</span></span><span class="sig-name descname"><span class="pre">SearchConsoleConn</span></span><a class="headerlink" href="#id3" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
-<dt class="sig sig-object py" id="id2">
-<span class="sig-name descname"><span class="pre">send_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_retries</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait_interval</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">retry_errors</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">(503,</span> <span class="pre">500)</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#id2" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="id4">
+<span class="sig-name descname"><span class="pre">send_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_date</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_retries</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait_interval</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">retry_errors</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">(503,</span> <span class="pre">500)</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#id4" title="Permalink to this definition">¶</a></dt>
 <dd><p>Retourne un json pour un url résultante et un ensemble de kpi</p>
 <p>Keywords arguments:
 start_date – string avec le format “%Y-%m-%d”

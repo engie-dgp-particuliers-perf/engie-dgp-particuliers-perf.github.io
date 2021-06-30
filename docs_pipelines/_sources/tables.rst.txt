@@ -14,7 +14,7 @@ Tables
     -------------------------------------------------------------------------------
 
     {% set d,t = table.split(".") %}
-    `→ ouvrir dans BQ <https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&d={{d}}&p=engie-b2c-cloud&t={{t}}&page=table>`__
+    `ouvrir dans BQ <https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&d={{d}}&p=engie-b2c-cloud&t={{t}}&page=table>`__
 
 
     {% if content["sources"]  %}
