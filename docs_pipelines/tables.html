@@ -100,7 +100,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#ga-l-ga-to-ama-ga-formulaires-stor">ga.l_ga_to_ama_ga_formulaires_stor_*</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-correspondance-hash-campagnes">ga.t_ga_correspondance_hash_campagnes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#kwanko-e-gsheet-correspondance-affiliation">kwanko.e_gsheet_correspondance_affiliation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#kwanko-config">kwanko.[?config?]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-sessions-historic">ga.t_ga_sessions_historic_*</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-formulaires-campagnes">amadeus.t_ama_formulaires_campagnes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comper-e-v-digi-import-cube-valeur">comper.e_v_digi_import_cube_valeur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-sessions">ga.t_ga_sessions</a></li>
@@ -120,6 +120,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#comper-t-ama-options-vertes">comper.t_ama_options_vertes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-e-ama-prelevement-mensualisation">amadeus.e_ama_prelevement_mensualisation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-e-gsheet-activation-energie">amadeus.e_gsheet_activation_energie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-appels-leviers-date-lead">amadeus.t_ama_appels_leviers_date_lead</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-contrats-formulaires">amadeus.t_ama_contrats_formulaires</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-leads-formulaires">amadeus.t_ama_leads_formulaires</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-formulaires-verif-flux-ga">amadeus.t_ama_formulaires_verif_flux_ga</a></li>
@@ -138,6 +139,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#comper-l-ama-to-ds-comper-options-vertes">comper.l_ama_to_ds_comper_options_vertes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comper-l-ama-to-ds-comper-prelevement-mensualisation">comper.l_ama_to_ds_comper_prelevement_mensualisation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comper-l-ama-to-ds-comper-activation-energie">comper.l_ama_to_ds_comper_activation_energie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-appels-date-lead">amadeus.t_ama_appels_date_lead</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-formulaires-date-lead">amadeus.t_ama_formulaires_date_lead</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-ventes-digitales">amadeus.t_ama_ventes_digitales</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comper-t-ama-realise">comper.t_ama_realise</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comper-e-ds-comper-saisonnalite">comper.e_ds_comper_saisonnalite</a></li>
@@ -157,7 +160,9 @@
 <li class="toctree-l2"><a class="reference internal" href="#comper-e-ds-comper-objectifs-hors-energie">comper.e_ds_comper_objectifs_hors_energie</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comper-l-mypower-to-ds-comper-mypower">comper.l_mypower_to_ds_comper_mypower</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comper-l-ga-to-ds-comper-sessions">comper.l_ga_to_ds_comper_sessions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#comper-t-datastudio-realise-non-debiaise-date-lead">comper.t_datastudio_realise_non_debiaise_date_lead</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comper-l-v-digi-to-ds-comper-ventes-digitales">comper.l_v_digi_to_ds_comper_ventes_digitales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#comper-t-datastudio-contrats-offres-energie-date-lead">comper.t_datastudio_contrats_offres_energie_date_lead</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#dareboost-e-dbst-monitoring-api">dareboost.e_dbst_monitoring_api</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#dareboost-e-dbst-scenarios-api">dareboost.e_dbst_scenarios_api</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#dareboost-l-dbst-to-datastudio-mesures-jours">dareboost.l_dbst_to_datastudio_mesures_jours</a></li>
@@ -174,7 +179,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-objectives-events">ga.t_ga_objectives_events</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-detail-session-checkpoint">ga.t_ga_detail_session_checkpoint</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-parcours-checkpoint-1">ga.t_ga_parcours_checkpoint_1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-sessions-historic">ga.t_ga_sessions_historic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">ga.t_ga_sessions_historic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-sessions-sample">ga.t_ga_sessions_sample</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-objectives-entries-vs-objectives">ga.t_ga_objectives_entries_vs_objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-optimizely-sessions">ga.t_ga_optimizely_sessions</a></li>
@@ -217,7 +222,6 @@
 <li class="toctree-l2"><a class="reference internal" href="#my-power-t-mypower-ventes-a-envoyer">my_power.t_mypower_ventes_a_envoyer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#my-power-t-mypower-opportunites-a-envoyer">my_power.t_mypower_opportunites_a_envoyer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-contrats-form-valeurs-envoyes">ga.t_ga_contrats_form_valeurs_envoyes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-contrats-form-valeurs-envoyes-test">ga.t_ga_contrats_form_valeurs_envoyes_test</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#my-power-t-mypower-ventes-envoyees">my_power.t_mypower_ventes_envoyees</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#my-power-t-mypower-opportunites-envoyees">my_power.t_mypower_opportunites_envoyees</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-import-data-formulaires-valeurs-nulles">amadeus.t_import_data_formulaires_valeurs_nulles</a></li>
@@ -261,7 +265,6 @@
 <li class="toctree-l2"><a class="reference internal" href="#sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2020">sea_ga_gads.e_gsheet_goal1_goal2_google_campagne_2020</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2021">sea_ga_gads.e_gsheet_goal1_goal2_Google_campagne_2021</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sea-ga-gads-t-ga-goal1-goal2-google">sea_ga_gads.t_ga_goal1_goal2_google</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#sea-ga-gads-config">sea_ga_gads.[?config?]</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-yesterday">sea_ga_gads.e_gsheet_goal1_goal2_Bing_campagne_yesterday</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-yesterday">sea_ga_gads.e_gsheet_goal1_goal2_Google_campagne_yesterday</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sea-ga-gads-e-gsheet-click-to-call-google-campagne-yesterday">sea_ga_gads.e_gsheet_click_to_call_Google_campagne_yesterday</a></li>
@@ -272,10 +275,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#search-console-t-format-mots-cles-2020">search_console.t_format_mots_cles_2020</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#search-console-e-searchcons-historique-bypage-api">search_console.e_searchcons_historique_bypage_api</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#search-console-t-searchcons-ngram">search_console.t_searchcons_ngram</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#wizaly-t-ama-libelle-offres">wizaly.t_ama_libelle_offres</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-libelle-offres">amadeus.t_ama_libelle_offres</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-import-wizaly-contrats">amadeus.t_ama_import_wizaly_contrats</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#wizaly-t-ga-sessions">wizaly.t_ga_sessions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#config-t-ama-libelle-offres">[?config?].t_ama_libelle_offres</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-import-wizaly-pc-transformees">amadeus.t_ama_import_wizaly_pc_transformees</a></li>
 </ul>
 </li>
@@ -351,40 +352,40 @@
             
   <div class="section" id="tables">
 <h1>Tables<a class="headerlink" href="#tables" title="Permalink to this headline">¶</a></h1>
-<p><strong>181</strong> tables détectées</p>
+<p><strong>182</strong> tables détectées</p>
 <div class="section" id="amadeus-e-ama-formulaires-stor">
 <span id="tables-amadeus-e-ama-formulaires-stor"></span><h2>amadeus.e_ama_formulaires_stor<a class="headerlink" href="#amadeus-e-ama-formulaires-stor" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_formulaires_stor&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_formulaires_stor&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-wizaly"><span class="std std-ref">wizaly</span></a></p>
 <p><strong>Job</strong> - t_import_wizaly_pc_transformees</p>
 </div>
 <div class="section" id="ga-l-ga-to-ama-ga-formulaires-stor">
 <span id="tables-ga-l-ga-to-ama-ga-formulaires-stor"></span><h2>ga.l_ga_to_ama_ga_formulaires_stor_*<a class="headerlink" href="#ga-l-ga-to-ama-ga-formulaires-stor" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_ga_formulaires_stor_*&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_ga_formulaires_stor_*&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - t_formulaires_verif_flux_ga</p>
 </div>
 <div class="section" id="ga-t-ga-correspondance-hash-campagnes">
 <span id="tables-ga-t-ga-correspondance-hash-campagnes"></span><h2>ga.t_ga_correspondance_hash_campagnes<a class="headerlink" href="#ga-t-ga-correspondance-hash-campagnes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_correspondance_hash_campagnes&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_correspondance_hash_campagnes&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - t_formulaires_campagnes</p>
 </div>
 <div class="section" id="kwanko-e-gsheet-correspondance-affiliation">
 <span id="tables-kwanko-e-gsheet-correspondance-affiliation"></span><h2>kwanko.e_gsheet_correspondance_affiliation<a class="headerlink" href="#kwanko-e-gsheet-correspondance-affiliation" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=e_gsheet_correspondance_affiliation&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=e_gsheet_correspondance_affiliation&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - t_formulaires_campagnes</p>
 </div>
-<div class="section" id="kwanko-config">
-<span id="tables-kwanko-config"></span><h2>kwanko.[?config?]<a class="headerlink" href="#kwanko-config" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=[?config?]&amp;page=table">ouvrir dans BQ</a></p>
+<div class="section" id="ga-t-ga-sessions-historic">
+<span id="tables-ga-t-ga-sessions-historic"></span><h2>ga.t_ga_sessions_historic_*<a class="headerlink" href="#ga-t-ga-sessions-historic" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions_historic_*&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - t_formulaires_campagnes</p>
 </div>
 <div class="section" id="amadeus-t-ama-formulaires-campagnes">
 <span id="tables-amadeus-t-ama-formulaires-campagnes"></span><h2>amadeus.t_ama_formulaires_campagnes<a class="headerlink" href="#amadeus-t-ama-formulaires-campagnes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_formulaires_campagnes&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_formulaires_campagnes&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -392,7 +393,7 @@
 <li><p><a class="reference internal" href="#tables-ga-l-ga-to-ama-ga-formulaires-stor"><span class="std std-ref">ga.l_ga_to_ama_ga_formulaires_stor_*</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-ga-t-ga-correspondance-hash-campagnes"><span class="std std-ref">ga.t_ga_correspondance_hash_campagnes</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-kwanko-e-gsheet-correspondance-affiliation"><span class="std std-ref">kwanko.e_gsheet_correspondance_affiliation</span></a> (BigQuery)</p></li>
-<li><p><a class="reference internal" href="#tables-kwanko-config"><span class="std std-ref">kwanko.[?config?]</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-ga-t-ga-sessions-historic"><span class="std std-ref">ga.t_ga_sessions_historic_*</span></a> (BigQuery)</p></li>
 </ul>
 </div></blockquote>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
@@ -400,11 +401,11 @@
 </div>
 <div class="section" id="comper-e-v-digi-import-cube-valeur">
 <span id="tables-comper-e-v-digi-import-cube-valeur"></span><h2>comper.e_v_digi_import_cube_valeur<a class="headerlink" href="#comper-e-v-digi-import-cube-valeur" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_v_digi_import_cube_valeur&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_v_digi_import_cube_valeur&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>amadeus_bi.contrats/<a href="#id5"><span class="problematic" id="id6">ama_contrats_digitaux_stor_</span></a> (Cloud Storage)</p></li>
+<li><p>amadeus_bi.contrats/ama_contrats_digitaux_stor_* (Cloud Storage)</p></li>
 </ul>
 </div></blockquote>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
@@ -412,13 +413,13 @@
 </div>
 <div class="section" id="ga-t-ga-sessions">
 <span id="tables-ga-t-ga-sessions"></span><h2>ga.t_ga_sessions<a class="headerlink" href="#ga-t-ga-sessions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions&amp;page=table">ouvrir dans BQ</a></p>
-<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-wizaly"><span class="std std-ref">wizaly</span></a></p>
-<p><strong>Job</strong> - t_import_wizaly_contrats</p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-import-data"><span class="std std-ref">import_data</span></a></p>
+<p><strong>Job</strong> - t_import_data_page_destination</p>
 </div>
 <div class="section" id="amadeus-t-ama-appels">
 <span id="tables-amadeus-t-ama-appels"></span><h2>amadeus.t_ama_appels<a class="headerlink" href="#amadeus-t-ama-appels" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_appels&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_appels&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -432,7 +433,7 @@
 </div>
 <div class="section" id="amadeus-t-ama-appels-ga">
 <span id="tables-amadeus-t-ama-appels-ga"></span><h2>amadeus.t_ama_appels_ga<a class="headerlink" href="#amadeus-t-ama-appels-ga" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_appels_ga&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_appels_ga&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -444,11 +445,11 @@
 </div>
 <div class="section" id="amadeus-e-ama-appels">
 <span id="tables-amadeus-e-ama-appels"></span><h2>amadeus.e_ama_appels<a class="headerlink" href="#amadeus-e-ama-appels" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_appels&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_appels&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>amadeus_bi.appels/<a href="#id7"><span class="problematic" id="id8">GA_SVI_</span></a> (Cloud Storage)</p></li>
+<li><p>amadeus_bi.appels/GA_SVI_* (Cloud Storage)</p></li>
 </ul>
 </div></blockquote>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
@@ -456,19 +457,19 @@
 </div>
 <div class="section" id="amadeus-e-ama-appels-2020">
 <span id="tables-amadeus-e-ama-appels-2020"></span><h2>amadeus.e_ama_appels_2020<a class="headerlink" href="#amadeus-e-ama-appels-2020" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_appels_2020&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_appels_2020&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - t_appels</p>
 </div>
 <div class="section" id="amadeus-e-ama-appels-2018-2019">
 <span id="tables-amadeus-e-ama-appels-2018-2019"></span><h2>amadeus.e_ama_appels_2018_2019<a class="headerlink" href="#amadeus-e-ama-appels-2018-2019" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_appels_2018_2019&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_appels_2018_2019&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - t_appels</p>
 </div>
 <div class="section" id="amadeus-t-ama-appels-leviers">
 <span id="tables-amadeus-t-ama-appels-leviers"></span><h2>amadeus.t_ama_appels_leviers<a class="headerlink" href="#amadeus-t-ama-appels-leviers" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_appels_leviers&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_appels_leviers&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -481,7 +482,7 @@
 </div>
 <div class="section" id="amadeus-t-ama-contrats-appels">
 <span id="tables-amadeus-t-ama-contrats-appels"></span><h2>amadeus.t_ama_contrats_appels<a class="headerlink" href="#amadeus-t-ama-contrats-appels" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_contrats_appels&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_contrats_appels&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -494,7 +495,7 @@
 </div>
 <div class="section" id="eloqua-e-elq-promo-applis-mobiles-clics-emails">
 <span id="tables-eloqua-e-elq-promo-applis-mobiles-clics-emails"></span><h2>eloqua.e_elq_promo_applis_mobiles_clics_emails<a class="headerlink" href="#eloqua-e-elq-promo-applis-mobiles-clics-emails" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=eloqua&amp;p=engie-b2c-cloud&amp;t=e_elq_promo_applis_mobiles_clics_emails&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=eloqua&amp;p=engie-b2c-cloud&amp;t=e_elq_promo_applis_mobiles_clics_emails&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -506,7 +507,7 @@
 </div>
 <div class="section" id="comper-t-v-digi-cube-valeur">
 <span id="tables-comper-t-v-digi-cube-valeur"></span><h2>comper.t_v_digi_cube_valeur<a class="headerlink" href="#comper-t-v-digi-cube-valeur" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_v_digi_cube_valeur&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_v_digi_cube_valeur&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -518,7 +519,7 @@
 </div>
 <div class="section" id="amadeus-t-ama-parrainage">
 <span id="tables-amadeus-t-ama-parrainage"></span><h2>amadeus.t_ama_parrainage<a class="headerlink" href="#amadeus-t-ama-parrainage" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_parrainage&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_parrainage&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -530,25 +531,25 @@
 </div>
 <div class="section" id="amadeus-e-gsheet-contrats-services">
 <span id="tables-amadeus-e-gsheet-contrats-services"></span><h2>amadeus.e_gsheet_contrats_services<a class="headerlink" href="#amadeus-e-gsheet-contrats-services" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_gsheet_contrats_services&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_gsheet_contrats_services&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_contrats_services</p>
 </div>
 <div class="section" id="reporting-equipements-bout-en-bout-equipements">
 <span id="tables-reporting-equipements-bout-en-bout-equipements"></span><h2>reporting_equipements.bout_en_bout_equipements<a class="headerlink" href="#reporting-equipements-bout-en-bout-equipements" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=reporting_equipements&amp;p=engie-b2c-cloud&amp;t=bout_en_bout_equipements&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=reporting_equipements&amp;p=engie-b2c-cloud&amp;t=bout_en_bout_equipements&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_bout_en_bout_equipements</p>
 </div>
 <div class="section" id="amadeus-e-ama-options-vertes">
 <span id="tables-amadeus-e-ama-options-vertes"></span><h2>amadeus.e_ama_options_vertes<a class="headerlink" href="#amadeus-e-ama-options-vertes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_options_vertes&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_options_vertes&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - t_options_vertes</p>
 </div>
 <div class="section" id="comper-t-ama-options-vertes">
 <span id="tables-comper-t-ama-options-vertes"></span><h2>comper.t_ama_options_vertes<a class="headerlink" href="#comper-t-ama-options-vertes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_ama_options_vertes&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_ama_options_vertes&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -560,31 +561,44 @@
 </div>
 <div class="section" id="amadeus-e-ama-prelevement-mensualisation">
 <span id="tables-amadeus-e-ama-prelevement-mensualisation"></span><h2>amadeus.e_ama_prelevement_mensualisation<a class="headerlink" href="#amadeus-e-ama-prelevement-mensualisation" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_prelevement_mensualisation&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_prelevement_mensualisation&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_prelevement_mensualisation</p>
 </div>
 <div class="section" id="amadeus-e-gsheet-activation-energie">
 <span id="tables-amadeus-e-gsheet-activation-energie"></span><h2>amadeus.e_gsheet_activation_energie<a class="headerlink" href="#amadeus-e-gsheet-activation-energie" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_gsheet_activation_energie&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_gsheet_activation_energie&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_activation_energie</p>
 </div>
+<div class="section" id="amadeus-t-ama-appels-leviers-date-lead">
+<span id="tables-amadeus-t-ama-appels-leviers-date-lead"></span><h2>amadeus.t_ama_appels_leviers_date_lead<a class="headerlink" href="#amadeus-t-ama-appels-leviers-date-lead" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_appels_leviers_date_lead&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Sources</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#tables-amadeus-t-ama-appels"><span class="std std-ref">amadeus.t_ama_appels</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-amadeus-t-ama-appels-ga"><span class="std std-ref">amadeus.t_ama_appels_ga</span></a> (BigQuery)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
+<p><strong>Job</strong> - t_appels_leviers_date_lead</p>
+</div>
 <div class="section" id="amadeus-t-ama-contrats-formulaires">
 <span id="tables-amadeus-t-ama-contrats-formulaires"></span><h2>amadeus.t_ama_contrats_formulaires<a class="headerlink" href="#amadeus-t-ama-contrats-formulaires" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_contrats_formulaires&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_contrats_formulaires&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_ventes_digitales</p>
 </div>
 <div class="section" id="amadeus-t-ama-leads-formulaires">
 <span id="tables-amadeus-t-ama-leads-formulaires"></span><h2>amadeus.t_ama_leads_formulaires<a class="headerlink" href="#amadeus-t-ama-leads-formulaires" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_leads_formulaires&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_leads_formulaires&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_realise</p>
 </div>
 <div class="section" id="amadeus-t-ama-formulaires-verif-flux-ga">
 <span id="tables-amadeus-t-ama-formulaires-verif-flux-ga"></span><h2>amadeus.t_ama_formulaires_verif_flux_ga<a class="headerlink" href="#amadeus-t-ama-formulaires-verif-flux-ga" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_formulaires_verif_flux_ga&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_formulaires_verif_flux_ga&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -597,19 +611,19 @@
 </div>
 <div class="section" id="amadeus-t-ama-leads-appels">
 <span id="tables-amadeus-t-ama-leads-appels"></span><h2>amadeus.t_ama_leads_appels<a class="headerlink" href="#amadeus-t-ama-leads-appels" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_leads_appels&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_leads_appels&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_realise</p>
 </div>
 <div class="section" id="amadeus-t-ama-contrats-appels-leviers">
 <span id="tables-amadeus-t-ama-contrats-appels-leviers"></span><h2>amadeus.t_ama_contrats_appels_leviers<a class="headerlink" href="#amadeus-t-ama-contrats-appels-leviers" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_contrats_appels_leviers&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_contrats_appels_leviers&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_ventes_digitales</p>
 </div>
 <div class="section" id="eloqua-t-elq-promo-applis-mobiles-tlgt-appli">
 <span id="tables-eloqua-t-elq-promo-applis-mobiles-tlgt-appli"></span><h2>eloqua.t_elq_promo_applis_mobiles_tlgt_appli<a class="headerlink" href="#eloqua-t-elq-promo-applis-mobiles-tlgt-appli" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=eloqua&amp;p=engie-b2c-cloud&amp;t=t_elq_promo_applis_mobiles_tlgt_appli&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=eloqua&amp;p=engie-b2c-cloud&amp;t=t_elq_promo_applis_mobiles_tlgt_appli&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -622,7 +636,7 @@
 </div>
 <div class="section" id="amadeus-t-ama-import-gads">
 <span id="tables-amadeus-t-ama-import-gads"></span><h2>amadeus.t_ama_import_gads<a class="headerlink" href="#amadeus-t-ama-import-gads" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_import_gads&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_import_gads&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -634,7 +648,7 @@
 </div>
 <div class="section" id="amadeus-t-ama-valeurs-plus40-datastudio-gads">
 <span id="tables-amadeus-t-ama-valeurs-plus40-datastudio-gads"></span><h2>amadeus.t_ama_valeurs_plus40_datastudio_gads<a class="headerlink" href="#amadeus-t-ama-valeurs-plus40-datastudio-gads" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_valeurs_plus40_datastudio_gads&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_valeurs_plus40_datastudio_gads&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -646,7 +660,7 @@
 </div>
 <div class="section" id="amadeus-t-ama-valeurs-datastudio-gads">
 <span id="tables-amadeus-t-ama-valeurs-datastudio-gads"></span><h2>amadeus.t_ama_valeurs_datastudio_gads<a class="headerlink" href="#amadeus-t-ama-valeurs-datastudio-gads" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_valeurs_datastudio_gads&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_valeurs_datastudio_gads&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -658,7 +672,7 @@
 </div>
 <div class="section" id="amadeus-t-ama-valeurs-sousindicateur-gads">
 <span id="tables-amadeus-t-ama-valeurs-sousindicateur-gads"></span><h2>amadeus.t_ama_valeurs_sousindicateur_gads<a class="headerlink" href="#amadeus-t-ama-valeurs-sousindicateur-gads" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_valeurs_sousindicateur_gads&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_valeurs_sousindicateur_gads&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -670,7 +684,7 @@
 </div>
 <div class="section" id="amadeus-t-ama-anciennes-valeurs-gads">
 <span id="tables-amadeus-t-ama-anciennes-valeurs-gads"></span><h2>amadeus.t_ama_anciennes_valeurs_gads<a class="headerlink" href="#amadeus-t-ama-anciennes-valeurs-gads" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_anciennes_valeurs_gads&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_anciennes_valeurs_gads&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -682,7 +696,7 @@
 </div>
 <div class="section" id="amadeus-t-ama-anciennes-valeurs-sousindicateur-gads">
 <span id="tables-amadeus-t-ama-anciennes-valeurs-sousindicateur-gads"></span><h2>amadeus.t_ama_anciennes_valeurs_sousindicateur_gads<a class="headerlink" href="#amadeus-t-ama-anciennes-valeurs-sousindicateur-gads" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_anciennes_valeurs_sousindicateur_gads&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_anciennes_valeurs_sousindicateur_gads&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -694,43 +708,55 @@
 </div>
 <div class="section" id="comper-l-ama-to-ds-comper-t-ama-parrainage">
 <span id="tables-comper-l-ama-to-ds-comper-t-ama-parrainage"></span><h2>comper.l_ama_to_ds_comper_t_ama_parrainage<a class="headerlink" href="#comper-l-ama-to-ds-comper-t-ama-parrainage" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_t_ama_parrainage&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_t_ama_parrainage&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_ventes_digitales</p>
 </div>
 <div class="section" id="comper-l-ama-to-ds-comper-contrats-services">
 <span id="tables-comper-l-ama-to-ds-comper-contrats-services"></span><h2>comper.l_ama_to_ds_comper_contrats_services<a class="headerlink" href="#comper-l-ama-to-ds-comper-contrats-services" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_contrats_services&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_contrats_services&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_ventes_digitales</p>
 </div>
 <div class="section" id="comper-l-ama-to-ds-comper-bout-en-bout-equipements">
 <span id="tables-comper-l-ama-to-ds-comper-bout-en-bout-equipements"></span><h2>comper.l_ama_to_ds_comper_bout_en_bout_equipements<a class="headerlink" href="#comper-l-ama-to-ds-comper-bout-en-bout-equipements" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_bout_en_bout_equipements&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_bout_en_bout_equipements&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_ventes_digitales</p>
 </div>
 <div class="section" id="comper-l-ama-to-ds-comper-options-vertes">
 <span id="tables-comper-l-ama-to-ds-comper-options-vertes"></span><h2>comper.l_ama_to_ds_comper_options_vertes<a class="headerlink" href="#comper-l-ama-to-ds-comper-options-vertes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_options_vertes&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_options_vertes&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_ventes_digitales</p>
 </div>
 <div class="section" id="comper-l-ama-to-ds-comper-prelevement-mensualisation">
 <span id="tables-comper-l-ama-to-ds-comper-prelevement-mensualisation"></span><h2>comper.l_ama_to_ds_comper_prelevement_mensualisation<a class="headerlink" href="#comper-l-ama-to-ds-comper-prelevement-mensualisation" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_prelevement_mensualisation&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_prelevement_mensualisation&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_ventes_digitales</p>
 </div>
 <div class="section" id="comper-l-ama-to-ds-comper-activation-energie">
 <span id="tables-comper-l-ama-to-ds-comper-activation-energie"></span><h2>comper.l_ama_to_ds_comper_activation_energie<a class="headerlink" href="#comper-l-ama-to-ds-comper-activation-energie" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_activation_energie&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ama_to_ds_comper_activation_energie&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_ventes_digitales</p>
 </div>
+<div class="section" id="amadeus-t-ama-appels-date-lead">
+<span id="tables-amadeus-t-ama-appels-date-lead"></span><h2>amadeus.t_ama_appels_date_lead<a class="headerlink" href="#amadeus-t-ama-appels-date-lead" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_appels_date_lead&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
+<p><strong>Job</strong> - t_realise_non_debiaise_date_lead</p>
+</div>
+<div class="section" id="amadeus-t-ama-formulaires-date-lead">
+<span id="tables-amadeus-t-ama-formulaires-date-lead"></span><h2>amadeus.t_ama_formulaires_date_lead<a class="headerlink" href="#amadeus-t-ama-formulaires-date-lead" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_formulaires_date_lead&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
+<p><strong>Job</strong> - t_realise_non_debiaise_date_lead</p>
+</div>
 <div class="section" id="amadeus-t-ama-ventes-digitales">
 <span id="tables-amadeus-t-ama-ventes-digitales"></span><h2>amadeus.t_ama_ventes_digitales<a class="headerlink" href="#amadeus-t-ama-ventes-digitales" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_ventes_digitales&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_ventes_digitales&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -743,7 +769,7 @@
 </div>
 <div class="section" id="comper-t-ama-realise">
 <span id="tables-comper-t-ama-realise"></span><h2>comper.t_ama_realise<a class="headerlink" href="#comper-t-ama-realise" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_ama_realise&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_ama_realise&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -757,31 +783,31 @@
 </div>
 <div class="section" id="comper-e-ds-comper-saisonnalite">
 <span id="tables-comper-e-ds-comper-saisonnalite"></span><h2>comper.e_ds_comper_saisonnalite<a class="headerlink" href="#comper-e-ds-comper-saisonnalite" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_ds_comper_saisonnalite&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_ds_comper_saisonnalite&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_point_de_sortie</p>
 </div>
 <div class="section" id="comper-e-datastudio-contrats-offres-energie-2018">
 <span id="tables-comper-e-datastudio-contrats-offres-energie-2018"></span><h2>comper.e_datastudio_contrats_offres_energie_2018<a class="headerlink" href="#comper-e-datastudio-contrats-offres-energie-2018" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_datastudio_contrats_offres_energie_2018&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_datastudio_contrats_offres_energie_2018&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_contrats_offres_energie_hors_depenses</p>
 </div>
 <div class="section" id="comper-e-ds-comper-objectifs-2018-seulement">
 <span id="tables-comper-e-ds-comper-objectifs-2018-seulement"></span><h2>comper.e_ds_comper_objectifs_2018_seulement<a class="headerlink" href="#comper-e-ds-comper-objectifs-2018-seulement" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_ds_comper_objectifs_2018_seulement&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_ds_comper_objectifs_2018_seulement&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_contrats_offres_energie_hors_depenses</p>
 </div>
 <div class="section" id="comper-e-ds-comper-objectifs-2019-seulement">
 <span id="tables-comper-e-ds-comper-objectifs-2019-seulement"></span><h2>comper.e_ds_comper_objectifs_2019_seulement<a class="headerlink" href="#comper-e-ds-comper-objectifs-2019-seulement" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_ds_comper_objectifs_2019_seulement&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_ds_comper_objectifs_2019_seulement&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_contrats_offres_energie_hors_depenses</p>
 </div>
 <div class="section" id="comper-t-datastudio-point-de-sortie">
 <span id="tables-comper-t-datastudio-point-de-sortie"></span><h2>comper.t_datastudio_point_de_sortie<a class="headerlink" href="#comper-t-datastudio-point-de-sortie" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_datastudio_point_de_sortie&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_datastudio_point_de_sortie&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -794,13 +820,13 @@
 </div>
 <div class="section" id="comper-e-ds-comper-objectifs">
 <span id="tables-comper-e-ds-comper-objectifs"></span><h2>comper.e_ds_comper_objectifs<a class="headerlink" href="#comper-e-ds-comper-objectifs" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_ds_comper_objectifs&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_ds_comper_objectifs&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_contrats_offres_energie_hors_depenses</p>
 </div>
 <div class="section" id="comper-l-datastudio-contrats-offres-energie-hors-depenses">
 <span id="tables-comper-l-datastudio-contrats-offres-energie-hors-depenses"></span><h2>comper.l_datastudio_contrats_offres_energie_hors_depenses<a class="headerlink" href="#comper-l-datastudio-contrats-offres-energie-hors-depenses" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_datastudio_contrats_offres_energie_hors_depenses&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_datastudio_contrats_offres_energie_hors_depenses&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -817,19 +843,19 @@
 </div>
 <div class="section" id="depenses-e-gsheet-depenses-acquisition">
 <span id="tables-depenses-e-gsheet-depenses-acquisition"></span><h2>depenses.e_gsheet_depenses_acquisition<a class="headerlink" href="#depenses-e-gsheet-depenses-acquisition" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=depenses&amp;p=engie-b2c-cloud&amp;t=e_gsheet_depenses_acquisition&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=depenses&amp;p=engie-b2c-cloud&amp;t=e_gsheet_depenses_acquisition&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_depenses_acquisition</p>
 </div>
 <div class="section" id="depenses-e-gsheet-depenses-traitement">
 <span id="tables-depenses-e-gsheet-depenses-traitement"></span><h2>depenses.e_gsheet_depenses_traitement<a class="headerlink" href="#depenses-e-gsheet-depenses-traitement" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=depenses&amp;p=engie-b2c-cloud&amp;t=e_gsheet_depenses_traitement&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=depenses&amp;p=engie-b2c-cloud&amp;t=e_gsheet_depenses_traitement&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_depenses_traitement</p>
 </div>
 <div class="section" id="comper-t-datastudio-depenses-acquisition">
 <span id="tables-comper-t-datastudio-depenses-acquisition"></span><h2>comper.t_datastudio_depenses_acquisition<a class="headerlink" href="#comper-t-datastudio-depenses-acquisition" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_datastudio_depenses_acquisition&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_datastudio_depenses_acquisition&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -842,7 +868,7 @@
 </div>
 <div class="section" id="comper-t-datastudio-depenses-traitement">
 <span id="tables-comper-t-datastudio-depenses-traitement"></span><h2>comper.t_datastudio_depenses_traitement<a class="headerlink" href="#comper-t-datastudio-depenses-traitement" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_datastudio_depenses_traitement&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_datastudio_depenses_traitement&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -855,13 +881,13 @@
 </div>
 <div class="section" id="comper-l-datastudio-contrats-offres-energie-avant-2021">
 <span id="tables-comper-l-datastudio-contrats-offres-energie-avant-2021"></span><h2>comper.l_datastudio_contrats_offres_energie_avant_2021<a class="headerlink" href="#comper-l-datastudio-contrats-offres-energie-avant-2021" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_datastudio_contrats_offres_energie_avant_2021&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_datastudio_contrats_offres_energie_avant_2021&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - t_contrats_offres_energie</p>
 </div>
 <div class="section" id="comper-l-datastudio-contrats-offres-energie">
 <span id="tables-comper-l-datastudio-contrats-offres-energie"></span><h2>comper.l_datastudio_contrats_offres_energie<a class="headerlink" href="#comper-l-datastudio-contrats-offres-energie" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_datastudio_contrats_offres_energie&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_datastudio_contrats_offres_energie&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -876,7 +902,7 @@
 </div>
 <div class="section" id="comper-l-ga-to-ds-comper-e-gsheet-cee-souscriptions">
 <span id="tables-comper-l-ga-to-ds-comper-e-gsheet-cee-souscriptions"></span><h2>comper.l_ga_to_ds_comper_e_gsheet_cee_souscriptions<a class="headerlink" href="#comper-l-ga-to-ds-comper-e-gsheet-cee-souscriptions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_comper_e_gsheet_cee_souscriptions&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_comper_e_gsheet_cee_souscriptions&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -888,19 +914,19 @@
 </div>
 <div class="section" id="comper-e-ds-comper-objectifs-hors-energie">
 <span id="tables-comper-e-ds-comper-objectifs-hors-energie"></span><h2>comper.e_ds_comper_objectifs_hors_energie<a class="headerlink" href="#comper-e-ds-comper-objectifs-hors-energie" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_ds_comper_objectifs_hors_energie&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=e_ds_comper_objectifs_hors_energie&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_ventes_digitales</p>
 </div>
 <div class="section" id="comper-l-mypower-to-ds-comper-mypower">
 <span id="tables-comper-l-mypower-to-ds-comper-mypower"></span><h2>comper.l_mypower_to_ds_comper_mypower<a class="headerlink" href="#comper-l-mypower-to-ds-comper-mypower" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_mypower_to_ds_comper_mypower&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_mypower_to_ds_comper_mypower&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_ventes_digitales</p>
 </div>
 <div class="section" id="comper-l-ga-to-ds-comper-sessions">
 <span id="tables-comper-l-ga-to-ds-comper-sessions"></span><h2>comper.l_ga_to_ds_comper_sessions<a class="headerlink" href="#comper-l-ga-to-ds-comper-sessions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_comper_sessions&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_comper_sessions&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -910,9 +936,22 @@
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_sessions</p>
 </div>
+<div class="section" id="comper-t-datastudio-realise-non-debiaise-date-lead">
+<span id="tables-comper-t-datastudio-realise-non-debiaise-date-lead"></span><h2>comper.t_datastudio_realise_non_debiaise_date_lead<a class="headerlink" href="#comper-t-datastudio-realise-non-debiaise-date-lead" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_datastudio_realise_non_debiaise_date_lead&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Sources</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#tables-amadeus-t-ama-appels-date-lead"><span class="std std-ref">amadeus.t_ama_appels_date_lead</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-amadeus-t-ama-formulaires-date-lead"><span class="std std-ref">amadeus.t_ama_formulaires_date_lead</span></a> (BigQuery)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
+<p><strong>Job</strong> - t_realise_non_debiaise_date_lead</p>
+</div>
 <div class="section" id="comper-l-v-digi-to-ds-comper-ventes-digitales">
 <span id="tables-comper-l-v-digi-to-ds-comper-ventes-digitales"></span><h2>comper.l_v_digi_to_ds_comper_ventes_digitales<a class="headerlink" href="#comper-l-v-digi-to-ds-comper-ventes-digitales" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_v_digi_to_ds_comper_ventes_digitales&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=l_v_digi_to_ds_comper_ventes_digitales&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -932,9 +971,22 @@
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_ventes_digitales</p>
 </div>
+<div class="section" id="comper-t-datastudio-contrats-offres-energie-date-lead">
+<span id="tables-comper-t-datastudio-contrats-offres-energie-date-lead"></span><h2>comper.t_datastudio_contrats_offres_energie_date_lead<a class="headerlink" href="#comper-t-datastudio-contrats-offres-energie-date-lead" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comper&amp;p=engie-b2c-cloud&amp;t=t_datastudio_contrats_offres_energie_date_lead&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Sources</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#tables-comper-t-datastudio-realise-non-debiaise-date-lead"><span class="std std-ref">comper.t_datastudio_realise_non_debiaise_date_lead</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-comper-t-v-digi-cube-valeur"><span class="std std-ref">comper.t_v_digi_cube_valeur</span></a> (BigQuery)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-comper"><span class="std std-ref">comper</span></a></p>
+<p><strong>Job</strong> - t_contrats_offres_energie_date_lead</p>
+</div>
 <div class="section" id="dareboost-e-dbst-monitoring-api">
 <span id="tables-dareboost-e-dbst-monitoring-api"></span><h2>dareboost.e_dbst_monitoring_api<a class="headerlink" href="#dareboost-e-dbst-monitoring-api" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=dareboost&amp;p=engie-b2c-cloud&amp;t=e_dbst_monitoring_api&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=dareboost&amp;p=engie-b2c-cloud&amp;t=e_dbst_monitoring_api&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -946,7 +998,7 @@
 </div>
 <div class="section" id="dareboost-e-dbst-scenarios-api">
 <span id="tables-dareboost-e-dbst-scenarios-api"></span><h2>dareboost.e_dbst_scenarios_api<a class="headerlink" href="#dareboost-e-dbst-scenarios-api" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=dareboost&amp;p=engie-b2c-cloud&amp;t=e_dbst_scenarios_api&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=dareboost&amp;p=engie-b2c-cloud&amp;t=e_dbst_scenarios_api&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -958,7 +1010,7 @@
 </div>
 <div class="section" id="dareboost-l-dbst-to-datastudio-mesures-jours">
 <span id="tables-dareboost-l-dbst-to-datastudio-mesures-jours"></span><h2>dareboost.l_dbst_to_datastudio_mesures_jours<a class="headerlink" href="#dareboost-l-dbst-to-datastudio-mesures-jours" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=dareboost&amp;p=engie-b2c-cloud&amp;t=l_dbst_to_datastudio_mesures_jours&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=dareboost&amp;p=engie-b2c-cloud&amp;t=l_dbst_to_datastudio_mesures_jours&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -970,7 +1022,7 @@
 </div>
 <div class="section" id="ds-seo-l-ga-to-ds-seo-traffic-usine">
 <span id="tables-ds-seo-l-ga-to-ds-seo-traffic-usine"></span><h2>ds_seo.l_ga_to_ds_seo_traffic_usine<a class="headerlink" href="#ds-seo-l-ga-to-ds-seo-traffic-usine" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_seo&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_seo_traffic_usine&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_seo&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_seo_traffic_usine&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -982,7 +1034,7 @@
 </div>
 <div class="section" id="ds-seo-l-ga-to-ds-seo-leads-usine">
 <span id="tables-ds-seo-l-ga-to-ds-seo-leads-usine"></span><h2>ds_seo.l_ga_to_ds_seo_leads_usine<a class="headerlink" href="#ds-seo-l-ga-to-ds-seo-leads-usine" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_seo&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_seo_leads_usine&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_seo&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_seo_leads_usine&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -994,7 +1046,7 @@
 </div>
 <div class="section" id="ds-seo-l-ga-to-ds-seo-variation">
 <span id="tables-ds-seo-l-ga-to-ds-seo-variation"></span><h2>ds_seo.l_ga_to_ds_seo_variation<a class="headerlink" href="#ds-seo-l-ga-to-ds-seo-variation" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_seo&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_seo_variation&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_seo&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_seo_variation&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1006,7 +1058,7 @@
 </div>
 <div class="section" id="ds-seo-l-ga-to-ds-seo-contrats-usine">
 <span id="tables-ds-seo-l-ga-to-ds-seo-contrats-usine"></span><h2>ds_seo.l_ga_to_ds_seo_contrats_usine<a class="headerlink" href="#ds-seo-l-ga-to-ds-seo-contrats-usine" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_seo&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_seo_contrats_usine&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_seo&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_seo_contrats_usine&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1019,7 +1071,7 @@
 </div>
 <div class="section" id="ga-l-ga-to-ama-ga-historique-stor">
 <span id="tables-ga-l-ga-to-ama-ga-historique-stor"></span><h2>ga.l_ga_to_ama_ga_historique_stor<a class="headerlink" href="#ga-l-ga-to-ama-ga-historique-stor" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_ga_historique_stor&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_ga_historique_stor&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1031,7 +1083,7 @@
 </div>
 <div class="section" id="id1">
 <span id="id2"></span><h2>ga.l_ga_to_ama_ga_formulaires_stor<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_ga_formulaires_stor&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_ga_formulaires_stor&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1043,25 +1095,25 @@
 </div>
 <div class="section" id="ga-e-gsheet-cee-souscriptions">
 <span id="tables-ga-e-gsheet-cee-souscriptions"></span><h2>ga.e_gsheet_cee_souscriptions<a class="headerlink" href="#ga-e-gsheet-cee-souscriptions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=e_gsheet_cee_souscriptions&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=e_gsheet_cee_souscriptions&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-historique-et-formulaires"><span class="std std-ref">ga_historique_et_formulaires</span></a></p>
 <p><strong>Job</strong> - l_to_ds_comper_e_gsheet_cee_souscriptions</p>
 </div>
 <div class="section" id="ga-sessions">
 <span id="tables-160756520-ga-sessions"></span><h2>160756520.ga_sessions_*<a class="headerlink" href="#ga-sessions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=160756520&amp;p=engie-b2c-cloud&amp;t=ga_sessions_*&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=160756520&amp;p=engie-b2c-cloud&amp;t=ga_sessions_*&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
 <p><strong>Job</strong> - t_sessions</p>
 </div>
 <div class="section" id="id3">
 <span id="id4"></span><h2><a class="reference internal" href="#id4">160756520.ga_sessions</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=160756520&amp;p=engie-b2c-cloud&amp;t=ga_sessions_&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=160756520&amp;p=engie-b2c-cloud&amp;t=ga_sessions_&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
 <p><strong>Job</strong> - t_sessions_historic</p>
 </div>
 <div class="section" id="ga-t-ga-optimizely-events">
 <span id="tables-ga-t-ga-optimizely-events"></span><h2>ga.t_ga_optimizely_events<a class="headerlink" href="#ga-t-ga-optimizely-events" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_optimizely_events&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_optimizely_events&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1073,7 +1125,7 @@
 </div>
 <div class="section" id="ga-t-ga-objectives-events">
 <span id="tables-ga-t-ga-objectives-events"></span><h2>ga.t_ga_objectives_events<a class="headerlink" href="#ga-t-ga-objectives-events" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_objectives_events&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_objectives_events&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1085,7 +1137,7 @@
 </div>
 <div class="section" id="ga-t-ga-detail-session-checkpoint">
 <span id="tables-ga-t-ga-detail-session-checkpoint"></span><h2>ga.t_ga_detail_session_checkpoint<a class="headerlink" href="#ga-t-ga-detail-session-checkpoint" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_detail_session_checkpoint&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_detail_session_checkpoint&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1097,7 +1149,7 @@
 </div>
 <div class="section" id="ga-t-ga-parcours-checkpoint-1">
 <span id="tables-ga-t-ga-parcours-checkpoint-1"></span><h2>ga.t_ga_parcours_checkpoint_1<a class="headerlink" href="#ga-t-ga-parcours-checkpoint-1" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_parcours_checkpoint_1&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_parcours_checkpoint_1&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1108,9 +1160,9 @@
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
 <p><strong>Job</strong> - t_parcours_checkpoint_1</p>
 </div>
-<div class="section" id="ga-t-ga-sessions-historic">
-<span id="tables-ga-t-ga-sessions-historic"></span><h2>ga.t_ga_sessions_historic<a class="headerlink" href="#ga-t-ga-sessions-historic" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions_historic&amp;page=table">ouvrir dans BQ</a></p>
+<div class="section" id="id5">
+<span id="id6"></span><h2>ga.t_ga_sessions_historic<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions_historic&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1122,7 +1174,7 @@
 </div>
 <div class="section" id="ga-t-ga-sessions-sample">
 <span id="tables-ga-t-ga-sessions-sample"></span><h2>ga.t_ga_sessions_sample<a class="headerlink" href="#ga-t-ga-sessions-sample" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions_sample&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions_sample&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1134,7 +1186,7 @@
 </div>
 <div class="section" id="ga-t-ga-objectives-entries-vs-objectives">
 <span id="tables-ga-t-ga-objectives-entries-vs-objectives"></span><h2>ga.t_ga_objectives_entries_vs_objectives<a class="headerlink" href="#ga-t-ga-objectives-entries-vs-objectives" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_objectives_entries_vs_objectives&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_objectives_entries_vs_objectives&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1146,7 +1198,7 @@
 </div>
 <div class="section" id="ga-t-ga-optimizely-sessions">
 <span id="tables-ga-t-ga-optimizely-sessions"></span><h2>ga.t_ga_optimizely_sessions<a class="headerlink" href="#ga-t-ga-optimizely-sessions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_optimizely_sessions&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_optimizely_sessions&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1158,7 +1210,7 @@
 </div>
 <div class="section" id="ga-t-ga-optimizely-vs-objectives">
 <span id="tables-ga-t-ga-optimizely-vs-objectives"></span><h2>ga.t_ga_optimizely_vs_objectives<a class="headerlink" href="#ga-t-ga-optimizely-vs-objectives" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_optimizely_vs_objectives&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_optimizely_vs_objectives&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1171,7 +1223,7 @@
 </div>
 <div class="section" id="ga-t-ga-fait-parcours">
 <span id="tables-ga-t-ga-fait-parcours"></span><h2>ga.t_ga_fait_parcours<a class="headerlink" href="#ga-t-ga-fait-parcours" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_fait_parcours&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_fait_parcours&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1184,7 +1236,7 @@
 </div>
 <div class="section" id="ga-t-ga-parcours-checkpoint-1-2">
 <span id="tables-ga-t-ga-parcours-checkpoint-1-2"></span><h2>ga.t_ga_parcours_checkpoint_1_2<a class="headerlink" href="#ga-t-ga-parcours-checkpoint-1-2" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_parcours_checkpoint_1_2&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_parcours_checkpoint_1_2&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1196,7 +1248,7 @@
 </div>
 <div class="section" id="ga-t-ga-qualite">
 <span id="tables-ga-t-ga-qualite"></span><h2>ga.t_ga_qualite<a class="headerlink" href="#ga-t-ga-qualite" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_qualite&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_qualite&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1208,7 +1260,7 @@
 </div>
 <div class="section" id="ga-t-ga-recurrence-visites-ec-sessions">
 <span id="tables-ga-t-ga-recurrence-visites-ec-sessions"></span><h2>ga.t_ga_recurrence_visites_ec_sessions<a class="headerlink" href="#ga-t-ga-recurrence-visites-ec-sessions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence_visites_ec_sessions&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence_visites_ec_sessions&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1220,7 +1272,7 @@
 </div>
 <div class="section" id="ga-t-ga-blog-vs-objectifs">
 <span id="tables-ga-t-ga-blog-vs-objectifs"></span><h2>ga.t_ga_blog_vs_objectifs<a class="headerlink" href="#ga-t-ga-blog-vs-objectifs" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_blog_vs_objectifs&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_blog_vs_objectifs&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1232,7 +1284,7 @@
 </div>
 <div class="section" id="ga-t-ga-ec-connexions">
 <span id="tables-ga-t-ga-ec-connexions"></span><h2>ga.t_ga_ec_connexions<a class="headerlink" href="#ga-t-ga-ec-connexions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_ec_connexions&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_ec_connexions&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1244,7 +1296,7 @@
 </div>
 <div class="section" id="ga-t-ga-consentements-parcours">
 <span id="tables-ga-t-ga-consentements-parcours"></span><h2>ga.t_ga_consentements_parcours<a class="headerlink" href="#ga-t-ga-consentements-parcours" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_consentements_parcours&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_consentements_parcours&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1256,7 +1308,7 @@
 </div>
 <div class="section" id="ga-t-ga-visites-ec-recurrence-bp">
 <span id="tables-ga-t-ga-visites-ec-recurrence-bp"></span><h2>ga.t_ga_visites_ec_recurrence_bp<a class="headerlink" href="#ga-t-ga-visites-ec-recurrence-bp" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_visites_ec_recurrence_bp&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_visites_ec_recurrence_bp&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1268,7 +1320,7 @@
 </div>
 <div class="section" id="ga-t-ga-recurrence1-moyenne-session-ec-bp-support-device-profil-mois">
 <span id="tables-ga-t-ga-recurrence1-moyenne-session-ec-bp-support-device-profil-mois"></span><h2>ga.t_ga_recurrence1_moyenne_session_ec_bp_support_device_profil_mois<a class="headerlink" href="#ga-t-ga-recurrence1-moyenne-session-ec-bp-support-device-profil-mois" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence1_moyenne_session_ec_bp_support_device_profil_mois&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence1_moyenne_session_ec_bp_support_device_profil_mois&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1280,7 +1332,7 @@
 </div>
 <div class="section" id="ga-t-ga-recurrence1-moyenne-session-ec-bp-support-mois">
 <span id="tables-ga-t-ga-recurrence1-moyenne-session-ec-bp-support-mois"></span><h2>ga.t_ga_recurrence1_moyenne_session_ec_bp_support_mois<a class="headerlink" href="#ga-t-ga-recurrence1-moyenne-session-ec-bp-support-mois" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence1_moyenne_session_ec_bp_support_mois&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence1_moyenne_session_ec_bp_support_mois&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1292,7 +1344,7 @@
 </div>
 <div class="section" id="ga-t-ga-recurrence2-groupe-nb-session-ec-bp-support-mois">
 <span id="tables-ga-t-ga-recurrence2-groupe-nb-session-ec-bp-support-mois"></span><h2>ga.t_ga_recurrence2_groupe_nb_session_ec_bp_support_mois<a class="headerlink" href="#ga-t-ga-recurrence2-groupe-nb-session-ec-bp-support-mois" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence2_groupe_nb_session_ec_bp_support_mois&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence2_groupe_nb_session_ec_bp_support_mois&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1304,7 +1356,7 @@
 </div>
 <div class="section" id="ga-t-ga-recurrence2-groupe-nb-session-ec-bp-profil-mois">
 <span id="tables-ga-t-ga-recurrence2-groupe-nb-session-ec-bp-profil-mois"></span><h2>ga.t_ga_recurrence2_groupe_nb_session_ec_bp_profil_mois<a class="headerlink" href="#ga-t-ga-recurrence2-groupe-nb-session-ec-bp-profil-mois" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence2_groupe_nb_session_ec_bp_profil_mois&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence2_groupe_nb_session_ec_bp_profil_mois&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1316,7 +1368,7 @@
 </div>
 <div class="section" id="ga-t-ga-recurrence3-usage-crossdevice-detail-ec-nb-idbp-mois">
 <span id="tables-ga-t-ga-recurrence3-usage-crossdevice-detail-ec-nb-idbp-mois"></span><h2>ga.t_ga_recurrence3_usage_crossdevice_detail_ec_nb_idbp_mois<a class="headerlink" href="#ga-t-ga-recurrence3-usage-crossdevice-detail-ec-nb-idbp-mois" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence3_usage_crossdevice_detail_ec_nb_idbp_mois&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_recurrence3_usage_crossdevice_detail_ec_nb_idbp_mois&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1328,7 +1380,7 @@
 </div>
 <div class="section" id="ga-t-ga-prog-eng-consultation-et-usage">
 <span id="tables-ga-t-ga-prog-eng-consultation-et-usage"></span><h2>ga.t_ga_prog_eng_consultation_et_usage<a class="headerlink" href="#ga-t-ga-prog-eng-consultation-et-usage" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_prog_eng_consultation_et_usage&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_prog_eng_consultation_et_usage&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1340,7 +1392,7 @@
 </div>
 <div class="section" id="comite-drc-e-ds-comite-drc-infosmensuelles">
 <span id="tables-comite-drc-e-ds-comite-drc-infosmensuelles"></span><h2>comite_drc.e_ds_comite_drc_infosmensuelles<a class="headerlink" href="#comite-drc-e-ds-comite-drc-infosmensuelles" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comite_drc&amp;p=engie-b2c-cloud&amp;t=e_ds_comite_drc_infosmensuelles&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=comite_drc&amp;p=engie-b2c-cloud&amp;t=e_ds_comite_drc_infosmensuelles&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1352,7 +1404,7 @@
 </div>
 <div class="section" id="ds-engagement-l-ga-to-ds-engagement-services">
 <span id="tables-ds-engagement-l-ga-to-ds-engagement-services"></span><h2>ds_engagement.l_ga_to_ds_engagement_services<a class="headerlink" href="#ds-engagement-l-ga-to-ds-engagement-services" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_engagement&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_engagement_services&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_engagement&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_engagement_services&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1364,7 +1416,7 @@
 </div>
 <div class="section" id="ds-engagement-l-ga-to-ds-engagement-consolidation">
 <span id="tables-ds-engagement-l-ga-to-ds-engagement-consolidation"></span><h2>ds_engagement.l_ga_to_ds_engagement_consolidation<a class="headerlink" href="#ds-engagement-l-ga-to-ds-engagement-consolidation" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_engagement&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_engagement_consolidation&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_engagement&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_engagement_consolidation&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1376,7 +1428,7 @@
 </div>
 <div class="section" id="ds-engagement-l-to-ds-engagement-nb-idbp-et-premiere-visites">
 <span id="tables-ds-engagement-l-to-ds-engagement-nb-idbp-et-premiere-visites"></span><h2>ds_engagement.l_to_ds_engagement_nb_idbp_et_premiere_visites<a class="headerlink" href="#ds-engagement-l-to-ds-engagement-nb-idbp-et-premiere-visites" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_engagement&amp;p=engie-b2c-cloud&amp;t=l_to_ds_engagement_nb_idbp_et_premiere_visites&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_engagement&amp;p=engie-b2c-cloud&amp;t=l_to_ds_engagement_nb_idbp_et_premiere_visites&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1388,7 +1440,7 @@
 </div>
 <div class="section" id="ds-engagement-l-to-ds-engagement-avg-sessions-per-client-last3month">
 <span id="tables-ds-engagement-l-to-ds-engagement-avg-sessions-per-client-last3month"></span><h2>ds_engagement.l_to_ds_engagement_avg_sessions_per_client_last3month<a class="headerlink" href="#ds-engagement-l-to-ds-engagement-avg-sessions-per-client-last3month" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_engagement&amp;p=engie-b2c-cloud&amp;t=l_to_ds_engagement_avg_sessions_per_client_last3month&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_engagement&amp;p=engie-b2c-cloud&amp;t=l_to_ds_engagement_avg_sessions_per_client_last3month&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1400,7 +1452,7 @@
 </div>
 <div class="section" id="ds-engagement-l-to-ds-engagement-recurrence-repartition-last3month">
 <span id="tables-ds-engagement-l-to-ds-engagement-recurrence-repartition-last3month"></span><h2>ds_engagement.l_to_ds_engagement_recurrence_repartition_last3month<a class="headerlink" href="#ds-engagement-l-to-ds-engagement-recurrence-repartition-last3month" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_engagement&amp;p=engie-b2c-cloud&amp;t=l_to_ds_engagement_recurrence_repartition_last3month&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_engagement&amp;p=engie-b2c-cloud&amp;t=l_to_ds_engagement_recurrence_repartition_last3month&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1412,7 +1464,7 @@
 </div>
 <div class="section" id="ga-t-ga-prog-eng-consultation-et-usage-count">
 <span id="tables-ga-t-ga-prog-eng-consultation-et-usage-count"></span><h2>ga.t_ga_prog_eng_consultation_et_usage_count<a class="headerlink" href="#ga-t-ga-prog-eng-consultation-et-usage-count" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_prog_eng_consultation_et_usage_count&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_prog_eng_consultation_et_usage_count&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1424,7 +1476,7 @@
 </div>
 <div class="section" id="ga-t-ga-prog-eng-projet-ka-group-by">
 <span id="tables-ga-t-ga-prog-eng-projet-ka-group-by"></span><h2>ga.t_ga_prog_eng_projet_ka_group_by<a class="headerlink" href="#ga-t-ga-prog-eng-projet-ka-group-by" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_prog_eng_projet_ka_group_by&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_prog_eng_projet_ka_group_by&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1436,7 +1488,7 @@
 </div>
 <div class="section" id="ga-t-ga-prog-eng-projet-monthly">
 <span id="tables-ga-t-ga-prog-eng-projet-monthly"></span><h2>ga.t_ga_prog_eng_projet_monthly<a class="headerlink" href="#ga-t-ga-prog-eng-projet-monthly" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_prog_eng_projet_monthly&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_prog_eng_projet_monthly&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1448,7 +1500,7 @@
 </div>
 <div class="section" id="ga-t-ga-bots-selfcare">
 <span id="tables-ga-t-ga-bots-selfcare"></span><h2>ga.t_ga_bots_selfcare<a class="headerlink" href="#ga-t-ga-bots-selfcare" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_bots_selfcare&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_bots_selfcare&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1460,7 +1512,7 @@
 </div>
 <div class="section" id="datastudio-canaux-l-to-ds-canaux-tchat">
 <span id="tables-datastudio-canaux-l-to-ds-canaux-tchat"></span><h2>datastudio_canaux.l_to_ds_canaux_tchat<a class="headerlink" href="#datastudio-canaux-l-to-ds-canaux-tchat" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=datastudio_canaux&amp;p=engie-b2c-cloud&amp;t=l_to_ds_canaux_tchat&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=datastudio_canaux&amp;p=engie-b2c-cloud&amp;t=l_to_ds_canaux_tchat&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1472,7 +1524,7 @@
 </div>
 <div class="section" id="datastudio-canaux-l-to-ds-canaux-consolidation-bulles">
 <span id="tables-datastudio-canaux-l-to-ds-canaux-consolidation-bulles"></span><h2>datastudio_canaux.l_to_ds_canaux_consolidation_bulles<a class="headerlink" href="#datastudio-canaux-l-to-ds-canaux-consolidation-bulles" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=datastudio_canaux&amp;p=engie-b2c-cloud&amp;t=l_to_ds_canaux_consolidation_bulles&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=datastudio_canaux&amp;p=engie-b2c-cloud&amp;t=l_to_ds_canaux_consolidation_bulles&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1484,7 +1536,7 @@
 </div>
 <div class="section" id="datastudio-canaux-l-to-ds-canaux-tchat-hourly">
 <span id="tables-datastudio-canaux-l-to-ds-canaux-tchat-hourly"></span><h2>datastudio_canaux.l_to_ds_canaux_tchat_hourly<a class="headerlink" href="#datastudio-canaux-l-to-ds-canaux-tchat-hourly" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=datastudio_canaux&amp;p=engie-b2c-cloud&amp;t=l_to_ds_canaux_tchat_hourly&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=datastudio_canaux&amp;p=engie-b2c-cloud&amp;t=l_to_ds_canaux_tchat_hourly&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1496,7 +1548,7 @@
 </div>
 <div class="section" id="datastudio-canaux-l-to-ds-canaux-tchat-eligible-hourly">
 <span id="tables-datastudio-canaux-l-to-ds-canaux-tchat-eligible-hourly"></span><h2>datastudio_canaux.l_to_ds_canaux_tchat_eligible_hourly<a class="headerlink" href="#datastudio-canaux-l-to-ds-canaux-tchat-eligible-hourly" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=datastudio_canaux&amp;p=engie-b2c-cloud&amp;t=l_to_ds_canaux_tchat_eligible_hourly&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=datastudio_canaux&amp;p=engie-b2c-cloud&amp;t=l_to_ds_canaux_tchat_eligible_hourly&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1508,7 +1560,7 @@
 </div>
 <div class="section" id="ds-maconso-l-to-ds-maconso-fonctionnalites-elec">
 <span id="tables-ds-maconso-l-to-ds-maconso-fonctionnalites-elec"></span><h2>ds_maconso.l_to_ds_maconso_fonctionnalites_elec<a class="headerlink" href="#ds-maconso-l-to-ds-maconso-fonctionnalites-elec" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_maconso&amp;p=engie-b2c-cloud&amp;t=l_to_ds_maconso_fonctionnalites_elec&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ds_maconso&amp;p=engie-b2c-cloud&amp;t=l_to_ds_maconso_fonctionnalites_elec&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1520,7 +1572,7 @@
 </div>
 <div class="section" id="ga-l-ga-to-ds-comper-parcours-service-equipement-ignition">
 <span id="tables-ga-l-ga-to-ds-comper-parcours-service-equipement-ignition"></span><h2>ga.l_ga_to_ds_comper_parcours_service_equipement_ignition<a class="headerlink" href="#ga-l-ga-to-ds-comper-parcours-service-equipement-ignition" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_comper_parcours_service_equipement_ignition&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ds_comper_parcours_service_equipement_ignition&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1532,40 +1584,31 @@
 </div>
 <div class="section" id="ga-l-ga-to-ama-ga-formulaires-stor-2021">
 <span id="tables-ga-l-ga-to-ama-ga-formulaires-stor-2021"></span><h2>ga.l_ga_to_ama_ga_formulaires_stor_2021*<a class="headerlink" href="#ga-l-ga-to-ama-ga-formulaires-stor-2021" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_ga_formulaires_stor_2021*&amp;page=table">ouvrir dans BQ</a></p>
-<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-wizaly"><span class="std std-ref">wizaly</span></a></p>
-<p><strong>Job</strong> - t_import_wizaly_pc_transformees</p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_ga_formulaires_stor_2021*&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-hit-measurement-protocol"><span class="std std-ref">hit_measurement_protocol</span></a></p>
+<p><strong>Job</strong> - t_contrats_form_valeurs</p>
 </div>
 <div class="section" id="hit-measurement-protocol-t-ga-sessions">
 <span id="tables-hit-measurement-protocol-t-ga-sessions"></span><h2>hit_measurement_protocol.t_ga_sessions<a class="headerlink" href="#hit-measurement-protocol-t-ga-sessions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=hit_measurement_protocol&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=hit_measurement_protocol&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-hit-measurement-protocol"><span class="std std-ref">hit_measurement_protocol</span></a></p>
 <p><strong>Job</strong> - t_contrats_form_valeurs</p>
 </div>
 <div class="section" id="hit-measurement-protocol-t-ga-contrats-form-valeurs-envoyes">
 <span id="tables-hit-measurement-protocol-t-ga-contrats-form-valeurs-envoyes"></span><h2>hit_measurement_protocol.t_ga_contrats_form_valeurs_envoyes<a class="headerlink" href="#hit-measurement-protocol-t-ga-contrats-form-valeurs-envoyes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=hit_measurement_protocol&amp;p=engie-b2c-cloud&amp;t=t_ga_contrats_form_valeurs_envoyes&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=hit_measurement_protocol&amp;p=engie-b2c-cloud&amp;t=t_ga_contrats_form_valeurs_envoyes&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-hit-measurement-protocol"><span class="std std-ref">hit_measurement_protocol</span></a></p>
 <p><strong>Job</strong> - t_contrats_form_valeurs</p>
 </div>
 <div class="section" id="ga-t-ga-contrats-form-valeurs">
 <span id="tables-ga-t-ga-contrats-form-valeurs"></span><h2>ga.t_ga_contrats_form_valeurs<a class="headerlink" href="#ga-t-ga-contrats-form-valeurs" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_contrats_form_valeurs&amp;page=table">ouvrir dans BQ</a></p>
-<p><strong>Sources</strong>:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p><a class="reference internal" href="#tables-ga-l-ga-to-ama-ga-formulaires-stor-2021"><span class="std std-ref">ga.l_ga_to_ama_ga_formulaires_stor_2021*</span></a> (BigQuery)</p></li>
-<li><p><a class="reference internal" href="#tables-amadeus-e-ama-formulaires-stor"><span class="std std-ref">amadeus.e_ama_formulaires_stor</span></a> (BigQuery)</p></li>
-<li><p><a class="reference internal" href="#tables-hit-measurement-protocol-t-ga-sessions"><span class="std std-ref">hit_measurement_protocol.t_ga_sessions</span></a> (BigQuery)</p></li>
-<li><p><a class="reference internal" href="#tables-hit-measurement-protocol-t-ga-contrats-form-valeurs-envoyes"><span class="std std-ref">hit_measurement_protocol.t_ga_contrats_form_valeurs_envoyes</span></a> (BigQuery)</p></li>
-</ul>
-</div></blockquote>
-<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-hit-measurement-protocol"><span class="std std-ref">hit_measurement_protocol</span></a></p>
-<p><strong>Job</strong> - t_contrats_form_valeurs</p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_contrats_form_valeurs&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-wizaly"><span class="std std-ref">wizaly</span></a></p>
+<p><strong>Job</strong> - t_import_wizaly_pc_transformees</p>
 </div>
 <div class="section" id="my-power-t-mypower-lead-opportunite-vente">
 <span id="tables-my-power-t-mypower-lead-opportunite-vente"></span><h2>my_power.t_mypower_lead_opportunite_vente<a class="headerlink" href="#my-power-t-mypower-lead-opportunite-vente" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_lead_opportunite_vente&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_lead_opportunite_vente&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1580,7 +1623,7 @@
 </div>
 <div class="section" id="my-power-t-mypower-ventes-a-envoyer">
 <span id="tables-my-power-t-mypower-ventes-a-envoyer"></span><h2>my_power.t_mypower_ventes_a_envoyer<a class="headerlink" href="#my-power-t-mypower-ventes-a-envoyer" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_ventes_a_envoyer&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_ventes_a_envoyer&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1593,7 +1636,7 @@
 </div>
 <div class="section" id="my-power-t-mypower-opportunites-a-envoyer">
 <span id="tables-my-power-t-mypower-opportunites-a-envoyer"></span><h2>my_power.t_mypower_opportunites_a_envoyer<a class="headerlink" href="#my-power-t-mypower-opportunites-a-envoyer" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_opportunites_a_envoyer&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_opportunites_a_envoyer&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1606,7 +1649,7 @@
 </div>
 <div class="section" id="ga-t-ga-contrats-form-valeurs-envoyes">
 <span id="tables-ga-t-ga-contrats-form-valeurs-envoyes"></span><h2>ga.t_ga_contrats_form_valeurs_envoyes<a class="headerlink" href="#ga-t-ga-contrats-form-valeurs-envoyes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_contrats_form_valeurs_envoyes&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_contrats_form_valeurs_envoyes&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1616,21 +1659,9 @@
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-hit-measurement-protocol"><span class="std std-ref">hit_measurement_protocol</span></a></p>
 <p><strong>Job</strong> - l_to_ga_contrats_form_valeurs</p>
 </div>
-<div class="section" id="ga-t-ga-contrats-form-valeurs-envoyes-test">
-<span id="tables-ga-t-ga-contrats-form-valeurs-envoyes-test"></span><h2>ga.t_ga_contrats_form_valeurs_envoyes_test<a class="headerlink" href="#ga-t-ga-contrats-form-valeurs-envoyes-test" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_contrats_form_valeurs_envoyes_test&amp;page=table">ouvrir dans BQ</a></p>
-<p><strong>Sources</strong>:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p><a class="reference internal" href="#tables-ga-t-ga-contrats-form-valeurs"><span class="std std-ref">ga.t_ga_contrats_form_valeurs</span></a> (BigQuery)</p></li>
-</ul>
-</div></blockquote>
-<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-hit-measurement-protocol"><span class="std std-ref">hit_measurement_protocol</span></a></p>
-<p><strong>Job</strong> - l_to_ga_contrats_form_valeurs_gclid</p>
-</div>
 <div class="section" id="my-power-t-mypower-ventes-envoyees">
 <span id="tables-my-power-t-mypower-ventes-envoyees"></span><h2>my_power.t_mypower_ventes_envoyees<a class="headerlink" href="#my-power-t-mypower-ventes-envoyees" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_ventes_envoyees&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_ventes_envoyees&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1642,7 +1673,7 @@
 </div>
 <div class="section" id="my-power-t-mypower-opportunites-envoyees">
 <span id="tables-my-power-t-mypower-opportunites-envoyees"></span><h2>my_power.t_mypower_opportunites_envoyees<a class="headerlink" href="#my-power-t-mypower-opportunites-envoyees" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_opportunites_envoyees&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_opportunites_envoyees&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1654,13 +1685,13 @@
 </div>
 <div class="section" id="amadeus-t-import-data-formulaires-valeurs-nulles">
 <span id="tables-amadeus-t-import-data-formulaires-valeurs-nulles"></span><h2>amadeus.t_import_data_formulaires_valeurs_nulles<a class="headerlink" href="#amadeus-t-import-data-formulaires-valeurs-nulles" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_import_data_formulaires_valeurs_nulles&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_import_data_formulaires_valeurs_nulles&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-import-data"><span class="std std-ref">import_data</span></a></p>
 <p><strong>Job</strong> - t_import_data_formulaires</p>
 </div>
 <div class="section" id="amadeus-t-ama-import-data-formulaires">
 <span id="tables-amadeus-t-ama-import-data-formulaires"></span><h2>amadeus.t_ama_import_data_formulaires<a class="headerlink" href="#amadeus-t-ama-import-data-formulaires" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_import_data_formulaires&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_import_data_formulaires&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1673,13 +1704,13 @@
 </div>
 <div class="section" id="ga-t-import-data-page-destination-valeurs-nulles">
 <span id="tables-ga-t-import-data-page-destination-valeurs-nulles"></span><h2>ga.t_import_data_page_destination_valeurs_nulles<a class="headerlink" href="#ga-t-import-data-page-destination-valeurs-nulles" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_import_data_page_destination_valeurs_nulles&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_import_data_page_destination_valeurs_nulles&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-import-data"><span class="std std-ref">import_data</span></a></p>
 <p><strong>Job</strong> - t_import_data_page_destination</p>
 </div>
 <div class="section" id="amadeus-t-ama-import-data-page-destination">
 <span id="tables-amadeus-t-ama-import-data-page-destination"></span><h2>amadeus.t_ama_import_data_page_destination<a class="headerlink" href="#amadeus-t-ama-import-data-page-destination" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_import_data_page_destination&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_import_data_page_destination&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1692,19 +1723,19 @@
 </div>
 <div class="section" id="my-power-eu-vente">
 <span id="tables-my-power-eu-vente"></span><h2>my_power_eu.vente<a class="headerlink" href="#my-power-eu-vente" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power_eu&amp;p=engie-b2c-cloud&amp;t=vente&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power_eu&amp;p=engie-b2c-cloud&amp;t=vente&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-import-data"><span class="std std-ref">import_data</span></a></p>
 <p><strong>Job</strong> - t_import_data_mypower</p>
 </div>
 <div class="section" id="my-power-eu-opportunite">
 <span id="tables-my-power-eu-opportunite"></span><h2>my_power_eu.opportunite<a class="headerlink" href="#my-power-eu-opportunite" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power_eu&amp;p=engie-b2c-cloud&amp;t=opportunite&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power_eu&amp;p=engie-b2c-cloud&amp;t=opportunite&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-import-data"><span class="std std-ref">import_data</span></a></p>
 <p><strong>Job</strong> - t_import_data_mypower</p>
 </div>
 <div class="section" id="my-power-eu-t-sf-mypower-contrats">
 <span id="tables-my-power-eu-t-sf-mypower-contrats"></span><h2>my_power_eu.t_sf_mypower_contrats<a class="headerlink" href="#my-power-eu-t-sf-mypower-contrats" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power_eu&amp;p=engie-b2c-cloud&amp;t=t_sf_mypower_contrats&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power_eu&amp;p=engie-b2c-cloud&amp;t=t_sf_mypower_contrats&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1717,7 +1748,7 @@
 </div>
 <div class="section" id="kwanko-e-kwa-formulaires-stor">
 <span id="tables-kwanko-e-kwa-formulaires-stor"></span><h2>kwanko.e_kwa_formulaires_stor<a class="headerlink" href="#kwanko-e-kwa-formulaires-stor" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=e_kwa_formulaires_stor&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=e_kwa_formulaires_stor&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1729,13 +1760,13 @@
 </div>
 <div class="section" id="ga-t-ga-formulaires">
 <span id="tables-ga-t-ga-formulaires"></span><h2>ga.t_ga_formulaires<a class="headerlink" href="#ga-t-ga-formulaires" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_formulaires&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_formulaires&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-kwanko"><span class="std std-ref">kwanko</span></a></p>
 <p><strong>Job</strong> - t_formulaires_traitements</p>
 </div>
 <div class="section" id="kwanko-e-kwa-validation-manuelle-stor">
 <span id="tables-kwanko-e-kwa-validation-manuelle-stor"></span><h2>kwanko.e_kwa_validation_manuelle_stor<a class="headerlink" href="#kwanko-e-kwa-validation-manuelle-stor" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=e_kwa_validation_manuelle_stor&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=e_kwa_validation_manuelle_stor&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1747,13 +1778,13 @@
 </div>
 <div class="section" id="kwanko-e-kwa-formulaires-a-exclure-csv">
 <span id="tables-kwanko-e-kwa-formulaires-a-exclure-csv"></span><h2>kwanko.e_kwa_formulaires_a_exclure_csv<a class="headerlink" href="#kwanko-e-kwa-formulaires-a-exclure-csv" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=e_kwa_formulaires_a_exclure_csv&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=e_kwa_formulaires_a_exclure_csv&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-kwanko"><span class="std std-ref">kwanko</span></a></p>
 <p><strong>Job</strong> - t_formulaires_traitements</p>
 </div>
 <div class="section" id="kwanko-l-kwa-formulaires-traitements">
 <span id="tables-kwanko-l-kwa-formulaires-traitements"></span><h2>kwanko.l_kwa_formulaires_traitements<a class="headerlink" href="#kwanko-l-kwa-formulaires-traitements" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=l_kwa_formulaires_traitements&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=kwanko&amp;p=engie-b2c-cloud&amp;t=l_kwa_formulaires_traitements&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1769,31 +1800,31 @@
 </div>
 <div class="section" id="my-power-t-ga-sessions">
 <span id="tables-my-power-t-ga-sessions"></span><h2>my_power.t_ga_sessions<a class="headerlink" href="#my-power-t-ga-sessions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-my-power"><span class="std std-ref">my_power</span></a></p>
 <p><strong>Job</strong> - t_lead_opportunite_vente_biaises</p>
 </div>
 <div class="section" id="ga-t-mypower-lead">
 <span id="tables-ga-t-mypower-lead"></span><h2>ga.t_mypower_lead<a class="headerlink" href="#ga-t-mypower-lead" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_mypower_lead&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_mypower_lead&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-my-power"><span class="std std-ref">my_power</span></a></p>
 <p><strong>Job</strong> - t_lead_opportunite_vente_biaises</p>
 </div>
 <div class="section" id="my-power-t-mypower-vente">
 <span id="tables-my-power-t-mypower-vente"></span><h2>my_power.t_mypower_vente<a class="headerlink" href="#my-power-t-mypower-vente" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_vente&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_vente&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-my-power"><span class="std std-ref">my_power</span></a></p>
 <p><strong>Job</strong> - t_lead_opportunite_vente_biaises</p>
 </div>
 <div class="section" id="my-power-t-mypower-opportunite">
 <span id="tables-my-power-t-mypower-opportunite"></span><h2>my_power.t_mypower_opportunite<a class="headerlink" href="#my-power-t-mypower-opportunite" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_opportunite&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_opportunite&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-my-power"><span class="std std-ref">my_power</span></a></p>
 <p><strong>Job</strong> - t_lead_opportunite_vente_biaises</p>
 </div>
 <div class="section" id="my-power-t-mypower-lead-opportunite-vente-biaises">
 <span id="tables-my-power-t-mypower-lead-opportunite-vente-biaises"></span><h2>my_power.t_mypower_lead_opportunite_vente_biaises<a class="headerlink" href="#my-power-t-mypower-lead-opportunite-vente-biaises" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_lead_opportunite_vente_biaises&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_lead_opportunite_vente_biaises&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1808,25 +1839,25 @@
 </div>
 <div class="section" id="my-power-e-gsheet-classification-campagne">
 <span id="tables-my-power-e-gsheet-classification-campagne"></span><h2>my_power.e_gsheet_classification_campagne<a class="headerlink" href="#my-power-e-gsheet-classification-campagne" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=e_gsheet_classification_campagne&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=e_gsheet_classification_campagne&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-my-power"><span class="std std-ref">my_power</span></a></p>
 <p><strong>Job</strong> - t_lead_opportunite_vente_apartir_28juillet</p>
 </div>
 <div class="section" id="my-power-e-mypower-lead-opportunite-vente-06-12aout">
 <span id="tables-my-power-e-mypower-lead-opportunite-vente-06-12aout"></span><h2>my_power.e_mypower_lead_opportunite_vente_06_12aout<a class="headerlink" href="#my-power-e-mypower-lead-opportunite-vente-06-12aout" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=e_mypower_lead_opportunite_vente_06_12aout&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=e_mypower_lead_opportunite_vente_06_12aout&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-my-power"><span class="std std-ref">my_power</span></a></p>
 <p><strong>Job</strong> - t_lead_opportunite_vente</p>
 </div>
 <div class="section" id="my-power-e-mypower-lead-opportunite-vente-juin-juillet">
 <span id="tables-my-power-e-mypower-lead-opportunite-vente-juin-juillet"></span><h2>my_power.e_mypower_lead_opportunite_vente_juin_juillet<a class="headerlink" href="#my-power-e-mypower-lead-opportunite-vente-juin-juillet" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=e_mypower_lead_opportunite_vente_juin_juillet&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=e_mypower_lead_opportunite_vente_juin_juillet&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-my-power"><span class="std std-ref">my_power</span></a></p>
 <p><strong>Job</strong> - t_lead_opportunite_vente</p>
 </div>
 <div class="section" id="my-power-t-mypower-lead-opportunite-vente-jusquau10juin">
 <span id="tables-my-power-t-mypower-lead-opportunite-vente-jusquau10juin"></span><h2>my_power.t_mypower_lead_opportunite_vente_jusquau10juin<a class="headerlink" href="#my-power-t-mypower-lead-opportunite-vente-jusquau10juin" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_lead_opportunite_vente_jusquau10juin&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_lead_opportunite_vente_jusquau10juin&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1839,7 +1870,7 @@
 </div>
 <div class="section" id="my-power-t-mypower-lead-opportunite-vente-apartir-28juillet">
 <span id="tables-my-power-t-mypower-lead-opportunite-vente-apartir-28juillet"></span><h2>my_power.t_mypower_lead_opportunite_vente_apartir_28juillet<a class="headerlink" href="#my-power-t-mypower-lead-opportunite-vente-apartir-28juillet" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_lead_opportunite_vente_apartir_28juillet&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=my_power&amp;p=engie-b2c-cloud&amp;t=t_mypower_lead_opportunite_vente_apartir_28juillet&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1853,25 +1884,25 @@
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-wcb-bing-2019">
 <span id="tables-sea-ga-gads-e-gsheet-wcb-bing-2019"></span><h2>sea_ga_gads.e_gsheet_WCB_Bing_2019<a class="headerlink" href="#sea-ga-gads-e-gsheet-wcb-bing-2019" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Bing_2019&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Bing_2019&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-wcb-bing-2020">
 <span id="tables-sea-ga-gads-e-gsheet-wcb-bing-2020"></span><h2>sea_ga_gads.e_gsheet_WCB_Bing_2020<a class="headerlink" href="#sea-ga-gads-e-gsheet-wcb-bing-2020" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Bing_2020&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Bing_2020&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-wcb-bing-2021">
 <span id="tables-sea-ga-gads-e-gsheet-wcb-bing-2021"></span><h2>sea_ga_gads.e_gsheet_WCB_Bing_2021<a class="headerlink" href="#sea-ga-gads-e-gsheet-wcb-bing-2021" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Bing_2021&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Bing_2021&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-t-ga-wcb-bing">
 <span id="tables-sea-ga-gads-t-ga-wcb-bing"></span><h2>sea_ga_gads.t_ga_WCB_bing<a class="headerlink" href="#sea-ga-gads-t-ga-wcb-bing" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=t_ga_WCB_bing&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=t_ga_WCB_bing&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1883,25 +1914,25 @@
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-wcb-google-2019">
 <span id="tables-sea-ga-gads-e-gsheet-wcb-google-2019"></span><h2>sea_ga_gads.e_gsheet_WCB_Google_2019<a class="headerlink" href="#sea-ga-gads-e-gsheet-wcb-google-2019" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Google_2019&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Google_2019&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-wcb-google-2020">
 <span id="tables-sea-ga-gads-e-gsheet-wcb-google-2020"></span><h2>sea_ga_gads.e_gsheet_WCB_Google_2020<a class="headerlink" href="#sea-ga-gads-e-gsheet-wcb-google-2020" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Google_2020&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Google_2020&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-wcb-google-2021">
 <span id="tables-sea-ga-gads-e-gsheet-wcb-google-2021"></span><h2>sea_ga_gads.e_gsheet_WCB_Google_2021<a class="headerlink" href="#sea-ga-gads-e-gsheet-wcb-google-2021" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Google_2021&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Google_2021&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-t-ga-wcb-google">
 <span id="tables-sea-ga-gads-t-ga-wcb-google"></span><h2>sea_ga_gads.t_ga_WCB_google<a class="headerlink" href="#sea-ga-gads-t-ga-wcb-google" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=t_ga_WCB_google&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=t_ga_WCB_google&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1913,19 +1944,19 @@
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-click-to-call-google-campagne">
 <span id="tables-sea-ga-gads-e-gsheet-click-to-call-google-campagne"></span><h2>sea_ga_gads.e_gsheet_click_to_call_Google_campagne<a class="headerlink" href="#sea-ga-gads-e-gsheet-click-to-call-google-campagne" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_click_to_call_Google_campagne&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_click_to_call_Google_campagne&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-click-to-call-google-campagne-2021">
 <span id="tables-sea-ga-gads-e-gsheet-click-to-call-google-campagne-2021"></span><h2>sea_ga_gads.e_gsheet_click_to_call_Google_campagne_2021<a class="headerlink" href="#sea-ga-gads-e-gsheet-click-to-call-google-campagne-2021" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_click_to_call_Google_campagne_2021&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_click_to_call_Google_campagne_2021&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-t-ga-goal1-goal2-bing">
 <span id="tables-sea-ga-gads-t-ga-goal1-goal2-bing"></span><h2>sea_ga_gads.t_ga_goal1_goal2_bing<a class="headerlink" href="#sea-ga-gads-t-ga-goal1-goal2-bing" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=t_ga_goal1_goal2_bing&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=t_ga_goal1_goal2_bing&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1937,25 +1968,25 @@
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-2019">
 <span id="tables-sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-2019"></span><h2>sea_ga_gads.e_gsheet_goal1_goal2_bing_campagne_2019<a class="headerlink" href="#sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-2019" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_bing_campagne_2019&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_bing_campagne_2019&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-2020">
 <span id="tables-sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-2020"></span><h2>sea_ga_gads.e_gsheet_goal1_goal2_bing_campagne_2020<a class="headerlink" href="#sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-2020" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_bing_campagne_2020&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_bing_campagne_2020&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-2021">
 <span id="tables-sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-2021"></span><h2>sea_ga_gads.e_gsheet_goal1_goal2_Bing_campagne_2021<a class="headerlink" href="#sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-2021" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_Bing_campagne_2021&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_Bing_campagne_2021&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-t-ga-click-to-call">
 <span id="tables-sea-ga-gads-t-ga-click-to-call"></span><h2>sea_ga_gads.t_ga_click_to_call<a class="headerlink" href="#sea-ga-gads-t-ga-click-to-call" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=t_ga_click_to_call&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=t_ga_click_to_call&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1967,25 +1998,25 @@
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2019">
 <span id="tables-sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2019"></span><h2>sea_ga_gads.e_gsheet_goal1_goal2_google_campagne_2019<a class="headerlink" href="#sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2019" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_google_campagne_2019&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_google_campagne_2019&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2020">
 <span id="tables-sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2020"></span><h2>sea_ga_gads.e_gsheet_goal1_goal2_google_campagne_2020<a class="headerlink" href="#sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2020" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_google_campagne_2020&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_google_campagne_2020&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2021">
 <span id="tables-sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2021"></span><h2>sea_ga_gads.e_gsheet_goal1_goal2_Google_campagne_2021<a class="headerlink" href="#sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2021" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_Google_campagne_2021&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_Google_campagne_2021&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
 </div>
 <div class="section" id="sea-ga-gads-t-ga-goal1-goal2-google">
 <span id="tables-sea-ga-gads-t-ga-goal1-goal2-google"></span><h2>sea_ga_gads.t_ga_goal1_goal2_google<a class="headerlink" href="#sea-ga-gads-t-ga-goal1-goal2-google" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=t_ga_goal1_goal2_google&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=t_ga_goal1_goal2_google&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -1995,45 +2026,39 @@
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - t_goal1_goal2_google</p>
 </div>
-<div class="section" id="sea-ga-gads-config">
-<span id="tables-sea-ga-gads-config"></span><h2>sea_ga_gads.[?config?]<a class="headerlink" href="#sea-ga-gads-config" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=[?config?]&amp;page=table">ouvrir dans BQ</a></p>
-<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
-<p><strong>Job</strong> - l_to_ds_sea_ga_gads</p>
-</div>
 <div class="section" id="sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-yesterday">
 <span id="tables-sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-yesterday"></span><h2>sea_ga_gads.e_gsheet_goal1_goal2_Bing_campagne_yesterday<a class="headerlink" href="#sea-ga-gads-e-gsheet-goal1-goal2-bing-campagne-yesterday" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_Bing_campagne_yesterday&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_Bing_campagne_yesterday&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - t_goal1_goal2_bing</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-yesterday">
 <span id="tables-sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-yesterday"></span><h2>sea_ga_gads.e_gsheet_goal1_goal2_Google_campagne_yesterday<a class="headerlink" href="#sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-yesterday" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_Google_campagne_yesterday&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_goal1_goal2_Google_campagne_yesterday&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - t_goal1_goal2_google</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-click-to-call-google-campagne-yesterday">
 <span id="tables-sea-ga-gads-e-gsheet-click-to-call-google-campagne-yesterday"></span><h2>sea_ga_gads.e_gsheet_click_to_call_Google_campagne_yesterday<a class="headerlink" href="#sea-ga-gads-e-gsheet-click-to-call-google-campagne-yesterday" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_click_to_call_Google_campagne_yesterday&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_click_to_call_Google_campagne_yesterday&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - t_click_to_call</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-wcb-bing-yesterday">
 <span id="tables-sea-ga-gads-e-gsheet-wcb-bing-yesterday"></span><h2>sea_ga_gads.e_gsheet_WCB_Bing_yesterday<a class="headerlink" href="#sea-ga-gads-e-gsheet-wcb-bing-yesterday" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Bing_yesterday&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Bing_yesterday&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - t_appel_wcb_bing</p>
 </div>
 <div class="section" id="sea-ga-gads-e-gsheet-wcb-google-yesterday">
 <span id="tables-sea-ga-gads-e-gsheet-wcb-google-yesterday"></span><h2>sea_ga_gads.e_gsheet_WCB_Google_yesterday<a class="headerlink" href="#sea-ga-gads-e-gsheet-wcb-google-yesterday" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Google_yesterday&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=e_gsheet_WCB_Google_yesterday&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
 <p><strong>Job</strong> - t_appel_wcb_google</p>
 </div>
 <div class="section" id="sea-ga-gads-l-ga-gads-to-ds-sea-ga-gads">
 <span id="tables-sea-ga-gads-l-ga-gads-to-ds-sea-ga-gads"></span><h2>sea_ga_gads.l_ga_gads_to_ds_sea_ga_gads<a class="headerlink" href="#sea-ga-gads-l-ga-gads-to-ds-sea-ga-gads" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=l_ga_gads_to_ds_sea_ga_gads&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=sea_ga_gads&amp;p=engie-b2c-cloud&amp;t=l_ga_gads_to_ds_sea_ga_gads&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -2056,7 +2081,6 @@
 <li><p><a class="reference internal" href="#tables-sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2020"><span class="std std-ref">sea_ga_gads.e_gsheet_goal1_goal2_google_campagne_2020</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-sea-ga-gads-e-gsheet-goal1-goal2-google-campagne-2021"><span class="std std-ref">sea_ga_gads.e_gsheet_goal1_goal2_Google_campagne_2021</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-sea-ga-gads-t-ga-goal1-goal2-google"><span class="std std-ref">sea_ga_gads.t_ga_goal1_goal2_google</span></a> (BigQuery)</p></li>
-<li><p><a class="reference internal" href="#tables-sea-ga-gads-config"><span class="std std-ref">sea_ga_gads.[?config?]</span></a> (BigQuery)</p></li>
 </ul>
 </div></blockquote>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-sea-ga-gads"><span class="std std-ref">sea_ga_gads</span></a></p>
@@ -2064,7 +2088,7 @@
 </div>
 <div class="section" id="search-console-e-searchcons-historique-byproperty-api">
 <span id="tables-search-console-e-searchcons-historique-byproperty-api"></span><h2>search_console.e_searchcons_historique_byproperty_api<a class="headerlink" href="#search-console-e-searchcons-historique-byproperty-api" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=search_console&amp;p=engie-b2c-cloud&amp;t=e_searchcons_historique_byproperty_api&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=search_console&amp;p=engie-b2c-cloud&amp;t=e_searchcons_historique_byproperty_api&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -2076,7 +2100,7 @@
 </div>
 <div class="section" id="search-console-t-format-mots-cles-2020">
 <span id="tables-search-console-t-format-mots-cles-2020"></span><h2>search_console.t_format_mots_cles_2020<a class="headerlink" href="#search-console-t-format-mots-cles-2020" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=search_console&amp;p=engie-b2c-cloud&amp;t=t_format_mots_cles_2020&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=search_console&amp;p=engie-b2c-cloud&amp;t=t_format_mots_cles_2020&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -2088,7 +2112,7 @@
 </div>
 <div class="section" id="search-console-e-searchcons-historique-bypage-api">
 <span id="tables-search-console-e-searchcons-historique-bypage-api"></span><h2>search_console.e_searchcons_historique_bypage_api<a class="headerlink" href="#search-console-e-searchcons-historique-bypage-api" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=search_console&amp;p=engie-b2c-cloud&amp;t=e_searchcons_historique_bypage_api&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=search_console&amp;p=engie-b2c-cloud&amp;t=e_searchcons_historique_bypage_api&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -2100,7 +2124,7 @@
 </div>
 <div class="section" id="search-console-t-searchcons-ngram">
 <span id="tables-search-console-t-searchcons-ngram"></span><h2>search_console.t_searchcons_ngram<a class="headerlink" href="#search-console-t-searchcons-ngram" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=search_console&amp;p=engie-b2c-cloud&amp;t=t_searchcons_ngram&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=search_console&amp;p=engie-b2c-cloud&amp;t=t_searchcons_ngram&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
@@ -2110,49 +2134,35 @@
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-search-console"><span class="std std-ref">search_console</span></a></p>
 <p><strong>Job</strong> - t_ngram_2020</p>
 </div>
-<div class="section" id="wizaly-t-ama-libelle-offres">
-<span id="tables-wizaly-t-ama-libelle-offres"></span><h2>wizaly.t_ama_libelle_offres<a class="headerlink" href="#wizaly-t-ama-libelle-offres" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=wizaly&amp;p=engie-b2c-cloud&amp;t=t_ama_libelle_offres&amp;page=table">ouvrir dans BQ</a></p>
+<div class="section" id="amadeus-t-ama-libelle-offres">
+<span id="tables-amadeus-t-ama-libelle-offres"></span><h2>amadeus.t_ama_libelle_offres<a class="headerlink" href="#amadeus-t-ama-libelle-offres" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_libelle_offres&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-wizaly"><span class="std std-ref">wizaly</span></a></p>
-<p><strong>Job</strong> - t_import_wizaly_contrats</p>
+<p><strong>Job</strong> - t_import_wizaly_pc_transformees</p>
 </div>
 <div class="section" id="amadeus-t-ama-import-wizaly-contrats">
 <span id="tables-amadeus-t-ama-import-wizaly-contrats"></span><h2>amadeus.t_ama_import_wizaly_contrats<a class="headerlink" href="#amadeus-t-ama-import-wizaly-contrats" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_import_wizaly_contrats&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_import_wizaly_contrats&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p><a class="reference internal" href="#tables-ga-l-ga-to-ama-ga-formulaires-stor-2021"><span class="std std-ref">ga.l_ga_to_ama_ga_formulaires_stor_2021*</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-ga-t-ga-contrats-form-valeurs"><span class="std std-ref">ga.t_ga_contrats_form_valeurs</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-amadeus-e-ama-formulaires-stor"><span class="std std-ref">amadeus.e_ama_formulaires_stor</span></a> (BigQuery)</p></li>
-<li><p><a class="reference internal" href="#tables-ga-t-ga-sessions"><span class="std std-ref">ga.t_ga_sessions</span></a> (BigQuery)</p></li>
-<li><p><a class="reference internal" href="#tables-wizaly-t-ama-libelle-offres"><span class="std std-ref">wizaly.t_ama_libelle_offres</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-amadeus-t-ama-libelle-offres"><span class="std std-ref">amadeus.t_ama_libelle_offres</span></a> (BigQuery)</p></li>
 </ul>
 </div></blockquote>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-wizaly"><span class="std std-ref">wizaly</span></a></p>
 <p><strong>Job</strong> - t_import_wizaly_contrats</p>
 </div>
-<div class="section" id="wizaly-t-ga-sessions">
-<span id="tables-wizaly-t-ga-sessions"></span><h2>wizaly.t_ga_sessions<a class="headerlink" href="#wizaly-t-ga-sessions" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=wizaly&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions&amp;page=table">ouvrir dans BQ</a></p>
-<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-wizaly"><span class="std std-ref">wizaly</span></a></p>
-<p><strong>Job</strong> - t_import_wizaly_pc_transformees</p>
-</div>
-<div class="section" id="config-t-ama-libelle-offres">
-<span id="tables-config-t-ama-libelle-offres"></span><h2>[?config?].t_ama_libelle_offres<a class="headerlink" href="#config-t-ama-libelle-offres" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=[?config?]&amp;p=engie-b2c-cloud&amp;t=t_ama_libelle_offres&amp;page=table">ouvrir dans BQ</a></p>
-<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-wizaly"><span class="std std-ref">wizaly</span></a></p>
-<p><strong>Job</strong> - t_import_wizaly_pc_transformees</p>
-</div>
 <div class="section" id="amadeus-t-ama-import-wizaly-pc-transformees">
 <span id="tables-amadeus-t-ama-import-wizaly-pc-transformees"></span><h2>amadeus.t_ama_import_wizaly_pc_transformees<a class="headerlink" href="#amadeus-t-ama-import-wizaly-pc-transformees" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_import_wizaly_pc_transformees&amp;page=table">ouvrir dans BQ</a></p>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ama_import_wizaly_pc_transformees&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Sources</strong>:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p><a class="reference internal" href="#tables-ga-l-ga-to-ama-ga-formulaires-stor-2021"><span class="std std-ref">ga.l_ga_to_ama_ga_formulaires_stor_2021*</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-ga-t-ga-contrats-form-valeurs"><span class="std std-ref">ga.t_ga_contrats_form_valeurs</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-amadeus-e-ama-formulaires-stor"><span class="std std-ref">amadeus.e_ama_formulaires_stor</span></a> (BigQuery)</p></li>
-<li><p><a class="reference internal" href="#tables-wizaly-t-ga-sessions"><span class="std std-ref">wizaly.t_ga_sessions</span></a> (BigQuery)</p></li>
-<li><p><a class="reference internal" href="#tables-config-t-ama-libelle-offres"><span class="std std-ref">[?config?].t_ama_libelle_offres</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-amadeus-t-ama-libelle-offres"><span class="std std-ref">amadeus.t_ama_libelle_offres</span></a> (BigQuery)</p></li>
 </ul>
 </div></blockquote>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-wizaly"><span class="std std-ref">wizaly</span></a></p>

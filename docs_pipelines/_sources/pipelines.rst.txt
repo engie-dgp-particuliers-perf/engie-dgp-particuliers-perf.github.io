@@ -4,7 +4,7 @@ Pipelines
 
 .. jinja:: pipeline_docs
 
-    **{{ pipelines_nb }}** pipelines détectées. *Cliquez sur les images pour agrandir*
+    **{{ pipelines_nb }}** pipelines détectées.
 
     {% for pipeline in pipelines_list %}
     .. _pipelines__{{ pipeline }}:
@@ -12,7 +12,7 @@ Pipelines
     {{ pipeline }}
     ---------------------------------------
 
-    `Agrandir l'image <_images/{{ pipeline }}.svg>`__
+    `→ agrandir l'image <_images/{{ pipeline }}.svg>`__
 
     .. raw:: html
 
