@@ -98,7 +98,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Tables</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-e-ama-formulaires-stor">amadeus.e_ama_formulaires_stor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-l-ga-to-ama-ga-formulaires-stor">ga.l_ga_to_ama_ga_formulaires_stor_*</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-correspondance-hash-campagnes">ga.t_ga_correspondance_hash_campagnes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ga-correspondance-hash-campagnes">amadeus.t_ga_correspondance_hash_campagnes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#kwanko-e-gsheet-correspondance-affiliation">kwanko.e_gsheet_correspondance_affiliation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-sessions-historic">ga.t_ga_sessions_historic_*</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-formulaires-campagnes">amadeus.t_ama_formulaires_campagnes</a></li>
@@ -121,6 +121,10 @@
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-e-ama-prelevement-mensualisation">amadeus.e_ama_prelevement_mensualisation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-e-gsheet-activation-energie">amadeus.e_gsheet_activation_energie</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-appels-leviers-date-lead">amadeus.t_ama_appels_leviers_date_lead</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#google-sheet-e-gsheet-referentiel-appels-marqueurs-ga">google_sheet.e_gsheet_referentiel_appels_marqueurs_ga</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#google-sheet-l-gsheet-referentiel-appels-marqueurs-ga-stor">google_sheet.l_gsheet_referentiel_appels_marqueurs_ga_stor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#google-sheet-e-gsheet-referentiel-page-numero">google_sheet.e_gsheet_referentiel_page_numero</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#google-sheet-l-gsheet-to-ama-referentiel-page-numero-stor">google_sheet.l_gsheet_to_ama_referentiel_page_numero_stor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-contrats-formulaires">amadeus.t_ama_contrats_formulaires</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-leads-formulaires">amadeus.t_ama_leads_formulaires</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#amadeus-t-ama-formulaires-verif-flux-ga">amadeus.t_ama_formulaires_verif_flux_ga</a></li>
@@ -179,6 +183,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-objectives-events">ga.t_ga_objectives_events</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-detail-session-checkpoint">ga.t_ga_detail_session_checkpoint</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-parcours-checkpoint-1">ga.t_ga_parcours_checkpoint_1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#engagement-l-ga-to-ama-clics-cartes-bq">engagement.l_ga_to_ama_clics_cartes_bq</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id5">ga.t_ga_sessions_historic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-sessions-sample">ga.t_ga_sessions_sample</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-objectives-entries-vs-objectives">ga.t_ga_objectives_entries_vs_objectives</a></li>
@@ -189,6 +194,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-qualite">ga.t_ga_qualite</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-recurrence-visites-ec-sessions">ga.t_ga_recurrence_visites_ec_sessions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-blog-vs-objectifs">ga.t_ga_blog_vs_objectifs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-faq-vs-objectifs">ga.t_ga_faq_vs_objectifs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-ec-connexions">ga.t_ga_ec_connexions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-consentements-parcours">ga.t_ga_consentements_parcours</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-visites-ec-recurrence-bp">ga.t_ga_visites_ec_recurrence_bp</a></li>
@@ -198,6 +204,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-recurrence2-groupe-nb-session-ec-bp-profil-mois">ga.t_ga_recurrence2_groupe_nb_session_ec_bp_profil_mois</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-recurrence3-usage-crossdevice-detail-ec-nb-idbp-mois">ga.t_ga_recurrence3_usage_crossdevice_detail_ec_nb_idbp_mois</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-prog-eng-consultation-et-usage">ga.t_ga_prog_eng_consultation_et_usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ga-t-ga-push-services-equipements">ga.t_ga_push_services_equipements</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comite-drc-e-ds-comite-drc-infosmensuelles">comite_drc.e_ds_comite_drc_infosmensuelles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ds-engagement-l-ga-to-ds-engagement-services">ds_engagement.l_ga_to_ds_engagement_services</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ds-engagement-l-ga-to-ds-engagement-consolidation">ds_engagement.l_ga_to_ds_engagement_consolidation</a></li>
@@ -352,7 +359,7 @@
             
   <div class="section" id="tables">
 <h1>Tables<a class="headerlink" href="#tables" title="Permalink to this headline">¶</a></h1>
-<p><strong>182</strong> tables détectées</p>
+<p><strong>189</strong> tables détectées</p>
 <div class="section" id="amadeus-e-ama-formulaires-stor">
 <span id="tables-amadeus-e-ama-formulaires-stor"></span><h2>amadeus.e_ama_formulaires_stor<a class="headerlink" href="#amadeus-e-ama-formulaires-stor" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=e_ama_formulaires_stor&amp;page=table">→ ouvrir dans BQ</a></p>
@@ -365,9 +372,9 @@
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - t_formulaires_verif_flux_ga</p>
 </div>
-<div class="section" id="ga-t-ga-correspondance-hash-campagnes">
-<span id="tables-ga-t-ga-correspondance-hash-campagnes"></span><h2>ga.t_ga_correspondance_hash_campagnes<a class="headerlink" href="#ga-t-ga-correspondance-hash-campagnes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_correspondance_hash_campagnes&amp;page=table">→ ouvrir dans BQ</a></p>
+<div class="section" id="amadeus-t-ga-correspondance-hash-campagnes">
+<span id="tables-amadeus-t-ga-correspondance-hash-campagnes"></span><h2>amadeus.t_ga_correspondance_hash_campagnes<a class="headerlink" href="#amadeus-t-ga-correspondance-hash-campagnes" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=amadeus&amp;p=engie-b2c-cloud&amp;t=t_ga_correspondance_hash_campagnes&amp;page=table">→ ouvrir dans BQ</a></p>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - t_formulaires_campagnes</p>
 </div>
@@ -391,8 +398,9 @@
 <div><ul class="simple">
 <li><p><a class="reference internal" href="#tables-amadeus-e-ama-formulaires-stor"><span class="std std-ref">amadeus.e_ama_formulaires_stor</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-ga-l-ga-to-ama-ga-formulaires-stor"><span class="std std-ref">ga.l_ga_to_ama_ga_formulaires_stor_*</span></a> (BigQuery)</p></li>
-<li><p><a class="reference internal" href="#tables-ga-t-ga-correspondance-hash-campagnes"><span class="std std-ref">ga.t_ga_correspondance_hash_campagnes</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-amadeus-t-ga-correspondance-hash-campagnes"><span class="std std-ref">amadeus.t_ga_correspondance_hash_campagnes</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-kwanko-e-gsheet-correspondance-affiliation"><span class="std std-ref">kwanko.e_gsheet_correspondance_affiliation</span></a> (BigQuery)</p></li>
+<li><p><a class="reference internal" href="#tables-ga-t-ga-sessions-historic"><span class="std std-ref">ga.t_ga_sessions_historic_*</span></a> (BigQuery)</p></li>
 <li><p><a class="reference internal" href="#tables-ga-t-ga-sessions-historic"><span class="std std-ref">ga.t_ga_sessions_historic_*</span></a> (BigQuery)</p></li>
 </ul>
 </div></blockquote>
@@ -583,6 +591,42 @@
 </div></blockquote>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
 <p><strong>Job</strong> - t_appels_leviers_date_lead</p>
+</div>
+<div class="section" id="google-sheet-e-gsheet-referentiel-appels-marqueurs-ga">
+<span id="tables-google-sheet-e-gsheet-referentiel-appels-marqueurs-ga"></span><h2>google_sheet.e_gsheet_referentiel_appels_marqueurs_ga<a class="headerlink" href="#google-sheet-e-gsheet-referentiel-appels-marqueurs-ga" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=google_sheet&amp;p=engie-b2c-cloud&amp;t=e_gsheet_referentiel_appels_marqueurs_ga&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
+<p><strong>Job</strong> - l_to_ama_referentiel_appels_marqueurs_ga_bq</p>
+</div>
+<div class="section" id="google-sheet-l-gsheet-referentiel-appels-marqueurs-ga-stor">
+<span id="tables-google-sheet-l-gsheet-referentiel-appels-marqueurs-ga-stor"></span><h2>google_sheet.l_gsheet_referentiel_appels_marqueurs_ga_stor<a class="headerlink" href="#google-sheet-l-gsheet-referentiel-appels-marqueurs-ga-stor" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=google_sheet&amp;p=engie-b2c-cloud&amp;t=l_gsheet_referentiel_appels_marqueurs_ga_stor&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Sources</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#tables-google-sheet-e-gsheet-referentiel-appels-marqueurs-ga"><span class="std std-ref">google_sheet.e_gsheet_referentiel_appels_marqueurs_ga</span></a> (BigQuery)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
+<p><strong>Job</strong> - l_to_ama_referentiel_appels_marqueurs_ga_bq</p>
+</div>
+<div class="section" id="google-sheet-e-gsheet-referentiel-page-numero">
+<span id="tables-google-sheet-e-gsheet-referentiel-page-numero"></span><h2>google_sheet.e_gsheet_referentiel_page_numero<a class="headerlink" href="#google-sheet-e-gsheet-referentiel-page-numero" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=google_sheet&amp;p=engie-b2c-cloud&amp;t=e_gsheet_referentiel_page_numero&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
+<p><strong>Job</strong> - l_to_ama_referentiel_page_numero_bq</p>
+</div>
+<div class="section" id="google-sheet-l-gsheet-to-ama-referentiel-page-numero-stor">
+<span id="tables-google-sheet-l-gsheet-to-ama-referentiel-page-numero-stor"></span><h2>google_sheet.l_gsheet_to_ama_referentiel_page_numero_stor<a class="headerlink" href="#google-sheet-l-gsheet-to-ama-referentiel-page-numero-stor" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=google_sheet&amp;p=engie-b2c-cloud&amp;t=l_gsheet_to_ama_referentiel_page_numero_stor&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Sources</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#tables-google-sheet-e-gsheet-referentiel-page-numero"><span class="std std-ref">google_sheet.e_gsheet_referentiel_page_numero</span></a> (BigQuery)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-amadeus"><span class="std std-ref">amadeus</span></a></p>
+<p><strong>Job</strong> - l_to_ama_referentiel_page_numero_bq</p>
 </div>
 <div class="section" id="amadeus-t-ama-contrats-formulaires">
 <span id="tables-amadeus-t-ama-contrats-formulaires"></span><h2>amadeus.t_ama_contrats_formulaires<a class="headerlink" href="#amadeus-t-ama-contrats-formulaires" title="Permalink to this headline">¶</a></h2>
@@ -1160,6 +1204,18 @@
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
 <p><strong>Job</strong> - t_parcours_checkpoint_1</p>
 </div>
+<div class="section" id="engagement-l-ga-to-ama-clics-cartes-bq">
+<span id="tables-engagement-l-ga-to-ama-clics-cartes-bq"></span><h2>engagement.l_ga_to_ama_clics_cartes_bq<a class="headerlink" href="#engagement-l-ga-to-ama-clics-cartes-bq" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=engagement&amp;p=engie-b2c-cloud&amp;t=l_ga_to_ama_clics_cartes_bq&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Sources</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#tables-ga-t-ga-sessions"><span class="std std-ref">ga.t_ga_sessions</span></a> (BigQuery)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
+<p><strong>Job</strong> - l_ga_to_ama_clics_cartes_bq</p>
+</div>
 <div class="section" id="id5">
 <span id="id6"></span><h2>ga.t_ga_sessions_historic<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_sessions_historic&amp;page=table">→ ouvrir dans BQ</a></p>
@@ -1282,6 +1338,18 @@
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
 <p><strong>Job</strong> - t_blog_vs_objectifs</p>
 </div>
+<div class="section" id="ga-t-ga-faq-vs-objectifs">
+<span id="tables-ga-t-ga-faq-vs-objectifs"></span><h2>ga.t_ga_faq_vs_objectifs<a class="headerlink" href="#ga-t-ga-faq-vs-objectifs" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_faq_vs_objectifs&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Sources</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#tables-ga-t-ga-sessions"><span class="std std-ref">ga.t_ga_sessions</span></a> (BigQuery)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
+<p><strong>Job</strong> - t_ga_faq_vs_objectifs</p>
+</div>
 <div class="section" id="ga-t-ga-ec-connexions">
 <span id="tables-ga-t-ga-ec-connexions"></span><h2>ga.t_ga_ec_connexions<a class="headerlink" href="#ga-t-ga-ec-connexions" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_ec_connexions&amp;page=table">→ ouvrir dans BQ</a></p>
@@ -1389,6 +1457,18 @@
 </div></blockquote>
 <p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
 <p><strong>Job</strong> - t_ga_prog_eng_consultation_et_usage</p>
+</div>
+<div class="section" id="ga-t-ga-push-services-equipements">
+<span id="tables-ga-t-ga-push-services-equipements"></span><h2>ga.t_ga_push_services_equipements<a class="headerlink" href="#ga-t-ga-push-services-equipements" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://console.cloud.google.com/bigquery?project=engie-b2c-cloud&amp;d=ga&amp;p=engie-b2c-cloud&amp;t=t_ga_push_services_equipements&amp;page=table">→ ouvrir dans BQ</a></p>
+<p><strong>Sources</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#tables-ga-t-ga-sessions"><span class="std std-ref">ga.t_ga_sessions</span></a> (BigQuery)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Pipeline</strong> - <a class="reference internal" href="pipelines.html#pipelines-ga-traitements"><span class="std std-ref">ga_traitements</span></a></p>
+<p><strong>Job</strong> - t_push_ec_vs_objectives</p>
 </div>
 <div class="section" id="comite-drc-e-ds-comite-drc-infosmensuelles">
 <span id="tables-comite-drc-e-ds-comite-drc-infosmensuelles"></span><h2>comite_drc.e_ds_comite_drc_infosmensuelles<a class="headerlink" href="#comite-drc-e-ds-comite-drc-infosmensuelles" title="Permalink to this headline">¶</a></h2>
